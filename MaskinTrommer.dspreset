@@ -22,13 +22,13 @@
 
       <!-- Snare -->
       <control x="197" y="61" width="40" height="40" parameterName="Saturation" minValue="1" maxValue="7" valueType="integer" textColor="FF000000" value="1" style="custom_skin_vertical_drag" customSkinImage="Resources/knob.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
-          <binding type="amp" level="tag" identifier="snare-sh09-velocity" parameter="TAG_ENABLED" translation="table" translationTable="1,1;2,0;3,0;4,0;5,0;6,0;7,0;8,0"/>
-          <binding type="amp" level="tag" identifier="snare-sh09-01"       parameter="TAG_ENABLED" translation="table" translationTable="1,0;2,1;3,0;4,0;5,0;6,0;7,0;8,0"/>
-          <binding type="amp" level="tag" identifier="snare-sh09-02"       parameter="TAG_ENABLED" translation="table" translationTable="1,0;2,0;3,1;4,0;5,0;6,0;7,0;8,0"/>
-          <binding type="amp" level="tag" identifier="snare-sh09-03"       parameter="TAG_ENABLED" translation="table" translationTable="1,0;2,0;3,0;4,1;5,0;6,0;7,0;8,0"/>
-          <binding type="amp" level="tag" identifier="snare-sh09-04"       parameter="TAG_ENABLED" translation="table" translationTable="1,0;2,0;3,0;4,0;5,1;6,0;7,0;8,0"/>
-          <binding type="amp" level="tag" identifier="snare-sh09-05"       parameter="TAG_ENABLED" translation="table" translationTable="1,0;2,0;3,0;4,0;5,0;6,1;7,0;8,0"/>
-          <binding type="amp" level="tag" identifier="snare-sh09-06"       parameter="TAG_ENABLED" translation="table" translationTable="1,0;2,0;3,0;4,0;5,0;6,0;7,1;8,0"/>
+        <binding type="amp" level="tag" identifier="snare-sh09-velocity" parameter="TAG_ENABLED" translation="table" translationTable="1,1;2,0;3,0;4,0;5,0;6,0;7,0;8,0"/>
+        <binding type="amp" level="tag" identifier="snare-sh09-01"       parameter="TAG_ENABLED" translation="table" translationTable="1,0;2,1;3,0;4,0;5,0;6,0;7,0;8,0"/>
+        <binding type="amp" level="tag" identifier="snare-sh09-02"       parameter="TAG_ENABLED" translation="table" translationTable="1,0;2,0;3,1;4,0;5,0;6,0;7,0;8,0"/>
+        <binding type="amp" level="tag" identifier="snare-sh09-03"       parameter="TAG_ENABLED" translation="table" translationTable="1,0;2,0;3,0;4,1;5,0;6,0;7,0;8,0"/>
+        <binding type="amp" level="tag" identifier="snare-sh09-04"       parameter="TAG_ENABLED" translation="table" translationTable="1,0;2,0;3,0;4,0;5,1;6,0;7,0;8,0"/>
+        <binding type="amp" level="tag" identifier="snare-sh09-05"       parameter="TAG_ENABLED" translation="table" translationTable="1,0;2,0;3,0;4,0;5,0;6,1;7,0;8,0"/>
+        <binding type="amp" level="tag" identifier="snare-sh09-06"       parameter="TAG_ENABLED" translation="table" translationTable="1,0;2,0;3,0;4,0;5,0;6,0;7,1;8,0"/>
       </control>
       <control x="340" y="61" width="40" height="40" parameterName="Attack" type="float" minValue="0" maxValue="2" textColor="FF000000" value="2" style="custom_skin_vertical_drag" customSkinImage="Resources/knob.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
         <binding type="amp" level="tag" identifier="snare-ms20-top" parameter="TAG_VOLUME" />
@@ -47,6 +47,33 @@
         <binding type="amp" level="tag" identifier="snare-sh09-04"       parameter="TAG_VOLUME" />
         <binding type="amp" level="tag" identifier="snare-sh09-05"       parameter="TAG_VOLUME" />
         <binding type="amp" level="tag" identifier="snare-sh09-06"       parameter="TAG_VOLUME" />
+      </control>
+
+      <!-- HiHat-->
+      <control x="197" y="111" width="40" height="40" parameterName="Saturation" minValue="1" maxValue="10" valueType="integer" textColor="FF000000" value="1" style="custom_skin_vertical_drag" customSkinImage="Resources/knob.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+        <binding type="amp" level="tag" identifier="hihat-ms20-velocity" parameter="TAG_ENABLED" translation="table" translationTable="1,1;2,0;3,0;4,0;5,0;6,0;7,0;8,0;9,0;10,0;11,0"/>
+        <binding type="amp" level="tag" identifier="hihat-ms20-01"       parameter="TAG_ENABLED" translation="table" translationTable="1,0;2,1;3,0;4,0;5,0;6,0;7,0;8,0;9,0;10,0;11,0"/>
+        <binding type="amp" level="tag" identifier="hihat-ms20-02"       parameter="TAG_ENABLED" translation="table" translationTable="1,0;2,0;3,1;4,0;5,0;6,0;7,0;8,0;9,0;10,0;11,0"/>
+        <binding type="amp" level="tag" identifier="hihat-ms20-03"       parameter="TAG_ENABLED" translation="table" translationTable="1,0;2,0;3,0;4,1;5,0;6,0;7,0;8,0;9,0;10,0;11,0"/>
+        <binding type="amp" level="tag" identifier="hihat-ms20-04"       parameter="TAG_ENABLED" translation="table" translationTable="1,0;2,0;3,0;4,0;5,1;6,0;7,0;8,0;9,0;10,0;11,0"/>
+        <binding type="amp" level="tag" identifier="hihat-ms20-05"       parameter="TAG_ENABLED" translation="table" translationTable="1,0;2,0;3,0;4,0;5,0;6,1;7,0;8,0;9,0;10,0;11,0"/>
+        <binding type="amp" level="tag" identifier="hihat-ms20-06"       parameter="TAG_ENABLED" translation="table" translationTable="1,0;2,0;3,0;4,0;5,0;6,0;7,1;8,0;9,0;10,0;11,0"/>
+        <binding type="amp" level="tag" identifier="hihat-ms20-07"       parameter="TAG_ENABLED" translation="table" translationTable="1,0;2,0;3,0;4,0;5,0;6,0;7,0;8,1;9,0;10,0;11,0"/>
+        <binding type="amp" level="tag" identifier="hihat-ms20-08"       parameter="TAG_ENABLED" translation="table" translationTable="1,0;2,0;3,0;4,0;5,0;6,0;7,0;8,0;9,1;10,0;11,0"/>
+        <binding type="amp" level="tag" identifier="hihat-ms20-09"       parameter="TAG_ENABLED" translation="table" translationTable="1,0;2,0;3,0;4,0;5,0;6,0;7,0;8,0;9,0;10,1;11,0"/>
+      </control>
+
+      <control x="340" y="111" width="40" height="40" parameterName="Release" type="float" minValue="0" maxValue="2" textColor="FF000000" value="1" style="custom_skin_vertical_drag" customSkinImage="Resources/knob.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+        <binding type="amp" level="tag" identifier="hihat-ms20-velocity" parameter="TAG_VOLUME" />
+        <binding type="amp" level="tag" identifier="hihat-ms20-01"       parameter="TAG_VOLUME" />
+        <binding type="amp" level="tag" identifier="hihat-ms20-02"       parameter="TAG_VOLUME" />
+        <binding type="amp" level="tag" identifier="hihat-ms20-03"       parameter="TAG_VOLUME" />
+        <binding type="amp" level="tag" identifier="hihat-ms20-04"       parameter="TAG_VOLUME" />
+        <binding type="amp" level="tag" identifier="hihat-ms20-05"       parameter="TAG_VOLUME" />
+        <binding type="amp" level="tag" identifier="hihat-ms20-06"       parameter="TAG_VOLUME" />
+        <binding type="amp" level="tag" identifier="hihat-ms20-07"       parameter="TAG_VOLUME" />
+        <binding type="amp" level="tag" identifier="hihat-ms20-08"       parameter="TAG_VOLUME" />
+        <binding type="amp" level="tag" identifier="hihat-ms20-09"       parameter="TAG_VOLUME" />
       </control>
 
     </tab>
