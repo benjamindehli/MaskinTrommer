@@ -1,30 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DecentSampler>
-    <ui bgImage="" width="812" height="375" layoutMode="relative" bgMode="top_left">
-        <keyboard>
-            <color loNote="0" hiNote="35" color="FF000000" />
-            <color loNote="36" hiNote="36" color="FFFF0000" />
-            <color loNote="38" hiNote="38" color="FFBFFF00" />
-            <color loNote="40" hiNote="40" color="FF00FF6F" />
-            <color loNote="41" hiNote="41" color="FF006FFF" />
-            <color loNote="43" hiNote="60" color="FFFF00BF" />
-            <color loNote="61" hiNote="127" color="FF000000" />
-        </keyboard>
-        <tab name="main">
+  <ui bgImage="" width="812" height="375" layoutMode="relative" bgMode="top_left">
+    <keyboard>
+      <color loNote="0" hiNote="35" color="FF000000" />
+      <color loNote="36" hiNote="36" color="FFFF0000" />
+      <color loNote="38" hiNote="38" color="FFBFFF00" />
+      <color loNote="40" hiNote="40" color="FF00FF6F" />
+      <color loNote="41" hiNote="41" color="FF006FFF" />
+      <color loNote="43" hiNote="60" color="FFFF00BF" />
+      <color loNote="61" hiNote="127" color="FF000000" />
+    </keyboard>
+    <tab name="main">
 
-        </tab>
-    </ui>
-    <groups volume="1">
+    </tab>
+  </ui>
+  <groups volume="1">
+    
+    <!-- Kick-->
+    <group tags="kick-darkenergy" seqMode="random" seqLength="18" silencingMode="normal" ampVelTrack="0" ampEnvEnabled="false" >
+      <sample seqPosition="1"  loNote="36" hiNote="36" rootNote="36" path="Samples/Kick_DarkEnergy_01_01.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="2"  loNote="36" hiNote="36" rootNote="36" path="Samples/Kick_DarkEnergy_01_02.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="3"  loNote="36" hiNote="36" rootNote="36" path="Samples/Kick_DarkEnergy_01_03.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="4"  loNote="36" hiNote="36" rootNote="36" path="Samples/Kick_DarkEnergy_01_04.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="5"  loNote="36" hiNote="36" rootNote="36" path="Samples/Kick_DarkEnergy_01_05.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="6"  loNote="36" hiNote="36" rootNote="36" path="Samples/Kick_DarkEnergy_01_06.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="7"  loNote="36" hiNote="36" rootNote="36" path="Samples/Kick_DarkEnergy_01_07.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="8"  loNote="36" hiNote="36" rootNote="36" path="Samples/Kick_DarkEnergy_01_08.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="9"  loNote="36" hiNote="36" rootNote="36" path="Samples/Kick_DarkEnergy_01_09.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="10" loNote="36" hiNote="36" rootNote="36" path="Samples/Kick_DarkEnergy_01_10.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="11" loNote="36" hiNote="36" rootNote="36" path="Samples/Kick_DarkEnergy_01_11.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="12" loNote="36" hiNote="36" rootNote="36" path="Samples/Kick_DarkEnergy_01_12.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="13" loNote="36" hiNote="36" rootNote="36" path="Samples/Kick_DarkEnergy_01_13.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="14" loNote="36" hiNote="36" rootNote="36" path="Samples/Kick_DarkEnergy_01_14.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="15" loNote="36" hiNote="36" rootNote="36" path="Samples/Kick_DarkEnergy_01_15.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="16" loNote="36" hiNote="36" rootNote="36" path="Samples/Kick_DarkEnergy_01_16.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="17" loNote="36" hiNote="36" rootNote="36" path="Samples/Kick_DarkEnergy_01_17.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="18" loNote="36" hiNote="36" rootNote="36" path="Samples/Kick_DarkEnergy_01_18.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+    </group>
+    <group tags="kick-ms20" seqMode="random" seqLength="14" silencingMode="normal" ampVelTrack="0" ampEnvEnabled="false" >
+      <sample seqPosition="1"  loNote="36" hiNote="36" rootNote="36" path="Samples/Kick_MS-20_01_01.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="2"  loNote="36" hiNote="36" rootNote="36" path="Samples/Kick_MS-20_01_02.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="3"  loNote="36" hiNote="36" rootNote="36" path="Samples/Kick_MS-20_01_03.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="4"  loNote="36" hiNote="36" rootNote="36" path="Samples/Kick_MS-20_01_04.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="5"  loNote="36" hiNote="36" rootNote="36" path="Samples/Kick_MS-20_01_05.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="6"  loNote="36" hiNote="36" rootNote="36" path="Samples/Kick_MS-20_01_06.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="7"  loNote="36" hiNote="36" rootNote="36" path="Samples/Kick_MS-20_01_07.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="8"  loNote="36" hiNote="36" rootNote="36" path="Samples/Kick_MS-20_01_08.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="9"  loNote="36" hiNote="36" rootNote="36" path="Samples/Kick_MS-20_01_09.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="10" loNote="36" hiNote="36" rootNote="36" path="Samples/Kick_MS-20_01_10.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="11" loNote="36" hiNote="36" rootNote="36" path="Samples/Kick_MS-20_01_11.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="12" loNote="36" hiNote="36" rootNote="36" path="Samples/Kick_MS-20_01_12.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="13" loNote="36" hiNote="36" rootNote="36" path="Samples/Kick_MS-20_01_13.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="14" loNote="36" hiNote="36" rootNote="36" path="Samples/Kick_MS-20_01_14.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+    </group>
 
-    </groups>
-    <effects>
-    </effects>
-    <modulators>
-    </modulators>
-    <midi>
-        <cc number="1">
-        </cc>
-    </midi>
-    <tags>
-    </tags>
+  </groups>
+  <effects>
+  </effects>
+  <modulators>
+  </modulators>
+  <midi>
+    <cc number="1">
+    </cc>
+  </midi>
+  <tags>
+  </tags>
 </DecentSampler>
