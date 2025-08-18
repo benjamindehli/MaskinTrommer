@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DecentSampler>
+    <ui bgImage="" width="812" height="375" layoutMode="relative" bgMode="top_left">
+        <keyboard>
+        </keyboard>
+        <tab name="main">
+
+        </tab>
+    </ui>
+    <groups volume="1">
+
+    </groups>
+    <effects>
+    </effects>
+    <modulators>
+    </modulators>
+    <midi>
+        <cc number="1">
+        </cc>
+    </midi>
+    <tags>
+    </tags>
+</DecentSampler>
