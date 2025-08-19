@@ -4,11 +4,14 @@
     <keyboard>
       <color loNote="0" hiNote="35" color="FF000000" />
       <color loNote="36" hiNote="36" color="FFFF0000" />
+      <color loNote="37" hiNote="37" color="FF000000" />
       <color loNote="38" hiNote="38" color="FFBFFF00" />
+      <color loNote="39" hiNote="39" color="FF000000" />
       <color loNote="40" hiNote="40" color="FF00FF6F" />
       <color loNote="41" hiNote="41" color="FF006FFF" />
-      <color loNote="43" hiNote="60" color="FFFF00BF" />
-      <color loNote="61" hiNote="127" color="FF000000" />
+      <color loNote="42" hiNote="42" color="FF000000" />
+      <color loNote="43" hiNote="53" color="FFFF00BF" />
+      <color loNote="54" hiNote="127" color="FF000000" />
     </keyboard>
     <tab name="main">
 
