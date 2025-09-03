@@ -51,6 +51,130 @@
         <binding type="amp" level="tag" identifier="snare-sh09-05"       parameter="TAG_VOLUME" />
         <binding type="amp" level="tag" identifier="snare-sh09-06"       parameter="TAG_VOLUME" />
       </control>
+      <control x="780" y="61" width="50" height="50" parameterName="Snap" type="float" minValue="0" maxValue="1" textColor="FF000000" value="0.60" style="custom_skin_vertical_drag" customSkinImage="Resources/knob.png" customSkinNumFrames="65" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+        <!-- Kick -->
+        <binding type="amp" level="group" position="0"  parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="1"  translationOutputMax="0" />
+        <binding type="amp" level="group" position="1"  parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="1"  translationOutputMax="0" />
+        <!-- Snare -->
+        <binding type="amp" level="group" position="2"  parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="1"  translationOutputMax="0.1" />
+        <binding type="amp" level="group" position="3"  parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="1"  translationOutputMax="0.1" />
+        <binding type="amp" level="group" position="4"  parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="1"  translationOutputMax="0.1" />
+        <binding type="amp" level="group" position="5"  parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="1"  translationOutputMax="0.1" />
+        <binding type="amp" level="group" position="6"  parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="1"  translationOutputMax="0.1" />
+        <binding type="amp" level="group" position="7"  parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="1"  translationOutputMax="0.1" />
+        <binding type="amp" level="group" position="8"  parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="1"  translationOutputMax="0.1" />
+        <binding type="amp" level="group" position="9"  parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="1"  translationOutputMax="0.1" />
+        <binding type="amp" level="group" position="10" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="1"  translationOutputMax="0.1" />
+        <binding type="amp" level="group" position="11" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="1"  translationOutputMax="0.1" />
+        <binding type="amp" level="group" position="12" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="1"  translationOutputMax="0.1" />
+        <binding type="amp" level="group" position="13" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="1"  translationOutputMax="0.1" />
+        <binding type="amp" level="group" position="14" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="1"  translationOutputMax="0.1" />
+        <binding type="amp" level="group" position="15" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="1"  translationOutputMax="0.1" />
+        <binding type="amp" level="group" position="16" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="1"  translationOutputMax="0.1" />
+        <!-- HiHat -->
+        <binding type="amp" level="group" position="17" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="1"  translationOutputMax="0.05" />
+        <binding type="amp" level="group" position="18" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="1"  translationOutputMax="0.05" />
+        <binding type="amp" level="group" position="19" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="1"  translationOutputMax="0.05" />
+        <binding type="amp" level="group" position="20" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="1"  translationOutputMax="0.05" />
+        <binding type="amp" level="group" position="21" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="1"  translationOutputMax="0.05" />
+        <binding type="amp" level="group" position="22" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="1"  translationOutputMax="0.05" />
+        <binding type="amp" level="group" position="23" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="1"  translationOutputMax="0.05" />
+        <binding type="amp" level="group" position="24" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="1"  translationOutputMax="0.05" />
+        <binding type="amp" level="group" position="25" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="1"  translationOutputMax="0.05" />
+        <binding type="amp" level="group" position="26" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="1"  translationOutputMax="0.05" />
+        <binding type="amp" level="group" position="27" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="1"  translationOutputMax="0.05" />
+        <binding type="amp" level="group" position="28" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="1"  translationOutputMax="0.05" />
+        <binding type="amp" level="group" position="29" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="1"  translationOutputMax="0.05" />
+        <binding type="amp" level="group" position="30" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="1"  translationOutputMax="0.05" />
+        <binding type="amp" level="group" position="31" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="1"  translationOutputMax="0.05" />
+        <binding type="amp" level="group" position="32" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="1"  translationOutputMax="0.05" />
+        <binding type="amp" level="group" position="33" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="1"  translationOutputMax="0.05" />
+        <binding type="amp" level="group" position="34" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="1"  translationOutputMax="0.05" />
+        <!-- Cymbal -->
+        <binding type="amp" level="group" position="35" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="1"  translationOutputMax="0.05" />
+        <binding type="amp" level="group" position="36" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="1"  translationOutputMax="0.05" />
+        <binding type="amp" level="group" position="37" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="1"  translationOutputMax="0.05" />
+        <binding type="amp" level="group" position="38" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="1"  translationOutputMax="0.05" />
+        <binding type="amp" level="group" position="39" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="1"  translationOutputMax="0.05" />
+        <binding type="amp" level="group" position="40" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="1"  translationOutputMax="0.05" />
+        <!-- Tom -->
+        <binding type="amp" level="group" position="41" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="1"  translationOutputMax="0.05" />
+        <binding type="amp" level="group" position="42" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="1"  translationOutputMax="0.05" />
+        <binding type="amp" level="group" position="43" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="1"  translationOutputMax="0.05" />
+        <binding type="amp" level="group" position="44" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="1"  translationOutputMax="0.05" />
+        <binding type="amp" level="group" position="45" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="1"  translationOutputMax="0.05" />
+        <binding type="amp" level="group" position="46" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="1"  translationOutputMax="0.05" />
+        <binding type="amp" level="group" position="47" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="1"  translationOutputMax="0.05" />
+        <binding type="amp" level="group" position="48" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="1"  translationOutputMax="0.05" />
+        <binding type="amp" level="group" position="49" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="1"  translationOutputMax="0.05" />
+        <binding type="amp" level="group" position="50" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="1"  translationOutputMax="0.05" />
+        <binding type="amp" level="group" position="51" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="1"  translationOutputMax="0.05" />
+        <binding type="amp" level="group" position="52" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="1"  translationOutputMax="0.05" />
+        <binding type="amp" level="group" position="53" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="1"  translationOutputMax="0.05" />
+
+        <!-- Kick -->
+        <binding type="amp" level="group" position="0"  parameter="ENV_RELEASE" translation="linear" translationOutputMin="10" translationOutputMax="0.35" />
+        <binding type="amp" level="group" position="1"  parameter="ENV_RELEASE" translation="linear" translationOutputMin="10" translationOutputMax="0.35" />
+        <!-- Snare -->
+        <binding type="amp" level="group" position="2"  parameter="ENV_RELEASE" translation="linear" translationOutputMin="10" translationOutputMax="0.65" />
+        <binding type="amp" level="group" position="3"  parameter="ENV_RELEASE" translation="linear" translationOutputMin="10" translationOutputMax="0.65" />
+        <binding type="amp" level="group" position="4"  parameter="ENV_RELEASE" translation="linear" translationOutputMin="10" translationOutputMax="0.65" />
+        <binding type="amp" level="group" position="5"  parameter="ENV_RELEASE" translation="linear" translationOutputMin="10" translationOutputMax="0.65" />
+        <binding type="amp" level="group" position="6"  parameter="ENV_RELEASE" translation="linear" translationOutputMin="10" translationOutputMax="0.65" />
+        <binding type="amp" level="group" position="7"  parameter="ENV_RELEASE" translation="linear" translationOutputMin="10" translationOutputMax="0.65" />
+        <binding type="amp" level="group" position="8"  parameter="ENV_RELEASE" translation="linear" translationOutputMin="10" translationOutputMax="0.65" />
+        <binding type="amp" level="group" position="9"  parameter="ENV_RELEASE" translation="linear" translationOutputMin="10" translationOutputMax="0.65" />
+        <binding type="amp" level="group" position="10" parameter="ENV_RELEASE" translation="linear" translationOutputMin="10" translationOutputMax="0.65" />
+        <binding type="amp" level="group" position="11" parameter="ENV_RELEASE" translation="linear" translationOutputMin="10" translationOutputMax="0.65" />
+        <binding type="amp" level="group" position="12" parameter="ENV_RELEASE" translation="linear" translationOutputMin="10" translationOutputMax="0.65" />
+        <binding type="amp" level="group" position="13" parameter="ENV_RELEASE" translation="linear" translationOutputMin="10" translationOutputMax="0.65" />
+        <binding type="amp" level="group" position="14" parameter="ENV_RELEASE" translation="linear" translationOutputMin="10" translationOutputMax="0.65" />
+        <binding type="amp" level="group" position="15" parameter="ENV_RELEASE" translation="linear" translationOutputMin="10" translationOutputMax="0.65" />
+        <binding type="amp" level="group" position="16" parameter="ENV_RELEASE" translation="linear" translationOutputMin="10" translationOutputMax="0.65" />
+        <!-- HiHat -->
+        <binding type="amp" level="group" position="17" parameter="ENV_RELEASE" translation="linear" translationOutputMin="10" translationOutputMax="0.35" />
+        <binding type="amp" level="group" position="18" parameter="ENV_RELEASE" translation="linear" translationOutputMin="10" translationOutputMax="0.35" />
+        <binding type="amp" level="group" position="19" parameter="ENV_RELEASE" translation="linear" translationOutputMin="10" translationOutputMax="0.35" />
+        <binding type="amp" level="group" position="20" parameter="ENV_RELEASE" translation="linear" translationOutputMin="10" translationOutputMax="0.35" />
+        <binding type="amp" level="group" position="21" parameter="ENV_RELEASE" translation="linear" translationOutputMin="10" translationOutputMax="0.35" />
+        <binding type="amp" level="group" position="22" parameter="ENV_RELEASE" translation="linear" translationOutputMin="10" translationOutputMax="0.35" />
+        <binding type="amp" level="group" position="23" parameter="ENV_RELEASE" translation="linear" translationOutputMin="10" translationOutputMax="0.35" />
+        <binding type="amp" level="group" position="24" parameter="ENV_RELEASE" translation="linear" translationOutputMin="10" translationOutputMax="0.35" />
+        <binding type="amp" level="group" position="25" parameter="ENV_RELEASE" translation="linear" translationOutputMin="10" translationOutputMax="0.35" />
+        <binding type="amp" level="group" position="26" parameter="ENV_RELEASE" translation="linear" translationOutputMin="10" translationOutputMax="0.35" />
+        <binding type="amp" level="group" position="27" parameter="ENV_RELEASE" translation="linear" translationOutputMin="10" translationOutputMax="0.35" />
+        <binding type="amp" level="group" position="28" parameter="ENV_RELEASE" translation="linear" translationOutputMin="10" translationOutputMax="0.35" />
+        <binding type="amp" level="group" position="29" parameter="ENV_RELEASE" translation="linear" translationOutputMin="10" translationOutputMax="0.35" />
+        <binding type="amp" level="group" position="30" parameter="ENV_RELEASE" translation="linear" translationOutputMin="10" translationOutputMax="0.35" />
+        <binding type="amp" level="group" position="31" parameter="ENV_RELEASE" translation="linear" translationOutputMin="10" translationOutputMax="0.35" />
+        <binding type="amp" level="group" position="32" parameter="ENV_RELEASE" translation="linear" translationOutputMin="10" translationOutputMax="0.35" />
+        <binding type="amp" level="group" position="33" parameter="ENV_RELEASE" translation="linear" translationOutputMin="10" translationOutputMax="0.35" />
+        <binding type="amp" level="group" position="34" parameter="ENV_RELEASE" translation="linear" translationOutputMin="10" translationOutputMax="0.35" />
+        <!-- Cymbal -->
+        <binding type="amp" level="group" position="35" parameter="ENV_RELEASE" translation="linear" translationOutputMin="10" translationOutputMax="0.35" />
+        <binding type="amp" level="group" position="36" parameter="ENV_RELEASE" translation="linear" translationOutputMin="10" translationOutputMax="0.35" />
+        <binding type="amp" level="group" position="37" parameter="ENV_RELEASE" translation="linear" translationOutputMin="10" translationOutputMax="0.35" />
+        <binding type="amp" level="group" position="38" parameter="ENV_RELEASE" translation="linear" translationOutputMin="10" translationOutputMax="0.35" />
+        <binding type="amp" level="group" position="39" parameter="ENV_RELEASE" translation="linear" translationOutputMin="10" translationOutputMax="0.35" />
+        <binding type="amp" level="group" position="40" parameter="ENV_RELEASE" translation="linear" translationOutputMin="10" translationOutputMax="0.35" />
+        <!-- Tom -->
+        <binding type="amp" level="group" position="41" parameter="ENV_RELEASE" translation="linear" translationOutputMin="10" translationOutputMax="0.35" />
+        <binding type="amp" level="group" position="42" parameter="ENV_RELEASE" translation="linear" translationOutputMin="10" translationOutputMax="0.35" />
+        <binding type="amp" level="group" position="43" parameter="ENV_RELEASE" translation="linear" translationOutputMin="10" translationOutputMax="0.35" />
+        <binding type="amp" level="group" position="44" parameter="ENV_RELEASE" translation="linear" translationOutputMin="10" translationOutputMax="0.35" />
+        <binding type="amp" level="group" position="45" parameter="ENV_RELEASE" translation="linear" translationOutputMin="10" translationOutputMax="0.35" />
+        <binding type="amp" level="group" position="46" parameter="ENV_RELEASE" translation="linear" translationOutputMin="10" translationOutputMax="0.35" />
+        <binding type="amp" level="group" position="47" parameter="ENV_RELEASE" translation="linear" translationOutputMin="10" translationOutputMax="0.35" />
+        <binding type="amp" level="group" position="48" parameter="ENV_RELEASE" translation="linear" translationOutputMin="10" translationOutputMax="0.35" />
+        <binding type="amp" level="group" position="49" parameter="ENV_RELEASE" translation="linear" translationOutputMin="10" translationOutputMax="0.35" />
+        <binding type="amp" level="group" position="50" parameter="ENV_RELEASE" translation="linear" translationOutputMin="10" translationOutputMax="0.35" />
+        <binding type="amp" level="group" position="51" parameter="ENV_RELEASE" translation="linear" translationOutputMin="10" translationOutputMax="0.35" />
+        <binding type="amp" level="group" position="52" parameter="ENV_RELEASE" translation="linear" translationOutputMin="10" translationOutputMax="0.35" />
+        <binding type="amp" level="group" position="53" parameter="ENV_RELEASE" translation="linear" translationOutputMin="10" translationOutputMax="0.35" />
+
+        
+        <binding type="effect" level="instrument" position="0" parameter="LEVEL" modBehavior="set" translation="linear" translationOutputMin=".75" translationOutputMax="9" />
+      </control>
 
       <!-- HiHat-->
       <control x="197" y="111" width="50" height="50" parameterName="Saturation" minValue="1" maxValue="10" valueType="integer" textColor="FF000000" value="1" style="custom_skin_vertical_drag" customSkinImage="Resources/knob.png" customSkinNumFrames="65" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
@@ -778,6 +902,7 @@
 
   </groups>
   <effects>
+    <effect type="gain" level="1" />
   </effects>
   <modulators>
   </modulators>
