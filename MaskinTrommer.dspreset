@@ -24,7 +24,10 @@
       </control>
 
       <!-- Snare -->
-      <control x="197" y="61" width="50" height="50" parameterName="Saturation" minValue="1" maxValue="7" valueType="integer" textColor="FF000000" value="1" style="custom_skin_vertical_drag" customSkinImage="Resources/knob.png" customSkinNumFrames="65" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+      <control x="97" y="61" width="50" height="50" parameterName="Snare Varispeed" type="float" minValue="-50" maxValue="50" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/knob.png" customSkinNumFrames="65" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+        <binding type="amp" level="group" position="2" parameter="GROUP_TUNING" translation="linear" translationOutputMin="-6"  translationOutputMax="6" />
+      </control>
+      <control x="197" y="61" width="50" height="50" parameterName="Snare Sustain" minValue="1" maxValue="7" valueType="integer" textColor="FF000000" value="1" style="custom_skin_vertical_drag" customSkinImage="Resources/knob.png" customSkinNumFrames="65" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
         <binding type="amp" level="tag" identifier="snare-sh09-velocity" parameter="TAG_ENABLED" translation="table" translationTable="1,1;2,0;3,0;4,0;5,0;6,0;7,0;8,0"/>
         <binding type="amp" level="tag" identifier="snare-sh09-01"       parameter="TAG_ENABLED" translation="table" translationTable="1,0;2,1;3,0;4,0;5,0;6,0;7,0;8,0"/>
         <binding type="amp" level="tag" identifier="snare-sh09-02"       parameter="TAG_ENABLED" translation="table" translationTable="1,0;2,0;3,1;4,0;5,0;6,0;7,0;8,0"/>
@@ -287,14 +290,14 @@
 
     <!-- Snare -->
     <group tags="snare-ms20-top" seqMode="random" seqLength="8" silencingMode="normal" ampVelTrack="0" decay="0.15" ampEnvEnabled="true" >
-      <sample seqPosition="1" loNote="38" hiNote="38" rootNote="38" path="Samples/SnareTop_MS-20_01_01.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
-      <sample seqPosition="2" loNote="38" hiNote="38" rootNote="38" path="Samples/SnareTop_MS-20_01_02.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
-      <sample seqPosition="3" loNote="38" hiNote="38" rootNote="38" path="Samples/SnareTop_MS-20_01_03.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
-      <sample seqPosition="4" loNote="38" hiNote="38" rootNote="38" path="Samples/SnareTop_MS-20_01_04.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
-      <sample seqPosition="5" loNote="38" hiNote="38" rootNote="38" path="Samples/SnareTop_MS-20_01_05.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
-      <sample seqPosition="6" loNote="38" hiNote="38" rootNote="38" path="Samples/SnareTop_MS-20_01_06.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
-      <sample seqPosition="7" loNote="38" hiNote="38" rootNote="38" path="Samples/SnareTop_MS-20_01_07.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
-      <sample seqPosition="8" loNote="38" hiNote="38" rootNote="38" path="Samples/SnareTop_MS-20_01_08.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="1" loNote="38" hiNote="38" rootNote="38" path="Samples/SnareTop_MS-20_01_01.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample seqPosition="2" loNote="38" hiNote="38" rootNote="38" path="Samples/SnareTop_MS-20_01_02.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample seqPosition="3" loNote="38" hiNote="38" rootNote="38" path="Samples/SnareTop_MS-20_01_03.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample seqPosition="4" loNote="38" hiNote="38" rootNote="38" path="Samples/SnareTop_MS-20_01_04.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample seqPosition="5" loNote="38" hiNote="38" rootNote="38" path="Samples/SnareTop_MS-20_01_05.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample seqPosition="6" loNote="38" hiNote="38" rootNote="38" path="Samples/SnareTop_MS-20_01_06.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample seqPosition="7" loNote="38" hiNote="38" rootNote="38" path="Samples/SnareTop_MS-20_01_07.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample seqPosition="8" loNote="38" hiNote="38" rootNote="38" path="Samples/SnareTop_MS-20_01_08.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
     </group>
     <group tags="snare-ms20-bottom" seqMode="random" seqLength="8" silencingMode="normal" ampVelTrack="0" decay="0.15" ampEnvEnabled="true" >
       <sample seqPosition="1" loNote="38" hiNote="38" rootNote="38" path="Samples/SnareBottom_MS-20_01_01.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
