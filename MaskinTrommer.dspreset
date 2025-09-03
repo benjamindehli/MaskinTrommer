@@ -16,10 +16,10 @@
     <tab name="main">
 
       <!-- Kick -->
-      <control x="340" y="11" width="40" height="40" parameterName="Attack" type="float" minValue="0" maxValue="2" textColor="FF000000" value="2" style="custom_skin_vertical_drag" customSkinImage="Resources/knob.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+      <control x="55" y="120" width="50" height="50" parameterName="Attack" type="float" minValue="0" maxValue="2" textColor="FF000000" value="2" style="custom_skin_vertical_drag" customSkinImage="Resources/knob.png" customSkinNumFrames="65" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
         <binding type="amp" level="tag" identifier="kick-darkenergy" parameter="TAG_VOLUME" />
       </control>
-      <control x="450" y="11" width="40" height="40" parameterName="Decay" type="float" minValue="0" maxValue="2" textColor="FF000000" value="0.60" style="custom_skin_vertical_drag" customSkinImage="Resources/knob.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+      <control x="55" y="205" width="50" height="50" parameterName="Decay" type="float" minValue="0" maxValue="2" textColor="FF000000" value="0.60" style="custom_skin_vertical_drag" customSkinImage="Resources/knob.png" customSkinNumFrames="65" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
         <binding type="amp" level="tag" identifier="kick-ms20" parameter="TAG_VOLUME" />
       </control>
 
