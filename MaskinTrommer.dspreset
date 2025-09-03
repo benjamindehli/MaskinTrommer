@@ -24,7 +24,7 @@
       </control>
 
       <!-- Snare -->
-      <control x="197" y="61" width="40" height="40" parameterName="Saturation" minValue="1" maxValue="7" valueType="integer" textColor="FF000000" value="1" style="custom_skin_vertical_drag" customSkinImage="Resources/knob.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+      <control x="197" y="61" width="50" height="50" parameterName="Saturation" minValue="1" maxValue="7" valueType="integer" textColor="FF000000" value="1" style="custom_skin_vertical_drag" customSkinImage="Resources/knob.png" customSkinNumFrames="65" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
         <binding type="amp" level="tag" identifier="snare-sh09-velocity" parameter="TAG_ENABLED" translation="table" translationTable="1,1;2,0;3,0;4,0;5,0;6,0;7,0;8,0"/>
         <binding type="amp" level="tag" identifier="snare-sh09-01"       parameter="TAG_ENABLED" translation="table" translationTable="1,0;2,1;3,0;4,0;5,0;6,0;7,0;8,0"/>
         <binding type="amp" level="tag" identifier="snare-sh09-02"       parameter="TAG_ENABLED" translation="table" translationTable="1,0;2,0;3,1;4,0;5,0;6,0;7,0;8,0"/>
@@ -33,16 +33,16 @@
         <binding type="amp" level="tag" identifier="snare-sh09-05"       parameter="TAG_ENABLED" translation="table" translationTable="1,0;2,0;3,0;4,0;5,0;6,1;7,0;8,0"/>
         <binding type="amp" level="tag" identifier="snare-sh09-06"       parameter="TAG_ENABLED" translation="table" translationTable="1,0;2,0;3,0;4,0;5,0;6,0;7,1;8,0"/>
       </control>
-      <control x="340" y="61" width="40" height="40" parameterName="Attack" type="float" minValue="0" maxValue="2" textColor="FF000000" value="2" style="custom_skin_vertical_drag" customSkinImage="Resources/knob.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+      <control x="340" y="61" width="50" height="50" parameterName="Attack" type="float" minValue="0" maxValue="2" textColor="FF000000" value="2" style="custom_skin_vertical_drag" customSkinImage="Resources/knob.png" customSkinNumFrames="65" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
         <binding type="amp" level="tag" identifier="snare-ms20-top" parameter="TAG_VOLUME" />
       </control>
-      <control x="450" y="61" width="40" height="40" parameterName="Decay" type="float" minValue="0" maxValue="2" textColor="FF000000" value="0.60" style="custom_skin_vertical_drag" customSkinImage="Resources/knob.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+      <control x="450" y="61" width="50" height="50" parameterName="Decay" type="float" minValue="0" maxValue="2" textColor="FF000000" value="0.60" style="custom_skin_vertical_drag" customSkinImage="Resources/knob.png" customSkinNumFrames="65" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
         <binding type="amp" level="tag" identifier="snare-ms20-bottom" parameter="TAG_VOLUME" />
       </control>
-      <control x="560" y="61" width="40" height="40" parameterName="Sustain" type="float" minValue="0" maxValue="2" textColor="FF000000" value="1" style="custom_skin_vertical_drag" customSkinImage="Resources/knob.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+      <control x="560" y="61" width="50" height="50" parameterName="Sustain" type="float" minValue="0" maxValue="2" textColor="FF000000" value="1" style="custom_skin_vertical_drag" customSkinImage="Resources/knob.png" customSkinNumFrames="65" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
         <binding type="amp" level="tag" identifier="snare-darkenergy" parameter="TAG_VOLUME" />
       </control>
-      <control x="670" y="61" width="40" height="40" parameterName="Release" type="float" minValue="0" maxValue="2" textColor="FF000000" value="0.75" style="custom_skin_vertical_drag" customSkinImage="Resources/knob.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+      <control x="670" y="61" width="50" height="50" parameterName="Release" type="float" minValue="0" maxValue="2" textColor="FF000000" value="0.75" style="custom_skin_vertical_drag" customSkinImage="Resources/knob.png" customSkinNumFrames="65" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
         <binding type="amp" level="tag" identifier="snare-sh09-velocity" parameter="TAG_VOLUME" />
         <binding type="amp" level="tag" identifier="snare-sh09-01"       parameter="TAG_VOLUME" />
         <binding type="amp" level="tag" identifier="snare-sh09-02"       parameter="TAG_VOLUME" />
