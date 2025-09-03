@@ -53,7 +53,7 @@
       </control>
 
       <!-- HiHat-->
-      <control x="197" y="111" width="40" height="40" parameterName="Saturation" minValue="1" maxValue="10" valueType="integer" textColor="FF000000" value="1" style="custom_skin_vertical_drag" customSkinImage="Resources/knob.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+      <control x="197" y="111" width="50" height="50" parameterName="Saturation" minValue="1" maxValue="10" valueType="integer" textColor="FF000000" value="1" style="custom_skin_vertical_drag" customSkinImage="Resources/knob.png" customSkinNumFrames="65" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
         <binding type="amp" level="tag" identifier="hihat-ms20-velocity" parameter="TAG_ENABLED" translation="table" translationTable="1,1;2,0;3,0;4,0;5,0;6,0;7,0;8,0;9,0;10,0;11,0"/>
         <binding type="amp" level="tag" identifier="hihat-ms20-01"       parameter="TAG_ENABLED" translation="table" translationTable="1,0;2,1;3,0;4,0;5,0;6,0;7,0;8,0;9,0;10,0;11,0"/>
         <binding type="amp" level="tag" identifier="hihat-ms20-02"       parameter="TAG_ENABLED" translation="table" translationTable="1,0;2,0;3,1;4,0;5,0;6,0;7,0;8,0;9,0;10,0;11,0"/>
@@ -66,7 +66,7 @@
         <binding type="amp" level="tag" identifier="hihat-ms20-09"       parameter="TAG_ENABLED" translation="table" translationTable="1,0;2,0;3,0;4,0;5,0;6,0;7,0;8,0;9,0;10,1;11,0"/>
       </control>
 
-      <control x="340" y="111" width="40" height="40" parameterName="Release" type="float" minValue="0" maxValue="2" textColor="FF000000" value="1" style="custom_skin_vertical_drag" customSkinImage="Resources/knob.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+      <control x="340" y="111" width="50" height="50" parameterName="Release" type="float" minValue="0" maxValue="2" textColor="FF000000" value="1" style="custom_skin_vertical_drag" customSkinImage="Resources/knob.png" customSkinNumFrames="65" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
         <binding type="amp" level="tag" identifier="hihat-ms20-velocity" parameter="TAG_VOLUME" />
         <binding type="amp" level="tag" identifier="hihat-ms20-01"       parameter="TAG_VOLUME" />
         <binding type="amp" level="tag" identifier="hihat-ms20-02"       parameter="TAG_VOLUME" />
@@ -80,14 +80,14 @@
       </control>
 
       <!-- Cymbal-->
-      <control x="197" y="161" width="40" height="40" parameterName="Cymbal Sustain" minValue="1" maxValue="4" valueType="integer" textColor="FF000000" value="1" style="custom_skin_vertical_drag" customSkinImage="Resources/knob.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+      <control x="197" y="161" width="50" height="50" parameterName="Cymbal Sustain" minValue="1" maxValue="4" valueType="integer" textColor="FF000000" value="1" style="custom_skin_vertical_drag" customSkinImage="Resources/knob.png" customSkinNumFrames="65" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
         <binding type="amp" level="tag" identifier="cymbal-proone-velocity" parameter="TAG_ENABLED" translation="table" translationTable="1,1;2,0;3,0;4,0;5,0"/>
         <binding type="amp" level="tag" identifier="cymbal-proone-01"       parameter="TAG_ENABLED" translation="table" translationTable="1,0;2,1;3,0;4,0;5,0"/>
         <binding type="amp" level="tag" identifier="cymbal-proone-02"       parameter="TAG_ENABLED" translation="table" translationTable="1,0;2,0;3,1;4,0;5,0"/>
         <binding type="amp" level="tag" identifier="cymbal-proone-03"       parameter="TAG_ENABLED" translation="table" translationTable="1,0;2,0;3,0;4,1;5,0"/>
       </control>
 
-      <control x="340" y="161" width="40" height="40" parameterName="Cymbal Volume" type="float" minValue="0" maxValue="2" textColor="FF000000" value="1" style="custom_skin_vertical_drag" customSkinImage="Resources/knob.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+      <control x="340" y="161" width="50" height="50" parameterName="Cymbal Volume" type="float" minValue="0" maxValue="2" textColor="FF000000" value="1" style="custom_skin_vertical_drag" customSkinImage="Resources/knob.png" customSkinNumFrames="65" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
         <binding type="amp" level="tag" identifier="cymbal-proone-velocity" parameter="TAG_VOLUME" />
         <binding type="amp" level="tag" identifier="cymbal-proone-01"       parameter="TAG_VOLUME" />
         <binding type="amp" level="tag" identifier="cymbal-proone-02"       parameter="TAG_VOLUME" />
@@ -95,7 +95,7 @@
       </control>
 
       <!-- Tom -->
-      <control x="197" y="211" width="40" height="40" parameterName="Tom Sustain Select" minValue="1" maxValue="7" valueType="integer" textColor="FF000000" value="1" style="custom_skin_vertical_drag" customSkinImage="Resources/knob.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+      <control x="197" y="211" width="50" height="50" parameterName="Tom Sustain Select" minValue="1" maxValue="7" valueType="integer" textColor="FF000000" value="1" style="custom_skin_vertical_drag" customSkinImage="Resources/knob.png" customSkinNumFrames="65" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
         <binding type="amp" level="tag" identifier="tom-sh09-velocity" parameter="TAG_ENABLED" translation="table" translationTable="1,1;2,0;3,0;4,0;5,0;6,0;7,0;8,0"/>
         <binding type="amp" level="tag" identifier="tom-sh09-01"       parameter="TAG_ENABLED" translation="table" translationTable="1,0;2,1;3,0;4,0;5,0;6,0;7,0;8,0"/>
         <binding type="amp" level="tag" identifier="tom-sh09-02"       parameter="TAG_ENABLED" translation="table" translationTable="1,0;2,0;3,1;4,0;5,0;6,0;7,0;8,0"/>
@@ -105,11 +105,11 @@
         <binding type="amp" level="tag" identifier="tom-sh09-06"       parameter="TAG_ENABLED" translation="table" translationTable="1,0;2,0;3,0;4,0;5,0;6,0;7,1;8,0"/>
       </control>
 
-      <control x="340" y="211" width="40" height="40" parameterName="Tom Volume" type="float" minValue="0" maxValue="2" textColor="FF000000" value="1" style="custom_skin_vertical_drag" customSkinImage="Resources/knob.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+      <control x="340" y="211" width="50" height="50" parameterName="Tom Volume" type="float" minValue="0" maxValue="2" textColor="FF000000" value="1" style="custom_skin_vertical_drag" customSkinImage="Resources/knob.png" customSkinNumFrames="65" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
         <binding type="amp" level="tag" identifier="tom-ms20"       parameter="TAG_VOLUME" />
       </control>
 
-      <control x="450" y="211" width="40" height="40" parameterName="Tom Sustain" type="float" minValue="0" maxValue="2" textColor="FF000000" value="1" style="custom_skin_vertical_drag" customSkinImage="Resources/knob.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+      <control x="450" y="211" width="50" height="50" parameterName="Tom Sustain" type="float" minValue="0" maxValue="2" textColor="FF000000" value="1" style="custom_skin_vertical_drag" customSkinImage="Resources/knob.png" customSkinNumFrames="65" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
         <binding type="amp" level="tag" identifier="tom-sh09-velocity" parameter="TAG_VOLUME" />
         <binding type="amp" level="tag" identifier="tom-sh09-01"       parameter="TAG_VOLUME" />
         <binding type="amp" level="tag" identifier="tom-sh09-02"       parameter="TAG_VOLUME" />
