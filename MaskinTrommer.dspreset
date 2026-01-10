@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DecentSampler>
-  <ui bgImage="Resources/background.png" width="812" height="433" layoutMode="relative" bgMode="top_left">
+  <ui bgImage="Resources/background.png" width="812" height="500" layoutMode="relative" bgMode="top_left">
     <keyboard>
       <color loNote="0" hiNote="35" color="FF000000" />
       <color loNote="36" hiNote="36" color="FFFF0000" />
