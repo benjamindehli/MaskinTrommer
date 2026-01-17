@@ -21,10 +21,10 @@
         <binding type="amp" level="group" position="1" parameter="GROUP_TUNING" translation="linear" translationOutputMin="-6"  translationOutputMax="6" />
       </control>
       <control x="108" y="153" width="50" height="50" parameterName="Kick Body" type="float" minValue="0" maxValue="10" textColor="FF000000" value="3.00" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_korg.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
-        <binding type="amp" level="tag" identifier="kick-darkenergy" parameter="TAG_VOLUME" />
+        <binding type="amp" level="tag" identifier="kick-ms20" parameter="TAG_VOLUME" translation="linear" translationOutputMin="0"  translationOutputMax="1.5" />
       </control>
       <control x="111" y="241" width="44" height="44" parameterName="Kick Punch" type="float" minValue="0" maxValue="10" textColor="FF000000" value="10" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_doepfer.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
-        <binding type="amp" level="tag" identifier="kick-ms20" parameter="TAG_VOLUME" />
+        <binding type="amp" level="tag" identifier="kick-darkenergy" parameter="TAG_VOLUME" translation="linear" translationOutputMin="0"  translationOutputMax="1.5" />
       </control>
 
       <!-- Snare -->
@@ -41,22 +41,22 @@
         <binding type="amp" level="tag" identifier="snare-sh09-06"       parameter="TAG_ENABLED" translation="table" translationTable="0,0;1,0;2,0;3,0;4,0;5,0;6,1;7,0"/>
       </control>
       <control x="198" y="153" width="50" height="50" parameterName="Snare Body" type="float" minValue="0" maxValue="10" textColor="FF000000" value="10" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_korg.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
-        <binding type="amp" level="tag" identifier="snare-ms20-top" parameter="TAG_VOLUME" />
+        <binding type="amp" level="tag" identifier="snare-ms20-top" parameter="TAG_VOLUME" translation="linear" translationOutputMin="0"  translationOutputMax="1.6" />
       </control>
       <control x="274" y="153" width="52" height="52" parameterName="Snare Head" type="float" minValue="0" maxValue="10" textColor="FF000000" value="3.75" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_roland.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
-        <binding type="amp" level="tag" identifier="snare-sh09-velocity" parameter="TAG_VOLUME" />
-        <binding type="amp" level="tag" identifier="snare-sh09-01"       parameter="TAG_VOLUME" />
-        <binding type="amp" level="tag" identifier="snare-sh09-02"       parameter="TAG_VOLUME" />
-        <binding type="amp" level="tag" identifier="snare-sh09-03"       parameter="TAG_VOLUME" />
-        <binding type="amp" level="tag" identifier="snare-sh09-04"       parameter="TAG_VOLUME" />
-        <binding type="amp" level="tag" identifier="snare-sh09-05"       parameter="TAG_VOLUME" />
-        <binding type="amp" level="tag" identifier="snare-sh09-06"       parameter="TAG_VOLUME" />
+        <binding type="amp" level="tag" identifier="snare-sh09-velocity" parameter="TAG_VOLUME" translation="linear" translationOutputMin="0"  translationOutputMax="1.0" />
+        <binding type="amp" level="tag" identifier="snare-sh09-01"       parameter="TAG_VOLUME" translation="linear" translationOutputMin="0"  translationOutputMax="1.0" />
+        <binding type="amp" level="tag" identifier="snare-sh09-02"       parameter="TAG_VOLUME" translation="linear" translationOutputMin="0"  translationOutputMax="1.0" />
+        <binding type="amp" level="tag" identifier="snare-sh09-03"       parameter="TAG_VOLUME" translation="linear" translationOutputMin="0"  translationOutputMax="1.0" />
+        <binding type="amp" level="tag" identifier="snare-sh09-04"       parameter="TAG_VOLUME" translation="linear" translationOutputMin="0"  translationOutputMax="1.0" />
+        <binding type="amp" level="tag" identifier="snare-sh09-05"       parameter="TAG_VOLUME" translation="linear" translationOutputMin="0"  translationOutputMax="1.0" />
+        <binding type="amp" level="tag" identifier="snare-sh09-06"       parameter="TAG_VOLUME" translation="linear" translationOutputMin="0"  translationOutputMax="1.0" />
       </control>
       <control x="202" y="241" width="44" height="44" parameterName="Snare Rattle" type="float" minValue="0" maxValue="10" textColor="FF000000" value="5" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_doepfer.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
-        <binding type="amp" level="tag" identifier="snare-darkenergy" parameter="TAG_VOLUME" />
+        <binding type="amp" level="tag" identifier="snare-darkenergy" parameter="TAG_VOLUME" translation="linear" translationOutputMin="0"  translationOutputMax="1.3" />
       </control>
       <control x="275" y="237" width="50" height="50" parameterName="Snare Wires" type="float" minValue="0" maxValue="10" textColor="FF000000" value="3.00" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_korg.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
-        <binding type="amp" level="tag" identifier="snare-ms20-bottom" parameter="TAG_VOLUME" />
+        <binding type="amp" level="tag" identifier="snare-ms20-bottom" parameter="TAG_VOLUME" translation="linear" translationOutputMin="0"  translationOutputMax="0.7" />
       </control>
       
 
@@ -75,56 +75,56 @@
       </control>
 
       <control x="366" y="153" width="50" height="50" parameterName="HiHat Volume" type="float" minValue="0" maxValue="10" textColor="FF000000" value="5" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_korg.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
-        <binding type="amp" level="tag" identifier="hihat-ms20-velocity" parameter="TAG_VOLUME" />
-        <binding type="amp" level="tag" identifier="hihat-ms20-01"       parameter="TAG_VOLUME" />
-        <binding type="amp" level="tag" identifier="hihat-ms20-02"       parameter="TAG_VOLUME" />
-        <binding type="amp" level="tag" identifier="hihat-ms20-03"       parameter="TAG_VOLUME" />
-        <binding type="amp" level="tag" identifier="hihat-ms20-04"       parameter="TAG_VOLUME" />
-        <binding type="amp" level="tag" identifier="hihat-ms20-05"       parameter="TAG_VOLUME" />
-        <binding type="amp" level="tag" identifier="hihat-ms20-06"       parameter="TAG_VOLUME" />
-        <binding type="amp" level="tag" identifier="hihat-ms20-07"       parameter="TAG_VOLUME" />
-        <binding type="amp" level="tag" identifier="hihat-ms20-08"       parameter="TAG_VOLUME" />
-        <binding type="amp" level="tag" identifier="hihat-ms20-09"       parameter="TAG_VOLUME" />
+        <binding type="amp" level="tag" identifier="hihat-ms20-velocity" parameter="TAG_VOLUME" translation="linear" translationOutputMin="0"  translationOutputMax="1" />
+        <binding type="amp" level="tag" identifier="hihat-ms20-01"       parameter="TAG_VOLUME" translation="linear" translationOutputMin="0"  translationOutputMax="1" />
+        <binding type="amp" level="tag" identifier="hihat-ms20-02"       parameter="TAG_VOLUME" translation="linear" translationOutputMin="0"  translationOutputMax="1" />
+        <binding type="amp" level="tag" identifier="hihat-ms20-03"       parameter="TAG_VOLUME" translation="linear" translationOutputMin="0"  translationOutputMax="1" />
+        <binding type="amp" level="tag" identifier="hihat-ms20-04"       parameter="TAG_VOLUME" translation="linear" translationOutputMin="0"  translationOutputMax="1" />
+        <binding type="amp" level="tag" identifier="hihat-ms20-05"       parameter="TAG_VOLUME" translation="linear" translationOutputMin="0"  translationOutputMax="1" />
+        <binding type="amp" level="tag" identifier="hihat-ms20-06"       parameter="TAG_VOLUME" translation="linear" translationOutputMin="0"  translationOutputMax="1" />
+        <binding type="amp" level="tag" identifier="hihat-ms20-07"       parameter="TAG_VOLUME" translation="linear" translationOutputMin="0"  translationOutputMax="1" />
+        <binding type="amp" level="tag" identifier="hihat-ms20-08"       parameter="TAG_VOLUME" translation="linear" translationOutputMin="0"  translationOutputMax="1" />
+        <binding type="amp" level="tag" identifier="hihat-ms20-09"       parameter="TAG_VOLUME" translation="linear" translationOutputMin="0"  translationOutputMax="1" />
       </control>
 
       <!-- Cymbal-->
       <control x="460" y="74" width="42" height="42" parameterName="Cymbal Sustain Select" minValue="0" maxValue="3" valueType="integer" textColor="FF000000" value="1" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_sequential-circuits_4-way.png" customSkinNumFrames="4" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
-        <binding type="amp" level="tag" identifier="cymbal-proone-velocity" parameter="TAG_ENABLED" translation="table" translationTable="1,1;2,0;3,0;4,0;5,0"/>
-        <binding type="amp" level="tag" identifier="cymbal-proone-01"       parameter="TAG_ENABLED" translation="table" translationTable="1,0;2,1;3,0;4,0;5,0"/>
-        <binding type="amp" level="tag" identifier="cymbal-proone-02"       parameter="TAG_ENABLED" translation="table" translationTable="1,0;2,0;3,1;4,0;5,0"/>
-        <binding type="amp" level="tag" identifier="cymbal-proone-03"       parameter="TAG_ENABLED" translation="table" translationTable="1,0;2,0;3,0;4,1;5,0"/>
+        <binding type="amp" level="tag" identifier="cymbal-proone-velocity" parameter="TAG_ENABLED" translation="table" translationTable="0,1;1,0;2,0;3,0;4,0"/>
+        <binding type="amp" level="tag" identifier="cymbal-proone-01"       parameter="TAG_ENABLED" translation="table" translationTable="0,0;1,1;2,0;3,0;4,0"/>
+        <binding type="amp" level="tag" identifier="cymbal-proone-02"       parameter="TAG_ENABLED" translation="table" translationTable="0,0;1,0;2,1;3,0;4,0"/>
+        <binding type="amp" level="tag" identifier="cymbal-proone-03"       parameter="TAG_ENABLED" translation="table" translationTable="0,0;1,0;2,0;3,1;4,0"/>
       </control>
 
       <control x="460" y="158" width="42" height="42" parameterName="Cymbal Volume" type="float" minValue="0" maxValue="10" textColor="FF000000" value="5" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_sequential-circuits.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
-        <binding type="amp" level="tag" identifier="cymbal-proone-velocity" parameter="TAG_VOLUME" />
-        <binding type="amp" level="tag" identifier="cymbal-proone-01"       parameter="TAG_VOLUME" />
-        <binding type="amp" level="tag" identifier="cymbal-proone-02"       parameter="TAG_VOLUME" />
-        <binding type="amp" level="tag" identifier="cymbal-proone-03"       parameter="TAG_VOLUME" />
+        <binding type="amp" level="tag" identifier="cymbal-proone-velocity" parameter="TAG_VOLUME" translation="linear" translationOutputMin="0"  translationOutputMax="1" />
+        <binding type="amp" level="tag" identifier="cymbal-proone-01"       parameter="TAG_VOLUME" translation="linear" translationOutputMin="0"  translationOutputMax="1" />
+        <binding type="amp" level="tag" identifier="cymbal-proone-02"       parameter="TAG_VOLUME" translation="linear" translationOutputMin="0"  translationOutputMax="1" />
+        <binding type="amp" level="tag" identifier="cymbal-proone-03"       parameter="TAG_VOLUME" translation="linear" translationOutputMin="0"  translationOutputMax="1" />
       </control>
 
       <!-- Tom -->
       <control x="545" y="69" width="52" height="52" parameterName="Tom Sustain Select" minValue="0" maxValue="6" valueType="integer" textColor="FF000000" value="1" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_roland_7-way.png" customSkinNumFrames="7" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
-        <binding type="amp" level="tag" identifier="tom-sh09-velocity" parameter="TAG_ENABLED" translation="table" translationTable="1,1;2,0;3,0;4,0;5,0;6,0;7,0;8,0"/>
-        <binding type="amp" level="tag" identifier="tom-sh09-01"       parameter="TAG_ENABLED" translation="table" translationTable="1,0;2,1;3,0;4,0;5,0;6,0;7,0;8,0"/>
-        <binding type="amp" level="tag" identifier="tom-sh09-02"       parameter="TAG_ENABLED" translation="table" translationTable="1,0;2,0;3,1;4,0;5,0;6,0;7,0;8,0"/>
-        <binding type="amp" level="tag" identifier="tom-sh09-03"       parameter="TAG_ENABLED" translation="table" translationTable="1,0;2,0;3,0;4,1;5,0;6,0;7,0;8,0"/>
-        <binding type="amp" level="tag" identifier="tom-sh09-04"       parameter="TAG_ENABLED" translation="table" translationTable="1,0;2,0;3,0;4,0;5,1;6,0;7,0;8,0"/>
-        <binding type="amp" level="tag" identifier="tom-sh09-05"       parameter="TAG_ENABLED" translation="table" translationTable="1,0;2,0;3,0;4,0;5,0;6,1;7,0;8,0"/>
-        <binding type="amp" level="tag" identifier="tom-sh09-06"       parameter="TAG_ENABLED" translation="table" translationTable="1,0;2,0;3,0;4,0;5,0;6,0;7,1;8,0"/>
+        <binding type="amp" level="tag" identifier="tom-sh09-velocity" parameter="TAG_ENABLED" translation="table" translationTable="0,1;1,0;2,0;3,0;4,0;5,0;6,0;7,0"/>
+        <binding type="amp" level="tag" identifier="tom-sh09-01"       parameter="TAG_ENABLED" translation="table" translationTable="0,0;1,1;2,0;3,0;4,0;5,0;6,0;7,0"/>
+        <binding type="amp" level="tag" identifier="tom-sh09-02"       parameter="TAG_ENABLED" translation="table" translationTable="0,0;1,0;2,1;3,0;4,0;5,0;6,0;7,0"/>
+        <binding type="amp" level="tag" identifier="tom-sh09-03"       parameter="TAG_ENABLED" translation="table" translationTable="0,0;1,0;2,0;3,1;4,0;5,0;6,0;7,0"/>
+        <binding type="amp" level="tag" identifier="tom-sh09-04"       parameter="TAG_ENABLED" translation="table" translationTable="0,0;1,0;2,0;3,0;4,1;5,0;6,0;7,0"/>
+        <binding type="amp" level="tag" identifier="tom-sh09-05"       parameter="TAG_ENABLED" translation="table" translationTable="0,0;1,0;2,0;3,0;4,0;5,1;6,0;7,0"/>
+        <binding type="amp" level="tag" identifier="tom-sh09-06"       parameter="TAG_ENABLED" translation="table" translationTable="0,0;1,0;2,0;3,0;4,0;5,0;6,1;7,0"/>
       </control>
 
       <control x="547" y="153" width="50" height="50" parameterName="Tom Volume" type="float" minValue="0" maxValue="10" textColor="FF000000" value="5" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_korg.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
-        <binding type="amp" level="tag" identifier="tom-ms20"       parameter="TAG_VOLUME" />
+        <binding type="amp" level="tag" identifier="tom-ms20" parameter="TAG_VOLUME" translation="linear" translationOutputMin="0"  translationOutputMax="1.6" />
       </control>
 
       <control x="545" y="237" width="52" height="52" parameterName="Tom Sustain" type="float" minValue="0" maxValue="10" textColor="FF000000" value="5" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_roland.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
-        <binding type="amp" level="tag" identifier="tom-sh09-velocity" parameter="TAG_VOLUME" />
-        <binding type="amp" level="tag" identifier="tom-sh09-01"       parameter="TAG_VOLUME" />
-        <binding type="amp" level="tag" identifier="tom-sh09-02"       parameter="TAG_VOLUME" />
-        <binding type="amp" level="tag" identifier="tom-sh09-03"       parameter="TAG_VOLUME" />
-        <binding type="amp" level="tag" identifier="tom-sh09-04"       parameter="TAG_VOLUME" />
-        <binding type="amp" level="tag" identifier="tom-sh09-05"       parameter="TAG_VOLUME" />
-        <binding type="amp" level="tag" identifier="tom-sh09-06"       parameter="TAG_VOLUME" />
+        <binding type="amp" level="tag" identifier="tom-sh09-velocity" parameter="TAG_VOLUME" translation="linear" translationOutputMin="0"  translationOutputMax="1.2" />
+        <binding type="amp" level="tag" identifier="tom-sh09-01"       parameter="TAG_VOLUME" translation="linear" translationOutputMin="0"  translationOutputMax="1.2" />
+        <binding type="amp" level="tag" identifier="tom-sh09-02"       parameter="TAG_VOLUME" translation="linear" translationOutputMin="0"  translationOutputMax="1.2" />
+        <binding type="amp" level="tag" identifier="tom-sh09-03"       parameter="TAG_VOLUME" translation="linear" translationOutputMin="0"  translationOutputMax="1.2" />
+        <binding type="amp" level="tag" identifier="tom-sh09-04"       parameter="TAG_VOLUME" translation="linear" translationOutputMin="0"  translationOutputMax="1.2" />
+        <binding type="amp" level="tag" identifier="tom-sh09-05"       parameter="TAG_VOLUME" translation="linear" translationOutputMin="0"  translationOutputMax="1.2" />
+        <binding type="amp" level="tag" identifier="tom-sh09-06"       parameter="TAG_VOLUME" translation="linear" translationOutputMin="0"  translationOutputMax="1.2" />
       </control>
 
       <!-- Velocity Sensitivity -->
@@ -253,7 +253,6 @@
         <binding type="amp" level="group" position="51" parameter="ENV_RELEASE" translation="linear" translationOutputMin="10" translationOutputMax="0.35" />
         <binding type="amp" level="group" position="52" parameter="ENV_RELEASE" translation="linear" translationOutputMin="10" translationOutputMax="0.35" />
         <binding type="amp" level="group" position="53" parameter="ENV_RELEASE" translation="linear" translationOutputMin="10" translationOutputMax="0.35" />
-
         
         <binding type="effect" level="instrument" position="0" parameter="LEVEL" modBehavior="set" translation="linear" translationOutputMin=".75" translationOutputMax="9" />
       </control>
