@@ -21,10 +21,10 @@
         <binding type="amp" level="group" position="0" parameter="GROUP_TUNING" translation="linear" translationOutputMin="-6"  translationOutputMax="6" />
         <binding type="amp" level="group" position="1" parameter="GROUP_TUNING" translation="linear" translationOutputMin="-6"  translationOutputMax="6" />
       </control>
-      <control x="108" y="153" width="50" height="50" parameterName="Kick Body" type="float" minValue="0" maxValue="10" textColor="FF000000" value="3.00" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_korg.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+      <control x="108" y="153" width="50" height="50" parameterName="Kick Body" type="float" minValue="0" maxValue="10" textColor="FF000000" value="5.10" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_korg.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
         <binding type="amp" level="tag" identifier="kick-ms20" parameter="TAG_VOLUME" translation="linear" translationOutputMin="0"  translationOutputMax="1.5" />
       </control>
-      <control x="111" y="241" width="44" height="44" parameterName="Kick Punch" type="float" minValue="0" maxValue="10" textColor="FF000000" value="10" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_doepfer.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+      <control x="111" y="241" width="44" height="44" parameterName="Kick Punch" type="float" minValue="0" maxValue="10" textColor="FF000000" value="10.00" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_doepfer.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
         <binding type="amp" level="tag" identifier="kick-darkenergy" parameter="TAG_VOLUME" translation="linear" translationOutputMin="0"  translationOutputMax="1.5" />
       </control>
 
