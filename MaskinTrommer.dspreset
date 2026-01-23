@@ -16,10 +16,60 @@
     </keyboard>
     <tab name="main">
 
+      <image x="161" y="201" width="10" height="17" path="Resources/display_10-segment_off.png" />
+      <image x="161" y="201" width="10" height="17" path="Resources/display_10-segment_up.png" />
+      <image x="161" y="201" width="10" height="17" path="Resources/display_10-segment_down.png" />
+
+      <image x="161" y="285" width="10" height="17" path="Resources/display_10-segment_off.png" />
+      <image x="161" y="285" width="10" height="17" path="Resources/display_10-segment_up.png" />
+      <image x="161" y="285" width="10" height="17" path="Resources/display_10-segment_down.png" />
+
+      <image x="187" y="201" width="10" height="17" path="Resources/display_10-segment_off.png" />
+      <image x="187" y="201" width="10" height="17" path="Resources/display_10-segment_up.png" />
+      <image x="187" y="201" width="10" height="17" path="Resources/display_10-segment_down.png" />
+
+      <image x="328" y="201" width="10" height="17" path="Resources/display_7-segment_d.png" />
+      <image x="328" y="201" width="10" height="17" path="Resources/display_7-segment_1.png" />
+      <image x="328" y="201" width="10" height="17" path="Resources/display_7-segment_2.png" />
+      <image x="328" y="201" width="10" height="17" path="Resources/display_7-segment_3.png" />
+      <image x="328" y="201" width="10" height="17" path="Resources/display_7-segment_4.png" />
+      <image x="328" y="201" width="10" height="17" path="Resources/display_7-segment_5.png" />
+      <image x="328" y="201" width="10" height="17" path="Resources/display_7-segment_6.png" />
+
+      <image x="418" y="201" width="10" height="17" path="Resources/display_7-segment_d.png" />
+      <image x="418" y="201" width="10" height="17" path="Resources/display_7-segment_1.png" />
+      <image x="418" y="201" width="10" height="17" path="Resources/display_7-segment_2.png" />
+      <image x="418" y="201" width="10" height="17" path="Resources/display_7-segment_3.png" />
+      <image x="418" y="201" width="10" height="17" path="Resources/display_7-segment_4.png" />
+      <image x="418" y="201" width="10" height="17" path="Resources/display_7-segment_5.png" />
+      <image x="418" y="201" width="10" height="17" path="Resources/display_7-segment_6.png" />
+
+      <image x="509" y="201" width="10" height="17" path="Resources/display_7-segment_d.png" />
+      <image x="509" y="201" width="10" height="17" path="Resources/display_7-segment_1.png" />
+      <image x="509" y="201" width="10" height="17" path="Resources/display_7-segment_2.png" />
+      <image x="509" y="201" width="10" height="17" path="Resources/display_7-segment_3.png" />
+
+
+      <image x="599" y="285" width="10" height="17" path="Resources/display_7-segment_d.png" />
+      <image x="599" y="285" width="10" height="17" path="Resources/display_7-segment_1.png" />
+      <image x="599" y="285" width="10" height="17" path="Resources/display_7-segment_2.png" />
+      <image x="599" y="285" width="10" height="17" path="Resources/display_7-segment_3.png" />
+      <image x="599" y="285" width="10" height="17" path="Resources/display_7-segment_4.png" />
+      <image x="599" y="285" width="10" height="17" path="Resources/display_7-segment_5.png" />
+      <image x="599" y="285" width="10" height="17" path="Resources/display_7-segment_6.png" />
+
+      
+
+
       <!-- Kick -->
       <control x="114" y="75" width="39" height="39" parameterName="Kick Pitch" type="float" minValue="-50" maxValue="50" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_ssl.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
         <binding type="amp" level="group" position="0" parameter="GROUP_TUNING" translation="linear" translationOutputMin="-6"  translationOutputMax="6" />
         <binding type="amp" level="group" position="1" parameter="GROUP_TUNING" translation="linear" translationOutputMin="-6"  translationOutputMax="6" />
+        <binding type="control" level="ui" controlIndex="1" parameter="OPACITY" translation="table" translationTable="-50,0;0,0;50,1" />
+        <binding type="control" level="ui" controlIndex="2" parameter="OPACITY" translation="table" translationTable="-50,1;0,0;50.1,0" />
+        <binding type="control" level="ui" controlIndex="4" parameter="OPACITY" translation="table" translationTable="-50,0;0,0;50,1" />
+        <binding type="control" level="ui" controlIndex="5" parameter="OPACITY" translation="table" translationTable="-50,1;0,0;50.1,0" />
+
       </control>
       <control x="108" y="153" width="50" height="50" parameterName="Kick Body" type="float" minValue="0" maxValue="10" textColor="FF000000" value="5.10" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_korg.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
         <binding type="amp" level="tag" identifier="kick-ms20" parameter="TAG_VOLUME" translation="linear" translationOutputMin="0"  translationOutputMax="1.5" />
@@ -31,6 +81,8 @@
       <!-- Snare -->
       <control x="204" y="75" width="39" height="39" parameterName="Snare Pitch" type="float" minValue="-50" maxValue="50" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_ssl.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
         <binding type="amp" level="group" position="2" parameter="GROUP_TUNING" translation="linear" translationOutputMin="-6"  translationOutputMax="6" />
+        <binding type="control" level="ui" controlIndex="7" parameter="OPACITY" translation="table" translationTable="-50,0;0,0;50,1" />
+        <binding type="control" level="ui" controlIndex="8" parameter="OPACITY" translation="table" translationTable="-50,1;0,0;50.1,0" />
       </control>
       <control x="274" y="69" width="52" height="52" parameterName="Snare Sustain Select" minValue="0" maxValue="6" valueType="integer" textColor="FF000000" value="1" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_roland_7-way.png" customSkinNumFrames="7" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
         <binding type="amp" level="tag" identifier="snare-sh09-velocity" parameter="TAG_ENABLED" translation="table" translationTable="0,1;1,0;2,0;3,0;4,0;5,0;6,0;7,0"/>
@@ -40,6 +92,15 @@
         <binding type="amp" level="tag" identifier="snare-sh09-04"       parameter="TAG_ENABLED" translation="table" translationTable="0,0;1,0;2,0;3,0;4,1;5,0;6,0;7,0"/>
         <binding type="amp" level="tag" identifier="snare-sh09-05"       parameter="TAG_ENABLED" translation="table" translationTable="0,0;1,0;2,0;3,0;4,0;5,1;6,0;7,0"/>
         <binding type="amp" level="tag" identifier="snare-sh09-06"       parameter="TAG_ENABLED" translation="table" translationTable="0,0;1,0;2,0;3,0;4,0;5,0;6,1;7,0"/>
+
+        <binding type="control" level="ui" controlIndex="9"  parameter="VISIBLE" translation="table" translationTable="0,1;1,0;2,0;3,0;4,0;5,0;6,0;" />
+        <binding type="control" level="ui" controlIndex="10" parameter="VISIBLE" translation="table" translationTable="0,0;1,1;2,0;3,0;4,0;5,0;6,0;" />
+        <binding type="control" level="ui" controlIndex="11" parameter="VISIBLE" translation="table" translationTable="0,0;1,0;2,1;3,0;4,0;5,0;6,0;" />
+        <binding type="control" level="ui" controlIndex="12" parameter="VISIBLE" translation="table" translationTable="0,0;1,0;2,0;3,1;4,0;5,0;6,0;" />
+        <binding type="control" level="ui" controlIndex="13" parameter="VISIBLE" translation="table" translationTable="0,0;1,0;2,0;3,0;4,1;5,0;6,0;" />
+        <binding type="control" level="ui" controlIndex="14" parameter="VISIBLE" translation="table" translationTable="0,0;1,0;2,0;3,0;4,0;5,1;6,0;" />
+        <binding type="control" level="ui" controlIndex="15" parameter="VISIBLE" translation="table" translationTable="0,0;1,0;2,0;3,0;4,0;5,0;6,1;" />
+
       </control>
       <control x="198" y="153" width="50" height="50" parameterName="Snare Body" type="float" minValue="0" maxValue="10" textColor="FF000000" value="10.00" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_korg.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
         <binding type="amp" level="tag" identifier="snare-ms20-top" parameter="TAG_VOLUME" translation="linear" translationOutputMin="0"  translationOutputMax="1.6" />
@@ -73,6 +134,15 @@
         <binding type="amp" level="tag" identifier="hihat-ms20-07"       parameter="TAG_ENABLED" translation="table" translationTable="0,0;1,0;2,0;3,0;4,1;5,0;6,0;7,0"/>
         <binding type="amp" level="tag" identifier="hihat-ms20-08"       parameter="TAG_ENABLED" translation="table" translationTable="0,0;1,0;2,0;3,0;4,0;5,1;6,0;7,0"/>
         <binding type="amp" level="tag" identifier="hihat-ms20-09"       parameter="TAG_ENABLED" translation="table" translationTable="0,0;1,0;2,0;3,0;4,0;5,0;6,1;7,0"/>
+
+        <binding type="control" level="ui" controlIndex="16" parameter="VISIBLE" translation="table" translationTable="0,1;1,0;2,0;3,0;4,0;5,0;6,0;" />
+        <binding type="control" level="ui" controlIndex="17" parameter="VISIBLE" translation="table" translationTable="0,0;1,1;2,0;3,0;4,0;5,0;6,0;" />
+        <binding type="control" level="ui" controlIndex="18" parameter="VISIBLE" translation="table" translationTable="0,0;1,0;2,1;3,0;4,0;5,0;6,0;" />
+        <binding type="control" level="ui" controlIndex="19" parameter="VISIBLE" translation="table" translationTable="0,0;1,0;2,0;3,1;4,0;5,0;6,0;" />
+        <binding type="control" level="ui" controlIndex="20" parameter="VISIBLE" translation="table" translationTable="0,0;1,0;2,0;3,0;4,1;5,0;6,0;" />
+        <binding type="control" level="ui" controlIndex="21" parameter="VISIBLE" translation="table" translationTable="0,0;1,0;2,0;3,0;4,0;5,1;6,0;" />
+        <binding type="control" level="ui" controlIndex="22" parameter="VISIBLE" translation="table" translationTable="0,0;1,0;2,0;3,0;4,0;5,0;6,1;" />
+
       </control>
 
       <control x="366" y="153" width="50" height="50" parameterName="HiHat Volume" type="float" minValue="0" maxValue="10" textColor="FF000000" value="4.35" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_korg.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
@@ -94,6 +164,11 @@
         <binding type="amp" level="tag" identifier="cymbal-proone-01"       parameter="TAG_ENABLED" translation="table" translationTable="0,0;1,1;2,0;3,0;4,0"/>
         <binding type="amp" level="tag" identifier="cymbal-proone-02"       parameter="TAG_ENABLED" translation="table" translationTable="0,0;1,0;2,1;3,0;4,0"/>
         <binding type="amp" level="tag" identifier="cymbal-proone-03"       parameter="TAG_ENABLED" translation="table" translationTable="0,0;1,0;2,0;3,1;4,0"/>
+
+        <binding type="control" level="ui" controlIndex="23" parameter="VISIBLE" translation="table" translationTable="0,1;1,0;2,0;3,0;" />
+        <binding type="control" level="ui" controlIndex="24" parameter="VISIBLE" translation="table" translationTable="0,0;1,1;2,0;3,0;" />
+        <binding type="control" level="ui" controlIndex="25" parameter="VISIBLE" translation="table" translationTable="0,0;1,0;2,1;3,0;" />
+        <binding type="control" level="ui" controlIndex="26" parameter="VISIBLE" translation="table" translationTable="0,0;1,0;2,0;3,1;" />
       </control>
 
       <control x="460" y="158" width="42" height="42" parameterName="Cymbal Volume" type="float" minValue="0" maxValue="10" textColor="FF000000" value="6.00" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_sequential-circuits.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
@@ -112,6 +187,14 @@
         <binding type="amp" level="tag" identifier="tom-sh09-04"       parameter="TAG_ENABLED" translation="table" translationTable="0,0;1,0;2,0;3,0;4,1;5,0;6,0;7,0"/>
         <binding type="amp" level="tag" identifier="tom-sh09-05"       parameter="TAG_ENABLED" translation="table" translationTable="0,0;1,0;2,0;3,0;4,0;5,1;6,0;7,0"/>
         <binding type="amp" level="tag" identifier="tom-sh09-06"       parameter="TAG_ENABLED" translation="table" translationTable="0,0;1,0;2,0;3,0;4,0;5,0;6,1;7,0"/>
+
+        <binding type="control" level="ui" controlIndex="27" parameter="VISIBLE" translation="table" translationTable="0,1;1,0;2,0;3,0;4,0;5,0;6,0;" />
+        <binding type="control" level="ui" controlIndex="28" parameter="VISIBLE" translation="table" translationTable="0,0;1,1;2,0;3,0;4,0;5,0;6,0;" />
+        <binding type="control" level="ui" controlIndex="29" parameter="VISIBLE" translation="table" translationTable="0,0;1,0;2,1;3,0;4,0;5,0;6,0;" />
+        <binding type="control" level="ui" controlIndex="30" parameter="VISIBLE" translation="table" translationTable="0,0;1,0;2,0;3,1;4,0;5,0;6,0;" />
+        <binding type="control" level="ui" controlIndex="31" parameter="VISIBLE" translation="table" translationTable="0,0;1,0;2,0;3,0;4,1;5,0;6,0;" />
+        <binding type="control" level="ui" controlIndex="32" parameter="VISIBLE" translation="table" translationTable="0,0;1,0;2,0;3,0;4,0;5,1;6,0;" />
+        <binding type="control" level="ui" controlIndex="33" parameter="VISIBLE" translation="table" translationTable="0,0;1,0;2,0;3,0;4,0;5,0;6,1;" />
       </control>
 
       <control x="547" y="153" width="50" height="50" parameterName="Tom Volume" type="float" minValue="0" maxValue="10" textColor="FF000000" value="6.60" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_korg.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
