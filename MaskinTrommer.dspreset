@@ -103,7 +103,7 @@
 
       </control>
       <control x="198" y="153" width="50" height="50" parameterName="Audio: Snare - Body" type="float" minValue="0" maxValue="10" textColor="FF000000" value="10.00" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_korg.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
-        <binding type="amp" level="tag" identifier="snare-ms20-top" parameter="TAG_VOLUME" translation="linear" translationOutputMin="0"  translationOutputMax="1.6" />
+        <binding type="amp" level="tag" identifier="snare-ms20-top" parameter="TAG_VOLUME" translation="linear" translationOutputMin="0"  translationOutputMax="1.7" />
       </control>
       <control x="274" y="153" width="52" height="52" parameterName="Audio: Snare - Head" type="float" minValue="0" maxValue="10" textColor="FF000000" value="5.00" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_roland.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
         <binding type="amp" level="tag" identifier="snare-sh09-velocity" parameter="TAG_VOLUME" translation="linear" translationOutputMin="0"  translationOutputMax="1.0" />
