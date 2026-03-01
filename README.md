@@ -1,4 +1,10 @@
-# Maskintrommer
+# Maskintrommer - Version: [1.0]
+
+Date: 2026-03-01
+
+Name: Benjamin Dehli
+
+Profile: [store.dehlimusikk.no][Gumroad profile]
 
 ## Included formats
 
