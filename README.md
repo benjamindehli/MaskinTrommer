@@ -12,7 +12,7 @@ Profile: [store.dehlimusikk.no][Gumroad profile]
 
 ## Description
 
-Maskintrommer is a drum sample library for Decent Sampler, featuring electronic drum sounds created from analog synthesizers. Each drum type contains multiple samples per sound to eliminate the typical "machine gun" effect associated with digital sample based drum machines.
+MaskinTrommer is a drum sample library for Decent Sampler, featuring electronic drum sounds created from analog synthesizers. Each drum type contains multiple samples per sound to eliminate the typical "machine gun" effect associated with digital sample based drum machines.
 
 The drum sounds were created using:
 
