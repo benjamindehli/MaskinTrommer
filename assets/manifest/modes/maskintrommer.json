@@ -11,6 +11,7 @@
   },
   "groups": [
     {
+      "uid": "grp_0",
       "tags": [
         "kick-darkenergy"
       ],
@@ -225,6 +226,7 @@
       ]
     },
     {
+      "uid": "grp_1",
       "tags": [
         "kick",
         "kick-ms20"
@@ -396,6 +398,7 @@
       ]
     },
     {
+      "uid": "grp_2",
       "tags": [
         "snare-ms20-top"
       ],
@@ -500,6 +503,7 @@
       ]
     },
     {
+      "uid": "grp_3",
       "tags": [
         "snare-ms20-bottom"
       ],
@@ -604,6 +608,7 @@
       ]
     },
     {
+      "uid": "grp_4",
       "tags": [
         "snare-darkenergy"
       ],
@@ -708,6 +713,7 @@
       ]
     },
     {
+      "uid": "grp_5",
       "tags": [
         "snare-sh09-velocity"
       ],
@@ -816,6 +822,7 @@
       ]
     },
     {
+      "uid": "grp_6",
       "tags": [
         "snare-sh09-velocity"
       ],
@@ -924,6 +931,7 @@
       ]
     },
     {
+      "uid": "grp_7",
       "tags": [
         "snare-sh09-velocity"
       ],
@@ -1032,6 +1040,7 @@
       ]
     },
     {
+      "uid": "grp_8",
       "tags": [
         "snare-sh09-velocity"
       ],
@@ -1140,6 +1149,7 @@
       ]
     },
     {
+      "uid": "grp_9",
       "tags": [
         "snare-sh09-velocity"
       ],
@@ -1248,6 +1258,7 @@
       ]
     },
     {
+      "uid": "grp_10",
       "tags": [
         "snare-sh09-velocity"
       ],
@@ -1356,6 +1367,7 @@
       ]
     },
     {
+      "uid": "grp_11",
       "tags": [
         "snare-sh09-01"
       ],
@@ -1460,6 +1472,7 @@
       ]
     },
     {
+      "uid": "grp_12",
       "tags": [
         "snare-sh09-02"
       ],
@@ -1564,6 +1577,7 @@
       ]
     },
     {
+      "uid": "grp_13",
       "tags": [
         "snare-sh09-03"
       ],
@@ -1668,6 +1682,7 @@
       ]
     },
     {
+      "uid": "grp_14",
       "tags": [
         "snare-sh09-04"
       ],
@@ -1772,6 +1787,7 @@
       ]
     },
     {
+      "uid": "grp_15",
       "tags": [
         "snare-sh09-05"
       ],
@@ -1876,6 +1892,7 @@
       ]
     },
     {
+      "uid": "grp_16",
       "tags": [
         "snare-sh09-06"
       ],
@@ -1980,6 +1997,7 @@
       ]
     },
     {
+      "uid": "grp_17",
       "tags": [
         "hihat-ms20-velocity",
         "hihat-closed"
@@ -2089,6 +2107,7 @@
       ]
     },
     {
+      "uid": "grp_18",
       "tags": [
         "hihat-ms20-velocity",
         "hihat-closed"
@@ -2198,6 +2217,7 @@
       ]
     },
     {
+      "uid": "grp_19",
       "tags": [
         "hihat-ms20-velocity",
         "hihat-closed"
@@ -2307,6 +2327,7 @@
       ]
     },
     {
+      "uid": "grp_20",
       "tags": [
         "hihat-ms20-velocity"
       ],
@@ -2418,6 +2439,7 @@
       ]
     },
     {
+      "uid": "grp_21",
       "tags": [
         "hihat-ms20-velocity"
       ],
@@ -2529,6 +2551,7 @@
       ]
     },
     {
+      "uid": "grp_22",
       "tags": [
         "hihat-ms20-velocity"
       ],
@@ -2640,6 +2663,7 @@
       ]
     },
     {
+      "uid": "grp_23",
       "tags": [
         "hihat-ms20-velocity"
       ],
@@ -2751,6 +2775,7 @@
       ]
     },
     {
+      "uid": "grp_24",
       "tags": [
         "hihat-ms20-velocity"
       ],
@@ -2862,6 +2887,7 @@
       ]
     },
     {
+      "uid": "grp_25",
       "tags": [
         "hihat-ms20-velocity"
       ],
@@ -2973,6 +2999,7 @@
       ]
     },
     {
+      "uid": "grp_26",
       "tags": [
         "hihat-ms20-01",
         "hihat-closed"
@@ -3078,6 +3105,7 @@
       ]
     },
     {
+      "uid": "grp_27",
       "tags": [
         "hihat-ms20-02",
         "hihat-closed"
@@ -3183,6 +3211,7 @@
       ]
     },
     {
+      "uid": "grp_28",
       "tags": [
         "hihat-ms20-03",
         "hihat-closed"
@@ -3288,6 +3317,7 @@
       ]
     },
     {
+      "uid": "grp_29",
       "tags": [
         "hihat-ms20-04"
       ],
@@ -3395,6 +3425,7 @@
       ]
     },
     {
+      "uid": "grp_30",
       "tags": [
         "hihat-ms20-05"
       ],
@@ -3502,6 +3533,7 @@
       ]
     },
     {
+      "uid": "grp_31",
       "tags": [
         "hihat-ms20-06"
       ],
@@ -3609,6 +3641,7 @@
       ]
     },
     {
+      "uid": "grp_32",
       "tags": [
         "hihat-ms20-07"
       ],
@@ -3716,6 +3749,7 @@
       ]
     },
     {
+      "uid": "grp_33",
       "tags": [
         "hihat-ms20-08"
       ],
@@ -3823,6 +3857,7 @@
       ]
     },
     {
+      "uid": "grp_34",
       "tags": [
         "hihat-ms20-09"
       ],
@@ -3930,6 +3965,7 @@
       ]
     },
     {
+      "uid": "grp_35",
       "tags": [
         "cymbal-proone-velocity"
       ],
@@ -4038,6 +4074,7 @@
       ]
     },
     {
+      "uid": "grp_36",
       "tags": [
         "cymbal-proone-velocity"
       ],
@@ -4146,6 +4183,7 @@
       ]
     },
     {
+      "uid": "grp_37",
       "tags": [
         "cymbal-proone-velocity"
       ],
@@ -4254,6 +4292,7 @@
       ]
     },
     {
+      "uid": "grp_38",
       "tags": [
         "cymbal-proone-01"
       ],
@@ -4358,6 +4397,7 @@
       ]
     },
     {
+      "uid": "grp_39",
       "tags": [
         "cymbal-proone-02"
       ],
@@ -4462,6 +4502,7 @@
       ]
     },
     {
+      "uid": "grp_40",
       "tags": [
         "cymbal-proone-03"
       ],
@@ -4566,6 +4607,7 @@
       ]
     },
     {
+      "uid": "grp_41",
       "tags": [
         "tom-ms20"
       ],
@@ -5550,6 +5592,7 @@
       ]
     },
     {
+      "uid": "grp_42",
       "tags": [
         "tom-sh09-velocity"
       ],
@@ -5658,6 +5701,7 @@
       ]
     },
     {
+      "uid": "grp_43",
       "tags": [
         "tom-sh09-velocity"
       ],
@@ -5766,6 +5810,7 @@
       ]
     },
     {
+      "uid": "grp_44",
       "tags": [
         "tom-sh09-velocity"
       ],
@@ -5874,6 +5919,7 @@
       ]
     },
     {
+      "uid": "grp_45",
       "tags": [
         "tom-sh09-velocity"
       ],
@@ -5982,6 +6028,7 @@
       ]
     },
     {
+      "uid": "grp_46",
       "tags": [
         "tom-sh09-velocity"
       ],
@@ -6090,6 +6137,7 @@
       ]
     },
     {
+      "uid": "grp_47",
       "tags": [
         "tom-sh09-velocity"
       ],
@@ -6198,6 +6246,7 @@
       ]
     },
     {
+      "uid": "grp_48",
       "tags": [
         "tom-sh09-01"
       ],
@@ -6302,6 +6351,7 @@
       ]
     },
     {
+      "uid": "grp_49",
       "tags": [
         "tom-sh09-02"
       ],
@@ -6406,6 +6456,7 @@
       ]
     },
     {
+      "uid": "grp_50",
       "tags": [
         "tom-sh09-03"
       ],
@@ -6510,6 +6561,7 @@
       ]
     },
     {
+      "uid": "grp_51",
       "tags": [
         "tom-sh09-04"
       ],
@@ -6614,6 +6666,7 @@
       ]
     },
     {
+      "uid": "grp_52",
       "tags": [
         "tom-sh09-05"
       ],
@@ -6718,6 +6771,7 @@
       ]
     },
     {
+      "uid": "grp_53",
       "tags": [
         "tom-sh09-06"
       ],
@@ -6824,11 +6878,13 @@
   ],
   "effects": [
     {
+      "id": "fx_gain",
       "type": "gain",
       "enabled": true,
       "gain": 1.0
     },
     {
+      "id": "fx_wave_shaper",
       "type": "wave_shaper",
       "enabled": true,
       "drive": 1.0,
@@ -6847,6 +6903,7 @@
         "name": "main",
         "controls": [
           {
+            "id": "ctl_0",
             "rect": {
               "x": 114,
               "y": 125,
@@ -6866,10 +6923,12 @@
               "orientation": "vertical"
             },
             "mouseDragSensitivity": 100.0,
+            "controlIndex": 34,
             "bindings": [
               {
                 "type": "amp",
                 "level": "group",
+                "targetId": "grp_0",
                 "parameter": "GROUP_TUNING",
                 "translation": "linear",
                 "translationOutputMin": -6.0,
@@ -6880,6 +6939,7 @@
               {
                 "type": "amp",
                 "level": "group",
+                "targetId": "grp_1",
                 "parameter": "GROUP_TUNING",
                 "translation": "linear",
                 "translationOutputMin": -6.0,
@@ -6890,6 +6950,7 @@
               {
                 "type": "control",
                 "level": "ui",
+                "targetId": "img_1",
                 "translationTable": "-50,0;0,0;50,1;",
                 "parameter": "OPACITY",
                 "translation": "table",
@@ -6898,6 +6959,7 @@
               {
                 "type": "control",
                 "level": "ui",
+                "targetId": "img_2",
                 "translationTable": "-50,1;0,0;50.1,0;",
                 "parameter": "OPACITY",
                 "translation": "table",
@@ -6906,6 +6968,7 @@
               {
                 "type": "control",
                 "level": "ui",
+                "targetId": "img_4",
                 "translationTable": "-50,0;0,0;50,1;",
                 "parameter": "OPACITY",
                 "translation": "table",
@@ -6914,6 +6977,7 @@
               {
                 "type": "control",
                 "level": "ui",
+                "targetId": "img_5",
                 "translationTable": "-50,1;0,0;50.1,0;",
                 "parameter": "OPACITY",
                 "translation": "table",
@@ -6922,6 +6986,7 @@
             ]
           },
           {
+            "id": "ctl_1",
             "rect": {
               "x": 108,
               "y": 203,
@@ -6941,6 +7006,7 @@
               "orientation": "vertical"
             },
             "mouseDragSensitivity": 100.0,
+            "controlIndex": 35,
             "bindings": [
               {
                 "type": "amp",
@@ -6954,6 +7020,7 @@
             ]
           },
           {
+            "id": "ctl_2",
             "rect": {
               "x": 111,
               "y": 291,
@@ -6973,6 +7040,7 @@
               "orientation": "vertical"
             },
             "mouseDragSensitivity": 100.0,
+            "controlIndex": 36,
             "bindings": [
               {
                 "type": "amp",
@@ -6986,6 +7054,7 @@
             ]
           },
           {
+            "id": "ctl_3",
             "rect": {
               "x": 204,
               "y": 125,
@@ -7005,10 +7074,12 @@
               "orientation": "vertical"
             },
             "mouseDragSensitivity": 100.0,
+            "controlIndex": 37,
             "bindings": [
               {
                 "type": "amp",
                 "level": "group",
+                "targetId": "grp_2",
                 "parameter": "GROUP_TUNING",
                 "translation": "linear",
                 "translationOutputMin": -6.0,
@@ -7019,6 +7090,7 @@
               {
                 "type": "control",
                 "level": "ui",
+                "targetId": "img_7",
                 "translationTable": "-50,0;0,0;50,1;",
                 "parameter": "OPACITY",
                 "translation": "table",
@@ -7027,6 +7099,7 @@
               {
                 "type": "control",
                 "level": "ui",
+                "targetId": "img_8",
                 "translationTable": "-50,1;0,0;50.1,0;",
                 "parameter": "OPACITY",
                 "translation": "table",
@@ -7035,6 +7108,7 @@
             ]
           },
           {
+            "id": "ctl_4",
             "rect": {
               "x": 274,
               "y": 119,
@@ -7053,6 +7127,7 @@
               "orientation": "vertical"
             },
             "mouseDragSensitivity": 100.0,
+            "controlIndex": 38,
             "bindings": [
               {
                 "type": "amp",
@@ -7113,6 +7188,7 @@
               {
                 "type": "control",
                 "level": "ui",
+                "targetId": "img_9",
                 "translationTable": "0,1;1,0;2,0;3,0;4,0;5,0;6,0;",
                 "parameter": "VISIBLE",
                 "translation": "table",
@@ -7121,6 +7197,7 @@
               {
                 "type": "control",
                 "level": "ui",
+                "targetId": "img_10",
                 "translationTable": "0,0;1,1;2,0;3,0;4,0;5,0;6,0;",
                 "parameter": "VISIBLE",
                 "translation": "table",
@@ -7129,6 +7206,7 @@
               {
                 "type": "control",
                 "level": "ui",
+                "targetId": "img_11",
                 "translationTable": "0,0;1,0;2,1;3,0;4,0;5,0;6,0;",
                 "parameter": "VISIBLE",
                 "translation": "table",
@@ -7137,6 +7215,7 @@
               {
                 "type": "control",
                 "level": "ui",
+                "targetId": "img_12",
                 "translationTable": "0,0;1,0;2,0;3,1;4,0;5,0;6,0;",
                 "parameter": "VISIBLE",
                 "translation": "table",
@@ -7145,6 +7224,7 @@
               {
                 "type": "control",
                 "level": "ui",
+                "targetId": "img_13",
                 "translationTable": "0,0;1,0;2,0;3,0;4,1;5,0;6,0;",
                 "parameter": "VISIBLE",
                 "translation": "table",
@@ -7153,6 +7233,7 @@
               {
                 "type": "control",
                 "level": "ui",
+                "targetId": "img_14",
                 "translationTable": "0,0;1,0;2,0;3,0;4,0;5,1;6,0;",
                 "parameter": "VISIBLE",
                 "translation": "table",
@@ -7161,6 +7242,7 @@
               {
                 "type": "control",
                 "level": "ui",
+                "targetId": "img_15",
                 "translationTable": "0,0;1,0;2,0;3,0;4,0;5,0;6,1;",
                 "parameter": "VISIBLE",
                 "translation": "table",
@@ -7169,6 +7251,7 @@
             ]
           },
           {
+            "id": "ctl_5",
             "rect": {
               "x": 198,
               "y": 203,
@@ -7188,6 +7271,7 @@
               "orientation": "vertical"
             },
             "mouseDragSensitivity": 100.0,
+            "controlIndex": 39,
             "bindings": [
               {
                 "type": "amp",
@@ -7201,6 +7285,7 @@
             ]
           },
           {
+            "id": "ctl_6",
             "rect": {
               "x": 274,
               "y": 203,
@@ -7220,6 +7305,7 @@
               "orientation": "vertical"
             },
             "mouseDragSensitivity": 100.0,
+            "controlIndex": 40,
             "bindings": [
               {
                 "type": "amp",
@@ -7287,6 +7373,7 @@
             ]
           },
           {
+            "id": "ctl_7",
             "rect": {
               "x": 202,
               "y": 291,
@@ -7306,6 +7393,7 @@
               "orientation": "vertical"
             },
             "mouseDragSensitivity": 100.0,
+            "controlIndex": 41,
             "bindings": [
               {
                 "type": "amp",
@@ -7319,6 +7407,7 @@
             ]
           },
           {
+            "id": "ctl_8",
             "rect": {
               "x": 275,
               "y": 287,
@@ -7338,6 +7427,7 @@
               "orientation": "vertical"
             },
             "mouseDragSensitivity": 100.0,
+            "controlIndex": 42,
             "bindings": [
               {
                 "type": "amp",
@@ -7351,6 +7441,7 @@
             ]
           },
           {
+            "id": "ctl_9",
             "rect": {
               "x": 366,
               "y": 119,
@@ -7369,6 +7460,7 @@
               "orientation": "vertical"
             },
             "mouseDragSensitivity": 100.0,
+            "controlIndex": 43,
             "bindings": [
               {
                 "type": "amp",
@@ -7453,6 +7545,7 @@
               {
                 "type": "control",
                 "level": "ui",
+                "targetId": "img_16",
                 "translationTable": "0,1;1,0;2,0;3,0;4,0;5,0;6,0;",
                 "parameter": "VISIBLE",
                 "translation": "table",
@@ -7461,6 +7554,7 @@
               {
                 "type": "control",
                 "level": "ui",
+                "targetId": "img_17",
                 "translationTable": "0,0;1,1;2,0;3,0;4,0;5,0;6,0;",
                 "parameter": "VISIBLE",
                 "translation": "table",
@@ -7469,6 +7563,7 @@
               {
                 "type": "control",
                 "level": "ui",
+                "targetId": "img_18",
                 "translationTable": "0,0;1,0;2,1;3,0;4,0;5,0;6,0;",
                 "parameter": "VISIBLE",
                 "translation": "table",
@@ -7477,6 +7572,7 @@
               {
                 "type": "control",
                 "level": "ui",
+                "targetId": "img_19",
                 "translationTable": "0,0;1,0;2,0;3,1;4,0;5,0;6,0;",
                 "parameter": "VISIBLE",
                 "translation": "table",
@@ -7485,6 +7581,7 @@
               {
                 "type": "control",
                 "level": "ui",
+                "targetId": "img_20",
                 "translationTable": "0,0;1,0;2,0;3,0;4,1;5,0;6,0;",
                 "parameter": "VISIBLE",
                 "translation": "table",
@@ -7493,6 +7590,7 @@
               {
                 "type": "control",
                 "level": "ui",
+                "targetId": "img_21",
                 "translationTable": "0,0;1,0;2,0;3,0;4,0;5,1;6,0;",
                 "parameter": "VISIBLE",
                 "translation": "table",
@@ -7501,6 +7599,7 @@
               {
                 "type": "control",
                 "level": "ui",
+                "targetId": "img_22",
                 "translationTable": "0,0;1,0;2,0;3,0;4,0;5,0;6,1;",
                 "parameter": "VISIBLE",
                 "translation": "table",
@@ -7509,6 +7608,7 @@
             ]
           },
           {
+            "id": "ctl_10",
             "rect": {
               "x": 366,
               "y": 203,
@@ -7528,6 +7628,7 @@
               "orientation": "vertical"
             },
             "mouseDragSensitivity": 100.0,
+            "controlIndex": 44,
             "bindings": [
               {
                 "type": "amp",
@@ -7622,6 +7723,7 @@
             ]
           },
           {
+            "id": "ctl_11",
             "rect": {
               "x": 460,
               "y": 124,
@@ -7640,6 +7742,7 @@
               "orientation": "vertical"
             },
             "mouseDragSensitivity": 100.0,
+            "controlIndex": 45,
             "bindings": [
               {
                 "type": "amp",
@@ -7676,6 +7779,7 @@
               {
                 "type": "control",
                 "level": "ui",
+                "targetId": "img_23",
                 "translationTable": "0,1;1,0;2,0;3,0;",
                 "parameter": "VISIBLE",
                 "translation": "table",
@@ -7684,6 +7788,7 @@
               {
                 "type": "control",
                 "level": "ui",
+                "targetId": "img_24",
                 "translationTable": "0,0;1,1;2,0;3,0;",
                 "parameter": "VISIBLE",
                 "translation": "table",
@@ -7692,6 +7797,7 @@
               {
                 "type": "control",
                 "level": "ui",
+                "targetId": "img_25",
                 "translationTable": "0,0;1,0;2,1;3,0;",
                 "parameter": "VISIBLE",
                 "translation": "table",
@@ -7700,6 +7806,7 @@
               {
                 "type": "control",
                 "level": "ui",
+                "targetId": "img_26",
                 "translationTable": "0,0;1,0;2,0;3,1;",
                 "parameter": "VISIBLE",
                 "translation": "table",
@@ -7708,6 +7815,7 @@
             ]
           },
           {
+            "id": "ctl_12",
             "rect": {
               "x": 460,
               "y": 208,
@@ -7727,6 +7835,7 @@
               "orientation": "vertical"
             },
             "mouseDragSensitivity": 100.0,
+            "controlIndex": 46,
             "bindings": [
               {
                 "type": "amp",
@@ -7767,6 +7876,7 @@
             ]
           },
           {
+            "id": "ctl_13",
             "rect": {
               "x": 545,
               "y": 119,
@@ -7785,6 +7895,7 @@
               "orientation": "vertical"
             },
             "mouseDragSensitivity": 100.0,
+            "controlIndex": 47,
             "bindings": [
               {
                 "type": "amp",
@@ -7845,6 +7956,7 @@
               {
                 "type": "control",
                 "level": "ui",
+                "targetId": "img_27",
                 "translationTable": "0,1;1,0;2,0;3,0;4,0;5,0;6,0;",
                 "parameter": "VISIBLE",
                 "translation": "table",
@@ -7853,6 +7965,7 @@
               {
                 "type": "control",
                 "level": "ui",
+                "targetId": "img_28",
                 "translationTable": "0,0;1,1;2,0;3,0;4,0;5,0;6,0;",
                 "parameter": "VISIBLE",
                 "translation": "table",
@@ -7861,6 +7974,7 @@
               {
                 "type": "control",
                 "level": "ui",
+                "targetId": "img_29",
                 "translationTable": "0,0;1,0;2,1;3,0;4,0;5,0;6,0;",
                 "parameter": "VISIBLE",
                 "translation": "table",
@@ -7869,6 +7983,7 @@
               {
                 "type": "control",
                 "level": "ui",
+                "targetId": "img_30",
                 "translationTable": "0,0;1,0;2,0;3,1;4,0;5,0;6,0;",
                 "parameter": "VISIBLE",
                 "translation": "table",
@@ -7877,6 +7992,7 @@
               {
                 "type": "control",
                 "level": "ui",
+                "targetId": "img_31",
                 "translationTable": "0,0;1,0;2,0;3,0;4,1;5,0;6,0;",
                 "parameter": "VISIBLE",
                 "translation": "table",
@@ -7885,6 +8001,7 @@
               {
                 "type": "control",
                 "level": "ui",
+                "targetId": "img_32",
                 "translationTable": "0,0;1,0;2,0;3,0;4,0;5,1;6,0;",
                 "parameter": "VISIBLE",
                 "translation": "table",
@@ -7893,6 +8010,7 @@
               {
                 "type": "control",
                 "level": "ui",
+                "targetId": "img_33",
                 "translationTable": "0,0;1,0;2,0;3,0;4,0;5,0;6,1;",
                 "parameter": "VISIBLE",
                 "translation": "table",
@@ -7901,6 +8019,7 @@
             ]
           },
           {
+            "id": "ctl_14",
             "rect": {
               "x": 547,
               "y": 203,
@@ -7920,6 +8039,7 @@
               "orientation": "vertical"
             },
             "mouseDragSensitivity": 100.0,
+            "controlIndex": 48,
             "bindings": [
               {
                 "type": "amp",
@@ -7933,6 +8053,7 @@
             ]
           },
           {
+            "id": "ctl_15",
             "rect": {
               "x": 545,
               "y": 287,
@@ -7952,6 +8073,7 @@
               "orientation": "vertical"
             },
             "mouseDragSensitivity": 100.0,
+            "controlIndex": 49,
             "bindings": [
               {
                 "type": "amp",
@@ -8019,6 +8141,7 @@
             ]
           },
           {
+            "id": "ctl_16",
             "rect": {
               "x": 660,
               "y": 125,
@@ -8038,6 +8161,7 @@
               "orientation": "vertical"
             },
             "mouseDragSensitivity": 100.0,
+            "controlIndex": 50,
             "bindings": [
               {
                 "type": "amp",
@@ -8050,6 +8174,7 @@
             ]
           },
           {
+            "id": "ctl_17",
             "rect": {
               "x": 660,
               "y": 208,
@@ -8069,10 +8194,12 @@
               "orientation": "vertical"
             },
             "mouseDragSensitivity": 100.0,
+            "controlIndex": 51,
             "bindings": [
               {
                 "type": "amp",
                 "level": "group",
+                "targetId": "grp_0",
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 1.0,
@@ -8083,6 +8210,7 @@
               {
                 "type": "amp",
                 "level": "group",
+                "targetId": "grp_1",
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 1.0,
@@ -8093,6 +8221,7 @@
               {
                 "type": "amp",
                 "level": "group",
+                "targetId": "grp_2",
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 1.0,
@@ -8103,6 +8232,7 @@
               {
                 "type": "amp",
                 "level": "group",
+                "targetId": "grp_3",
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 1.0,
@@ -8113,6 +8243,7 @@
               {
                 "type": "amp",
                 "level": "group",
+                "targetId": "grp_4",
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 1.0,
@@ -8123,6 +8254,7 @@
               {
                 "type": "amp",
                 "level": "group",
+                "targetId": "grp_5",
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 1.0,
@@ -8133,6 +8265,7 @@
               {
                 "type": "amp",
                 "level": "group",
+                "targetId": "grp_6",
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 1.0,
@@ -8143,6 +8276,7 @@
               {
                 "type": "amp",
                 "level": "group",
+                "targetId": "grp_7",
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 1.0,
@@ -8153,6 +8287,7 @@
               {
                 "type": "amp",
                 "level": "group",
+                "targetId": "grp_8",
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 1.0,
@@ -8163,6 +8298,7 @@
               {
                 "type": "amp",
                 "level": "group",
+                "targetId": "grp_9",
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 1.0,
@@ -8173,6 +8309,7 @@
               {
                 "type": "amp",
                 "level": "group",
+                "targetId": "grp_10",
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 1.0,
@@ -8183,6 +8320,7 @@
               {
                 "type": "amp",
                 "level": "group",
+                "targetId": "grp_11",
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 1.0,
@@ -8193,6 +8331,7 @@
               {
                 "type": "amp",
                 "level": "group",
+                "targetId": "grp_12",
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 1.0,
@@ -8203,6 +8342,7 @@
               {
                 "type": "amp",
                 "level": "group",
+                "targetId": "grp_13",
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 1.0,
@@ -8213,6 +8353,7 @@
               {
                 "type": "amp",
                 "level": "group",
+                "targetId": "grp_14",
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 1.0,
@@ -8223,6 +8364,7 @@
               {
                 "type": "amp",
                 "level": "group",
+                "targetId": "grp_15",
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 1.0,
@@ -8233,6 +8375,7 @@
               {
                 "type": "amp",
                 "level": "group",
+                "targetId": "grp_16",
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 1.0,
@@ -8243,6 +8386,7 @@
               {
                 "type": "amp",
                 "level": "group",
+                "targetId": "grp_17",
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 1.0,
@@ -8253,6 +8397,7 @@
               {
                 "type": "amp",
                 "level": "group",
+                "targetId": "grp_18",
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 1.0,
@@ -8263,6 +8408,7 @@
               {
                 "type": "amp",
                 "level": "group",
+                "targetId": "grp_19",
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 1.0,
@@ -8273,6 +8419,7 @@
               {
                 "type": "amp",
                 "level": "group",
+                "targetId": "grp_20",
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 1.0,
@@ -8283,6 +8430,7 @@
               {
                 "type": "amp",
                 "level": "group",
+                "targetId": "grp_21",
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 1.0,
@@ -8293,6 +8441,7 @@
               {
                 "type": "amp",
                 "level": "group",
+                "targetId": "grp_22",
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 1.0,
@@ -8303,6 +8452,7 @@
               {
                 "type": "amp",
                 "level": "group",
+                "targetId": "grp_23",
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 1.0,
@@ -8313,6 +8463,7 @@
               {
                 "type": "amp",
                 "level": "group",
+                "targetId": "grp_24",
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 1.0,
@@ -8323,6 +8474,7 @@
               {
                 "type": "amp",
                 "level": "group",
+                "targetId": "grp_25",
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 1.0,
@@ -8333,6 +8485,7 @@
               {
                 "type": "amp",
                 "level": "group",
+                "targetId": "grp_26",
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 1.0,
@@ -8343,6 +8496,7 @@
               {
                 "type": "amp",
                 "level": "group",
+                "targetId": "grp_27",
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 1.0,
@@ -8353,6 +8507,7 @@
               {
                 "type": "amp",
                 "level": "group",
+                "targetId": "grp_28",
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 1.0,
@@ -8363,6 +8518,7 @@
               {
                 "type": "amp",
                 "level": "group",
+                "targetId": "grp_29",
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 1.0,
@@ -8373,6 +8529,7 @@
               {
                 "type": "amp",
                 "level": "group",
+                "targetId": "grp_30",
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 1.0,
@@ -8383,6 +8540,7 @@
               {
                 "type": "amp",
                 "level": "group",
+                "targetId": "grp_31",
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 1.0,
@@ -8393,6 +8551,7 @@
               {
                 "type": "amp",
                 "level": "group",
+                "targetId": "grp_32",
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 1.0,
@@ -8403,6 +8562,7 @@
               {
                 "type": "amp",
                 "level": "group",
+                "targetId": "grp_33",
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 1.0,
@@ -8413,6 +8573,7 @@
               {
                 "type": "amp",
                 "level": "group",
+                "targetId": "grp_34",
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 1.0,
@@ -8423,6 +8584,7 @@
               {
                 "type": "amp",
                 "level": "group",
+                "targetId": "grp_35",
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 1.0,
@@ -8433,6 +8595,7 @@
               {
                 "type": "amp",
                 "level": "group",
+                "targetId": "grp_36",
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 1.0,
@@ -8443,6 +8606,7 @@
               {
                 "type": "amp",
                 "level": "group",
+                "targetId": "grp_37",
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 1.0,
@@ -8453,6 +8617,7 @@
               {
                 "type": "amp",
                 "level": "group",
+                "targetId": "grp_38",
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 1.0,
@@ -8463,6 +8628,7 @@
               {
                 "type": "amp",
                 "level": "group",
+                "targetId": "grp_39",
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 1.0,
@@ -8473,6 +8639,7 @@
               {
                 "type": "amp",
                 "level": "group",
+                "targetId": "grp_40",
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 1.0,
@@ -8483,6 +8650,7 @@
               {
                 "type": "amp",
                 "level": "group",
+                "targetId": "grp_41",
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 1.0,
@@ -8493,6 +8661,7 @@
               {
                 "type": "amp",
                 "level": "group",
+                "targetId": "grp_42",
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 1.0,
@@ -8503,6 +8672,7 @@
               {
                 "type": "amp",
                 "level": "group",
+                "targetId": "grp_43",
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 1.0,
@@ -8513,6 +8683,7 @@
               {
                 "type": "amp",
                 "level": "group",
+                "targetId": "grp_44",
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 1.0,
@@ -8523,6 +8694,7 @@
               {
                 "type": "amp",
                 "level": "group",
+                "targetId": "grp_45",
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 1.0,
@@ -8533,6 +8705,7 @@
               {
                 "type": "amp",
                 "level": "group",
+                "targetId": "grp_46",
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 1.0,
@@ -8543,6 +8716,7 @@
               {
                 "type": "amp",
                 "level": "group",
+                "targetId": "grp_47",
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 1.0,
@@ -8553,6 +8727,7 @@
               {
                 "type": "amp",
                 "level": "group",
+                "targetId": "grp_48",
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 1.0,
@@ -8563,6 +8738,7 @@
               {
                 "type": "amp",
                 "level": "group",
+                "targetId": "grp_49",
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 1.0,
@@ -8573,6 +8749,7 @@
               {
                 "type": "amp",
                 "level": "group",
+                "targetId": "grp_50",
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 1.0,
@@ -8583,6 +8760,7 @@
               {
                 "type": "amp",
                 "level": "group",
+                "targetId": "grp_51",
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 1.0,
@@ -8593,6 +8771,7 @@
               {
                 "type": "amp",
                 "level": "group",
+                "targetId": "grp_52",
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 1.0,
@@ -8603,6 +8782,7 @@
               {
                 "type": "amp",
                 "level": "group",
+                "targetId": "grp_53",
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 1.0,
@@ -8613,6 +8793,7 @@
               {
                 "type": "amp",
                 "level": "group",
+                "targetId": "grp_0",
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 10.0,
@@ -8623,6 +8804,7 @@
               {
                 "type": "amp",
                 "level": "group",
+                "targetId": "grp_1",
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 10.0,
@@ -8633,6 +8815,7 @@
               {
                 "type": "amp",
                 "level": "group",
+                "targetId": "grp_2",
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 10.0,
@@ -8643,6 +8826,7 @@
               {
                 "type": "amp",
                 "level": "group",
+                "targetId": "grp_3",
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 10.0,
@@ -8653,6 +8837,7 @@
               {
                 "type": "amp",
                 "level": "group",
+                "targetId": "grp_4",
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 10.0,
@@ -8663,6 +8848,7 @@
               {
                 "type": "amp",
                 "level": "group",
+                "targetId": "grp_5",
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 10.0,
@@ -8673,6 +8859,7 @@
               {
                 "type": "amp",
                 "level": "group",
+                "targetId": "grp_6",
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 10.0,
@@ -8683,6 +8870,7 @@
               {
                 "type": "amp",
                 "level": "group",
+                "targetId": "grp_7",
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 10.0,
@@ -8693,6 +8881,7 @@
               {
                 "type": "amp",
                 "level": "group",
+                "targetId": "grp_8",
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 10.0,
@@ -8703,6 +8892,7 @@
               {
                 "type": "amp",
                 "level": "group",
+                "targetId": "grp_9",
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 10.0,
@@ -8713,6 +8903,7 @@
               {
                 "type": "amp",
                 "level": "group",
+                "targetId": "grp_10",
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 10.0,
@@ -8723,6 +8914,7 @@
               {
                 "type": "amp",
                 "level": "group",
+                "targetId": "grp_11",
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 10.0,
@@ -8733,6 +8925,7 @@
               {
                 "type": "amp",
                 "level": "group",
+                "targetId": "grp_12",
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 10.0,
@@ -8743,6 +8936,7 @@
               {
                 "type": "amp",
                 "level": "group",
+                "targetId": "grp_13",
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 10.0,
@@ -8753,6 +8947,7 @@
               {
                 "type": "amp",
                 "level": "group",
+                "targetId": "grp_14",
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 10.0,
@@ -8763,6 +8958,7 @@
               {
                 "type": "amp",
                 "level": "group",
+                "targetId": "grp_15",
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 10.0,
@@ -8773,6 +8969,7 @@
               {
                 "type": "amp",
                 "level": "group",
+                "targetId": "grp_16",
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 10.0,
@@ -8783,6 +8980,7 @@
               {
                 "type": "amp",
                 "level": "group",
+                "targetId": "grp_17",
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 10.0,
@@ -8793,6 +8991,7 @@
               {
                 "type": "amp",
                 "level": "group",
+                "targetId": "grp_18",
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 10.0,
@@ -8803,6 +9002,7 @@
               {
                 "type": "amp",
                 "level": "group",
+                "targetId": "grp_19",
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 10.0,
@@ -8813,6 +9013,7 @@
               {
                 "type": "amp",
                 "level": "group",
+                "targetId": "grp_20",
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 10.0,
@@ -8823,6 +9024,7 @@
               {
                 "type": "amp",
                 "level": "group",
+                "targetId": "grp_21",
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 10.0,
@@ -8833,6 +9035,7 @@
               {
                 "type": "amp",
                 "level": "group",
+                "targetId": "grp_22",
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 10.0,
@@ -8843,6 +9046,7 @@
               {
                 "type": "amp",
                 "level": "group",
+                "targetId": "grp_23",
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 10.0,
@@ -8853,6 +9057,7 @@
               {
                 "type": "amp",
                 "level": "group",
+                "targetId": "grp_24",
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 10.0,
@@ -8863,6 +9068,7 @@
               {
                 "type": "amp",
                 "level": "group",
+                "targetId": "grp_25",
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 10.0,
@@ -8873,6 +9079,7 @@
               {
                 "type": "amp",
                 "level": "group",
+                "targetId": "grp_26",
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 10.0,
@@ -8883,6 +9090,7 @@
               {
                 "type": "amp",
                 "level": "group",
+                "targetId": "grp_27",
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 10.0,
@@ -8893,6 +9101,7 @@
               {
                 "type": "amp",
                 "level": "group",
+                "targetId": "grp_28",
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 10.0,
@@ -8903,6 +9112,7 @@
               {
                 "type": "amp",
                 "level": "group",
+                "targetId": "grp_29",
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 10.0,
@@ -8913,6 +9123,7 @@
               {
                 "type": "amp",
                 "level": "group",
+                "targetId": "grp_30",
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 10.0,
@@ -8923,6 +9134,7 @@
               {
                 "type": "amp",
                 "level": "group",
+                "targetId": "grp_31",
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 10.0,
@@ -8933,6 +9145,7 @@
               {
                 "type": "amp",
                 "level": "group",
+                "targetId": "grp_32",
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 10.0,
@@ -8943,6 +9156,7 @@
               {
                 "type": "amp",
                 "level": "group",
+                "targetId": "grp_33",
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 10.0,
@@ -8953,6 +9167,7 @@
               {
                 "type": "amp",
                 "level": "group",
+                "targetId": "grp_34",
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 10.0,
@@ -8963,6 +9178,7 @@
               {
                 "type": "amp",
                 "level": "group",
+                "targetId": "grp_35",
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 10.0,
@@ -8973,6 +9189,7 @@
               {
                 "type": "amp",
                 "level": "group",
+                "targetId": "grp_36",
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 10.0,
@@ -8983,6 +9200,7 @@
               {
                 "type": "amp",
                 "level": "group",
+                "targetId": "grp_37",
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 10.0,
@@ -8993,6 +9211,7 @@
               {
                 "type": "amp",
                 "level": "group",
+                "targetId": "grp_38",
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 10.0,
@@ -9003,6 +9222,7 @@
               {
                 "type": "amp",
                 "level": "group",
+                "targetId": "grp_39",
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 10.0,
@@ -9013,6 +9233,7 @@
               {
                 "type": "amp",
                 "level": "group",
+                "targetId": "grp_40",
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 10.0,
@@ -9023,6 +9244,7 @@
               {
                 "type": "amp",
                 "level": "group",
+                "targetId": "grp_41",
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 10.0,
@@ -9033,6 +9255,7 @@
               {
                 "type": "amp",
                 "level": "group",
+                "targetId": "grp_42",
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 10.0,
@@ -9043,6 +9266,7 @@
               {
                 "type": "amp",
                 "level": "group",
+                "targetId": "grp_43",
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 10.0,
@@ -9053,6 +9277,7 @@
               {
                 "type": "amp",
                 "level": "group",
+                "targetId": "grp_44",
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 10.0,
@@ -9063,6 +9288,7 @@
               {
                 "type": "amp",
                 "level": "group",
+                "targetId": "grp_45",
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 10.0,
@@ -9073,6 +9299,7 @@
               {
                 "type": "amp",
                 "level": "group",
+                "targetId": "grp_46",
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 10.0,
@@ -9083,6 +9310,7 @@
               {
                 "type": "amp",
                 "level": "group",
+                "targetId": "grp_47",
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 10.0,
@@ -9093,6 +9321,7 @@
               {
                 "type": "amp",
                 "level": "group",
+                "targetId": "grp_48",
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 10.0,
@@ -9103,6 +9332,7 @@
               {
                 "type": "amp",
                 "level": "group",
+                "targetId": "grp_49",
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 10.0,
@@ -9113,6 +9343,7 @@
               {
                 "type": "amp",
                 "level": "group",
+                "targetId": "grp_50",
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 10.0,
@@ -9123,6 +9354,7 @@
               {
                 "type": "amp",
                 "level": "group",
+                "targetId": "grp_51",
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 10.0,
@@ -9133,6 +9365,7 @@
               {
                 "type": "amp",
                 "level": "group",
+                "targetId": "grp_52",
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 10.0,
@@ -9143,6 +9376,7 @@
               {
                 "type": "amp",
                 "level": "group",
+                "targetId": "grp_53",
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 10.0,
@@ -9153,6 +9387,7 @@
               {
                 "type": "effect",
                 "level": "instrument",
+                "targetId": "fx_gain",
                 "parameter": "LEVEL",
                 "translation": "linear",
                 "modBehavior": "set",
@@ -9164,6 +9399,7 @@
             ]
           },
           {
+            "id": "ctl_18",
             "rect": {
               "x": 660,
               "y": 293,
@@ -9183,10 +9419,12 @@
               "orientation": "vertical"
             },
             "mouseDragSensitivity": 100.0,
+            "controlIndex": 52,
             "bindings": [
               {
                 "type": "effect",
                 "level": "instrument",
+                "targetId": "fx_wave_shaper",
                 "translationTable": "0,1;8,25;10.0001,50;",
                 "parameter": "FX_DRIVE",
                 "translation": "table",
@@ -9195,6 +9433,7 @@
               {
                 "type": "effect",
                 "level": "instrument",
+                "targetId": "fx_wave_shaper",
                 "translationTable": "0,0.1;5,0.16;9,0.20;9.9,0.5;10.0001,1.0;",
                 "translationReversed": true,
                 "parameter": "FX_OUTPUT_LEVEL",
@@ -9207,6 +9446,7 @@
         "buttons": [],
         "images": [
           {
+            "id": "img_0",
             "rect": {
               "x": 161,
               "y": 251,
@@ -9217,6 +9457,7 @@
             "controlIndex": 0
           },
           {
+            "id": "img_1",
             "rect": {
               "x": 161,
               "y": 251,
@@ -9227,6 +9468,7 @@
             "controlIndex": 1
           },
           {
+            "id": "img_2",
             "rect": {
               "x": 161,
               "y": 251,
@@ -9237,6 +9479,7 @@
             "controlIndex": 2
           },
           {
+            "id": "img_3",
             "rect": {
               "x": 161,
               "y": 335,
@@ -9247,6 +9490,7 @@
             "controlIndex": 3
           },
           {
+            "id": "img_4",
             "rect": {
               "x": 161,
               "y": 335,
@@ -9257,6 +9501,7 @@
             "controlIndex": 4
           },
           {
+            "id": "img_5",
             "rect": {
               "x": 161,
               "y": 335,
@@ -9267,6 +9512,7 @@
             "controlIndex": 5
           },
           {
+            "id": "img_6",
             "rect": {
               "x": 187,
               "y": 251,
@@ -9277,6 +9523,7 @@
             "controlIndex": 6
           },
           {
+            "id": "img_7",
             "rect": {
               "x": 187,
               "y": 251,
@@ -9287,6 +9534,7 @@
             "controlIndex": 7
           },
           {
+            "id": "img_8",
             "rect": {
               "x": 187,
               "y": 251,
@@ -9297,6 +9545,7 @@
             "controlIndex": 8
           },
           {
+            "id": "img_9",
             "rect": {
               "x": 328,
               "y": 251,
@@ -9307,6 +9556,7 @@
             "controlIndex": 9
           },
           {
+            "id": "img_10",
             "rect": {
               "x": 328,
               "y": 251,
@@ -9317,6 +9567,7 @@
             "controlIndex": 10
           },
           {
+            "id": "img_11",
             "rect": {
               "x": 328,
               "y": 251,
@@ -9327,6 +9578,7 @@
             "controlIndex": 11
           },
           {
+            "id": "img_12",
             "rect": {
               "x": 328,
               "y": 251,
@@ -9337,6 +9589,7 @@
             "controlIndex": 12
           },
           {
+            "id": "img_13",
             "rect": {
               "x": 328,
               "y": 251,
@@ -9347,6 +9600,7 @@
             "controlIndex": 13
           },
           {
+            "id": "img_14",
             "rect": {
               "x": 328,
               "y": 251,
@@ -9357,6 +9611,7 @@
             "controlIndex": 14
           },
           {
+            "id": "img_15",
             "rect": {
               "x": 328,
               "y": 251,
@@ -9367,6 +9622,7 @@
             "controlIndex": 15
           },
           {
+            "id": "img_16",
             "rect": {
               "x": 418,
               "y": 251,
@@ -9377,6 +9633,7 @@
             "controlIndex": 16
           },
           {
+            "id": "img_17",
             "rect": {
               "x": 418,
               "y": 251,
@@ -9387,6 +9644,7 @@
             "controlIndex": 17
           },
           {
+            "id": "img_18",
             "rect": {
               "x": 418,
               "y": 251,
@@ -9397,6 +9655,7 @@
             "controlIndex": 18
           },
           {
+            "id": "img_19",
             "rect": {
               "x": 418,
               "y": 251,
@@ -9407,6 +9666,7 @@
             "controlIndex": 19
           },
           {
+            "id": "img_20",
             "rect": {
               "x": 418,
               "y": 251,
@@ -9417,6 +9677,7 @@
             "controlIndex": 20
           },
           {
+            "id": "img_21",
             "rect": {
               "x": 418,
               "y": 251,
@@ -9427,6 +9688,7 @@
             "controlIndex": 21
           },
           {
+            "id": "img_22",
             "rect": {
               "x": 418,
               "y": 251,
@@ -9437,6 +9699,7 @@
             "controlIndex": 22
           },
           {
+            "id": "img_23",
             "rect": {
               "x": 509,
               "y": 251,
@@ -9447,6 +9710,7 @@
             "controlIndex": 23
           },
           {
+            "id": "img_24",
             "rect": {
               "x": 509,
               "y": 251,
@@ -9457,6 +9721,7 @@
             "controlIndex": 24
           },
           {
+            "id": "img_25",
             "rect": {
               "x": 509,
               "y": 251,
@@ -9467,6 +9732,7 @@
             "controlIndex": 25
           },
           {
+            "id": "img_26",
             "rect": {
               "x": 509,
               "y": 251,
@@ -9477,6 +9743,7 @@
             "controlIndex": 26
           },
           {
+            "id": "img_27",
             "rect": {
               "x": 599,
               "y": 335,
@@ -9487,6 +9754,7 @@
             "controlIndex": 27
           },
           {
+            "id": "img_28",
             "rect": {
               "x": 599,
               "y": 335,
@@ -9497,6 +9765,7 @@
             "controlIndex": 28
           },
           {
+            "id": "img_29",
             "rect": {
               "x": 599,
               "y": 335,
@@ -9507,6 +9776,7 @@
             "controlIndex": 29
           },
           {
+            "id": "img_30",
             "rect": {
               "x": 599,
               "y": 335,
@@ -9517,6 +9787,7 @@
             "controlIndex": 30
           },
           {
+            "id": "img_31",
             "rect": {
               "x": 599,
               "y": 335,
@@ -9527,6 +9798,7 @@
             "controlIndex": 31
           },
           {
+            "id": "img_32",
             "rect": {
               "x": 599,
               "y": 335,
@@ -9537,6 +9809,7 @@
             "controlIndex": 32
           },
           {
+            "id": "img_33",
             "rect": {
               "x": 599,
               "y": 335,
