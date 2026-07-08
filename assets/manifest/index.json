@@ -1,0 +1,9 @@
+{
+  "schema": 1,
+  "format": "dmse-manifest",
+  "library": "MaskinTrommer",
+  "gainDb": -6.0,
+  "modes": [
+    "maskintrommer"
+  ]
+}
