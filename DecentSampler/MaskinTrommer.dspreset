@@ -1,0 +1,1027 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DecentSampler>
+  <ui bgImage="Resources/background.png" width="812" height="500" layoutMode="relative" bgMode="top_left">
+    <keyboard>
+      <color loNote="0"  hiNote="35"  color="FF000000" />
+      <color loNote="36" hiNote="36"  color="FFd544bb" /> <!-- 210, 122, 199-->
+      <color loNote="37" hiNote="37"  color="FF000000" />
+      <color loNote="38" hiNote="38"  color="FF3c81e1" /> <!-- 119, 161, 227-->
+      <color loNote="39" hiNote="39"  color="FF000000" />
+      <color loNote="40" hiNote="41"  color="FF3cdf81" /> <!-- 141, 227, 167-->
+      <color loNote="42" hiNote="42"  color="FF000000" />
+      <color loNote="43" hiNote="43"  color="FFbfd44d" /> <!-- 210, 221, 135-->
+      <color loNote="44" hiNote="44"  color="FF000000" />
+      <color loNote="45" hiNote="55"  color="FFe44340" /> <!-- 220, 120, 116-->
+      <color loNote="56" hiNote="127" color="FF000000" />
+    </keyboard>
+    <tab name="main">
+      <image x="161" y="201" width="10" height="17" path="Resources/display_10-segment_off.png" />
+      <image x="161" y="201" width="10" height="17" path="Resources/display_10-segment_up.png" />
+      <image x="161" y="201" width="10" height="17" path="Resources/display_10-segment_down.png" />
+
+      <image x="161" y="285" width="10" height="17" path="Resources/display_10-segment_off.png" />
+      <image x="161" y="285" width="10" height="17" path="Resources/display_10-segment_up.png" />
+      <image x="161" y="285" width="10" height="17" path="Resources/display_10-segment_down.png" />
+
+      <image x="187" y="201" width="10" height="17" path="Resources/display_10-segment_off.png" />
+      <image x="187" y="201" width="10" height="17" path="Resources/display_10-segment_up.png" />
+      <image x="187" y="201" width="10" height="17" path="Resources/display_10-segment_down.png" />
+
+      <image x="328" y="201" width="10" height="17" path="Resources/display_7-segment_d.png" />
+      <image x="328" y="201" width="10" height="17" path="Resources/display_7-segment_1.png" />
+      <image x="328" y="201" width="10" height="17" path="Resources/display_7-segment_2.png" />
+      <image x="328" y="201" width="10" height="17" path="Resources/display_7-segment_3.png" />
+      <image x="328" y="201" width="10" height="17" path="Resources/display_7-segment_4.png" />
+      <image x="328" y="201" width="10" height="17" path="Resources/display_7-segment_5.png" />
+      <image x="328" y="201" width="10" height="17" path="Resources/display_7-segment_6.png" />
+
+      <image x="418" y="201" width="10" height="17" path="Resources/display_7-segment_d.png" />
+      <image x="418" y="201" width="10" height="17" path="Resources/display_7-segment_1.png" />
+      <image x="418" y="201" width="10" height="17" path="Resources/display_7-segment_2.png" />
+      <image x="418" y="201" width="10" height="17" path="Resources/display_7-segment_3.png" />
+      <image x="418" y="201" width="10" height="17" path="Resources/display_7-segment_4.png" />
+      <image x="418" y="201" width="10" height="17" path="Resources/display_7-segment_5.png" />
+      <image x="418" y="201" width="10" height="17" path="Resources/display_7-segment_6.png" />
+
+      <image x="509" y="201" width="10" height="17" path="Resources/display_7-segment_d.png" />
+      <image x="509" y="201" width="10" height="17" path="Resources/display_7-segment_1.png" />
+      <image x="509" y="201" width="10" height="17" path="Resources/display_7-segment_2.png" />
+      <image x="509" y="201" width="10" height="17" path="Resources/display_7-segment_3.png" />
+
+      <image x="599" y="285" width="10" height="17" path="Resources/display_7-segment_d.png" />
+      <image x="599" y="285" width="10" height="17" path="Resources/display_7-segment_1.png" />
+      <image x="599" y="285" width="10" height="17" path="Resources/display_7-segment_2.png" />
+      <image x="599" y="285" width="10" height="17" path="Resources/display_7-segment_3.png" />
+      <image x="599" y="285" width="10" height="17" path="Resources/display_7-segment_4.png" />
+      <image x="599" y="285" width="10" height="17" path="Resources/display_7-segment_5.png" />
+      <image x="599" y="285" width="10" height="17" path="Resources/display_7-segment_6.png" />
+
+
+      <!-- Kick -->
+      <control x="114" y="75" width="39" height="39" parameterName="Settings: Kick - Pitch" type="float" minValue="-50" maxValue="50" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_ssl.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+        <binding type="amp" level="group" position="0" parameter="GROUP_TUNING" translation="linear" translationOutputMin="-6"  translationOutputMax="6" />
+        <binding type="amp" level="group" position="1" parameter="GROUP_TUNING" translation="linear" translationOutputMin="-6"  translationOutputMax="6" />
+        <binding type="control" level="ui" controlIndex="1" parameter="OPACITY" translation="table" translationTable="-50,0;0,0;50,1;" />
+        <binding type="control" level="ui" controlIndex="2" parameter="OPACITY" translation="table" translationTable="-50,1;0,0;50.1,0;" />
+        <binding type="control" level="ui" controlIndex="4" parameter="OPACITY" translation="table" translationTable="-50,0;0,0;50,1;" />
+        <binding type="control" level="ui" controlIndex="5" parameter="OPACITY" translation="table" translationTable="-50,1;0,0;50.1,0;" />
+      </control>
+      <control x="108" y="153" width="50" height="50" parameterName="Audio: Kick - Body" type="float" minValue="0" maxValue="10" textColor="FF000000" value="5.10" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_korg.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+        <binding type="amp" level="tag" identifier="kick-ms20" parameter="TAG_VOLUME" translation="linear" translationOutputMin="0"  translationOutputMax="1.5" />
+      </control>
+      <control x="111" y="241" width="44" height="44" parameterName="Audio: Kick - Punch" type="float" minValue="0" maxValue="10" textColor="FF000000" value="10.00" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_doepfer.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+        <binding type="amp" level="tag" identifier="kick-darkenergy" parameter="TAG_VOLUME" translation="linear" translationOutputMin="0"  translationOutputMax="1.5" />
+      </control>
+
+
+      <!-- Snare -->
+      <control x="204" y="75" width="39" height="39" parameterName="Settings: Snare - Pitch" type="float" minValue="-50" maxValue="50" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_ssl.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+        <binding type="amp" level="group" position="2" parameter="GROUP_TUNING" translation="linear" translationOutputMin="-6"  translationOutputMax="6" />
+        <binding type="control" level="ui" controlIndex="7" parameter="OPACITY" translation="table" translationTable="-50,0;0,0;50,1;" />
+        <binding type="control" level="ui" controlIndex="8" parameter="OPACITY" translation="table" translationTable="-50,1;0,0;50.1,0;" />
+      </control>
+
+      <control x="274" y="69" width="52" height="52" parameterName="Settings: Snare - Sustain" minValue="0" maxValue="6" valueType="integer" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_roland_7-way.png" customSkinNumFrames="7" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+        <binding type="amp" level="tag" identifier="snare-sh09-velocity" parameter="TAG_ENABLED" translation="table" translationTable="0,1;1,0;2,0;3,0;4,0;5,0;6,0;"/>
+        <binding type="amp" level="tag" identifier="snare-sh09-01"       parameter="TAG_ENABLED" translation="table" translationTable="0,0;1,1;2,0;3,0;4,0;5,0;6,0;"/>
+        <binding type="amp" level="tag" identifier="snare-sh09-02"       parameter="TAG_ENABLED" translation="table" translationTable="0,0;1,0;2,1;3,0;4,0;5,0;6,0;"/>
+        <binding type="amp" level="tag" identifier="snare-sh09-03"       parameter="TAG_ENABLED" translation="table" translationTable="0,0;1,0;2,0;3,1;4,0;5,0;6,0;"/>
+        <binding type="amp" level="tag" identifier="snare-sh09-04"       parameter="TAG_ENABLED" translation="table" translationTable="0,0;1,0;2,0;3,0;4,1;5,0;6,0;"/>
+        <binding type="amp" level="tag" identifier="snare-sh09-05"       parameter="TAG_ENABLED" translation="table" translationTable="0,0;1,0;2,0;3,0;4,0;5,1;6,0;"/>
+        <binding type="amp" level="tag" identifier="snare-sh09-06"       parameter="TAG_ENABLED" translation="table" translationTable="0,0;1,0;2,0;3,0;4,0;5,0;6,1;"/>
+        <binding type="control" level="ui" controlIndex="9"  parameter="VISIBLE" translation="table" translationTable="0,1;1,0;2,0;3,0;4,0;5,0;6,0;" />
+        <binding type="control" level="ui" controlIndex="10" parameter="VISIBLE" translation="table" translationTable="0,0;1,1;2,0;3,0;4,0;5,0;6,0;" />
+        <binding type="control" level="ui" controlIndex="11" parameter="VISIBLE" translation="table" translationTable="0,0;1,0;2,1;3,0;4,0;5,0;6,0;" />
+        <binding type="control" level="ui" controlIndex="12" parameter="VISIBLE" translation="table" translationTable="0,0;1,0;2,0;3,1;4,0;5,0;6,0;" />
+        <binding type="control" level="ui" controlIndex="13" parameter="VISIBLE" translation="table" translationTable="0,0;1,0;2,0;3,0;4,1;5,0;6,0;" />
+        <binding type="control" level="ui" controlIndex="14" parameter="VISIBLE" translation="table" translationTable="0,0;1,0;2,0;3,0;4,0;5,1;6,0;" />
+        <binding type="control" level="ui" controlIndex="15" parameter="VISIBLE" translation="table" translationTable="0,0;1,0;2,0;3,0;4,0;5,0;6,1;" />
+      </control>
+
+      <control x="198" y="153" width="50" height="50" parameterName="Audio: Snare - Body" type="float" minValue="0" maxValue="10" textColor="FF000000" value="10.00" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_korg.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+        <binding type="amp" level="tag" identifier="snare-ms20-top" parameter="TAG_VOLUME" translation="linear" translationOutputMin="0"  translationOutputMax="1.7" />
+      </control>
+
+      <control x="274" y="153" width="52" height="52" parameterName="Audio: Snare - Head" type="float" minValue="0" maxValue="10" textColor="FF000000" value="5.00" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_roland.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+        <binding type="amp" level="tag" identifier="snare-sh09-velocity" parameter="TAG_VOLUME" translation="linear" translationOutputMin="0"  translationOutputMax="1.0" />
+        <binding type="amp" level="tag" identifier="snare-sh09-01"       parameter="TAG_VOLUME" translation="linear" translationOutputMin="0"  translationOutputMax="1.0" />
+        <binding type="amp" level="tag" identifier="snare-sh09-02"       parameter="TAG_VOLUME" translation="linear" translationOutputMin="0"  translationOutputMax="1.0" />
+        <binding type="amp" level="tag" identifier="snare-sh09-03"       parameter="TAG_VOLUME" translation="linear" translationOutputMin="0"  translationOutputMax="1.0" />
+        <binding type="amp" level="tag" identifier="snare-sh09-04"       parameter="TAG_VOLUME" translation="linear" translationOutputMin="0"  translationOutputMax="1.0" />
+        <binding type="amp" level="tag" identifier="snare-sh09-05"       parameter="TAG_VOLUME" translation="linear" translationOutputMin="0"  translationOutputMax="1.0" />
+        <binding type="amp" level="tag" identifier="snare-sh09-06"       parameter="TAG_VOLUME" translation="linear" translationOutputMin="0"  translationOutputMax="1.0" />
+      </control>
+
+      <control x="202" y="241" width="44" height="44" parameterName="Audio: Snare - Rattle" type="float" minValue="0" maxValue="10" textColor="FF000000" value="4.80" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_doepfer.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+        <binding type="amp" level="tag" identifier="snare-darkenergy" parameter="TAG_VOLUME" translation="linear" translationOutputMin="0"  translationOutputMax="1.3" />
+      </control>
+
+      <control x="275" y="237" width="50" height="50" parameterName="Audio: Snare - Wires" type="float" minValue="0" maxValue="10" textColor="FF000000" value="3.95" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_korg.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+        <binding type="amp" level="tag" identifier="snare-ms20-bottom" parameter="TAG_VOLUME" translation="linear" translationOutputMin="0"  translationOutputMax="0.7" />
+      </control>
+      
+
+      <!-- Hi-Hat -->
+      <control x="366" y="69" width="50" height="50" parameterName="Settings: Hi-Hat - Sustain" minValue="0" maxValue="6" valueType="integer" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_korg_7-way.png" customSkinNumFrames="7" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+        <binding type="amp" level="tag" identifier="hihat-ms20-velocity" parameter="TAG_ENABLED" translation="table" translationTable="0,1;1,0;2,0;3,0;4,0;5,0;6,0;"/>
+        <binding type="amp" level="tag" identifier="hihat-ms20-01"       parameter="TAG_ENABLED" translation="table" translationTable="0,0;1,1;2,1;3,0;4,0;5,0;6,0;"/>
+        <binding type="amp" level="tag" identifier="hihat-ms20-02"       parameter="TAG_ENABLED" translation="table" translationTable="0,0;1,0;2,0;3,1;4,1;5,0;6,0;"/>
+        <binding type="amp" level="tag" identifier="hihat-ms20-03"       parameter="TAG_ENABLED" translation="table" translationTable="0,0;1,0;2,0;3,0;4,0;5,1;6,1;"/>
+        <binding type="amp" level="tag" identifier="hihat-ms20-04"       parameter="TAG_ENABLED" translation="table" translationTable="0,0;1,1;2,0;3,0;4,0;5,0;6,0;"/>
+        <binding type="amp" level="tag" identifier="hihat-ms20-05"       parameter="TAG_ENABLED" translation="table" translationTable="0,0;1,0;2,1;3,0;4,0;5,0;6,0;"/>
+        <binding type="amp" level="tag" identifier="hihat-ms20-06"       parameter="TAG_ENABLED" translation="table" translationTable="0,0;1,0;2,0;3,1;4,0;5,0;6,0;"/>
+        <binding type="amp" level="tag" identifier="hihat-ms20-07"       parameter="TAG_ENABLED" translation="table" translationTable="0,0;1,0;2,0;3,0;4,1;5,0;6,0;"/>
+        <binding type="amp" level="tag" identifier="hihat-ms20-08"       parameter="TAG_ENABLED" translation="table" translationTable="0,0;1,0;2,0;3,0;4,0;5,1;6,0;"/>
+        <binding type="amp" level="tag" identifier="hihat-ms20-09"       parameter="TAG_ENABLED" translation="table" translationTable="0,0;1,0;2,0;3,0;4,0;5,0;6,1;"/>
+        <binding type="control" level="ui" controlIndex="16" parameter="VISIBLE" translation="table" translationTable="0,1;1,0;2,0;3,0;4,0;5,0;6,0;" />
+        <binding type="control" level="ui" controlIndex="17" parameter="VISIBLE" translation="table" translationTable="0,0;1,1;2,0;3,0;4,0;5,0;6,0;" />
+        <binding type="control" level="ui" controlIndex="18" parameter="VISIBLE" translation="table" translationTable="0,0;1,0;2,1;3,0;4,0;5,0;6,0;" />
+        <binding type="control" level="ui" controlIndex="19" parameter="VISIBLE" translation="table" translationTable="0,0;1,0;2,0;3,1;4,0;5,0;6,0;" />
+        <binding type="control" level="ui" controlIndex="20" parameter="VISIBLE" translation="table" translationTable="0,0;1,0;2,0;3,0;4,1;5,0;6,0;" />
+        <binding type="control" level="ui" controlIndex="21" parameter="VISIBLE" translation="table" translationTable="0,0;1,0;2,0;3,0;4,0;5,1;6,0;" />
+        <binding type="control" level="ui" controlIndex="22" parameter="VISIBLE" translation="table" translationTable="0,0;1,0;2,0;3,0;4,0;5,0;6,1;" />
+      </control>
+
+      <control x="366" y="153" width="50" height="50" parameterName="Audio: Hi-Hat - Volume" type="float" minValue="0" maxValue="10" textColor="FF000000" value="4.35" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_korg.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+        <binding type="amp" level="tag" identifier="hihat-ms20-velocity" parameter="TAG_VOLUME" translation="linear" translationOutputMin="0"  translationOutputMax="1" />
+        <binding type="amp" level="tag" identifier="hihat-ms20-01"       parameter="TAG_VOLUME" translation="linear" translationOutputMin="0"  translationOutputMax="1" />
+        <binding type="amp" level="tag" identifier="hihat-ms20-02"       parameter="TAG_VOLUME" translation="linear" translationOutputMin="0"  translationOutputMax="1" />
+        <binding type="amp" level="tag" identifier="hihat-ms20-03"       parameter="TAG_VOLUME" translation="linear" translationOutputMin="0"  translationOutputMax="1" />
+        <binding type="amp" level="tag" identifier="hihat-ms20-04"       parameter="TAG_VOLUME" translation="linear" translationOutputMin="0"  translationOutputMax="1" />
+        <binding type="amp" level="tag" identifier="hihat-ms20-05"       parameter="TAG_VOLUME" translation="linear" translationOutputMin="0"  translationOutputMax="1" />
+        <binding type="amp" level="tag" identifier="hihat-ms20-06"       parameter="TAG_VOLUME" translation="linear" translationOutputMin="0"  translationOutputMax="1" />
+        <binding type="amp" level="tag" identifier="hihat-ms20-07"       parameter="TAG_VOLUME" translation="linear" translationOutputMin="0"  translationOutputMax="1" />
+        <binding type="amp" level="tag" identifier="hihat-ms20-08"       parameter="TAG_VOLUME" translation="linear" translationOutputMin="0"  translationOutputMax="1" />
+        <binding type="amp" level="tag" identifier="hihat-ms20-09"       parameter="TAG_VOLUME" translation="linear" translationOutputMin="0"  translationOutputMax="1" />
+      </control>
+
+
+      <!-- Cymbal-->
+      <control x="460" y="74" width="42" height="42" parameterName="Settings: Cymbal - Sustain" minValue="0" maxValue="3" valueType="integer" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_sequential-circuits_4-way.png" customSkinNumFrames="4" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+        <binding type="amp" level="tag" identifier="cymbal-proone-velocity" parameter="TAG_ENABLED" translation="table" translationTable="0,1;1,0;2,0;3,0;"/>
+        <binding type="amp" level="tag" identifier="cymbal-proone-01"       parameter="TAG_ENABLED" translation="table" translationTable="0,0;1,1;2,0;3,0;"/>
+        <binding type="amp" level="tag" identifier="cymbal-proone-02"       parameter="TAG_ENABLED" translation="table" translationTable="0,0;1,0;2,1;3,0;"/>
+        <binding type="amp" level="tag" identifier="cymbal-proone-03"       parameter="TAG_ENABLED" translation="table" translationTable="0,0;1,0;2,0;3,1;"/>
+        <binding type="control" level="ui" controlIndex="23" parameter="VISIBLE" translation="table" translationTable="0,1;1,0;2,0;3,0;" />
+        <binding type="control" level="ui" controlIndex="24" parameter="VISIBLE" translation="table" translationTable="0,0;1,1;2,0;3,0;" />
+        <binding type="control" level="ui" controlIndex="25" parameter="VISIBLE" translation="table" translationTable="0,0;1,0;2,1;3,0;" />
+        <binding type="control" level="ui" controlIndex="26" parameter="VISIBLE" translation="table" translationTable="0,0;1,0;2,0;3,1;" />
+      </control>
+
+      <control x="460" y="158" width="42" height="42" parameterName="Audio: Cymbal - Volume" type="float" minValue="0" maxValue="10" textColor="FF000000" value="5.00" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_sequential-circuits.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+        <binding type="amp" level="tag" identifier="cymbal-proone-velocity" parameter="TAG_VOLUME" translation="linear" translationOutputMin="0"  translationOutputMax="1" />
+        <binding type="amp" level="tag" identifier="cymbal-proone-01"       parameter="TAG_VOLUME" translation="linear" translationOutputMin="0"  translationOutputMax="1" />
+        <binding type="amp" level="tag" identifier="cymbal-proone-02"       parameter="TAG_VOLUME" translation="linear" translationOutputMin="0"  translationOutputMax="1" />
+        <binding type="amp" level="tag" identifier="cymbal-proone-03"       parameter="TAG_VOLUME" translation="linear" translationOutputMin="0"  translationOutputMax="1" />
+      </control>
+
+
+      <!-- Tom -->
+      <control x="545" y="69" width="52" height="52" parameterName="Settings: Tom - Sustain" minValue="0" maxValue="6" valueType="integer" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_roland_7-way.png" customSkinNumFrames="7" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+        <binding type="amp" level="tag" identifier="tom-sh09-velocity" parameter="TAG_ENABLED" translation="table" translationTable="0,1;1,0;2,0;3,0;4,0;5,0;6,0;"/>
+        <binding type="amp" level="tag" identifier="tom-sh09-01"       parameter="TAG_ENABLED" translation="table" translationTable="0,0;1,1;2,0;3,0;4,0;5,0;6,0;"/>
+        <binding type="amp" level="tag" identifier="tom-sh09-02"       parameter="TAG_ENABLED" translation="table" translationTable="0,0;1,0;2,1;3,0;4,0;5,0;6,0;"/>
+        <binding type="amp" level="tag" identifier="tom-sh09-03"       parameter="TAG_ENABLED" translation="table" translationTable="0,0;1,0;2,0;3,1;4,0;5,0;6,0;"/>
+        <binding type="amp" level="tag" identifier="tom-sh09-04"       parameter="TAG_ENABLED" translation="table" translationTable="0,0;1,0;2,0;3,0;4,1;5,0;6,0;"/>
+        <binding type="amp" level="tag" identifier="tom-sh09-05"       parameter="TAG_ENABLED" translation="table" translationTable="0,0;1,0;2,0;3,0;4,0;5,1;6,0;"/>
+        <binding type="amp" level="tag" identifier="tom-sh09-06"       parameter="TAG_ENABLED" translation="table" translationTable="0,0;1,0;2,0;3,0;4,0;5,0;6,1;"/>
+        <binding type="control" level="ui" controlIndex="27" parameter="VISIBLE" translation="table" translationTable="0,1;1,0;2,0;3,0;4,0;5,0;6,0;" />
+        <binding type="control" level="ui" controlIndex="28" parameter="VISIBLE" translation="table" translationTable="0,0;1,1;2,0;3,0;4,0;5,0;6,0;" />
+        <binding type="control" level="ui" controlIndex="29" parameter="VISIBLE" translation="table" translationTable="0,0;1,0;2,1;3,0;4,0;5,0;6,0;" />
+        <binding type="control" level="ui" controlIndex="30" parameter="VISIBLE" translation="table" translationTable="0,0;1,0;2,0;3,1;4,0;5,0;6,0;" />
+        <binding type="control" level="ui" controlIndex="31" parameter="VISIBLE" translation="table" translationTable="0,0;1,0;2,0;3,0;4,1;5,0;6,0;" />
+        <binding type="control" level="ui" controlIndex="32" parameter="VISIBLE" translation="table" translationTable="0,0;1,0;2,0;3,0;4,0;5,1;6,0;" />
+        <binding type="control" level="ui" controlIndex="33" parameter="VISIBLE" translation="table" translationTable="0,0;1,0;2,0;3,0;4,0;5,0;6,1;" />
+      </control>
+
+      <control x="547" y="153" width="50" height="50" parameterName="Audio: Tom - Body" type="float" minValue="0" maxValue="10" textColor="FF000000" value="6.60" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_korg.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+        <binding type="amp" level="tag" identifier="tom-ms20" parameter="TAG_VOLUME" translation="linear" translationOutputMin="0"  translationOutputMax="1.6" />
+      </control>
+
+      <control x="545" y="237" width="52" height="52" parameterName="Audio: Tom - Head" type="float" minValue="0" maxValue="10" textColor="FF000000" value="4.10" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_roland.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+        <binding type="amp" level="tag" identifier="tom-sh09-velocity" parameter="TAG_VOLUME" translation="linear" translationOutputMin="0"  translationOutputMax="1.2" />
+        <binding type="amp" level="tag" identifier="tom-sh09-01"       parameter="TAG_VOLUME" translation="linear" translationOutputMin="0"  translationOutputMax="1.2" />
+        <binding type="amp" level="tag" identifier="tom-sh09-02"       parameter="TAG_VOLUME" translation="linear" translationOutputMin="0"  translationOutputMax="1.2" />
+        <binding type="amp" level="tag" identifier="tom-sh09-03"       parameter="TAG_VOLUME" translation="linear" translationOutputMin="0"  translationOutputMax="1.2" />
+        <binding type="amp" level="tag" identifier="tom-sh09-04"       parameter="TAG_VOLUME" translation="linear" translationOutputMin="0"  translationOutputMax="1.2" />
+        <binding type="amp" level="tag" identifier="tom-sh09-05"       parameter="TAG_VOLUME" translation="linear" translationOutputMin="0"  translationOutputMax="1.2" />
+        <binding type="amp" level="tag" identifier="tom-sh09-06"       parameter="TAG_VOLUME" translation="linear" translationOutputMin="0"  translationOutputMax="1.2" />
+      </control>
+
+
+      <!-- Velocity Sensitivity -->
+      <control x="660" y="75" width="39" height="39" parameterName="Settings: Global - Sensitivity" type="float" minValue="0" maxValue="10" textColor="FF000000" value="0.90" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_ssl.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+        <binding type="amp" level="instrument" parameter="AMP_VEL_TRACK" translation="linear" translationOutputMin="0"  translationOutputMax="1" />
+      </control>
+
+
+      <!-- Impact -->
+      <control x="660" y="158" width="39" height="39" parameterName="Effects: Global - Impact" type="float" minValue="0" maxValue="10" textColor="FF000000" value="5.50" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_ssl.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+        <!-- Kick -->
+        <binding type="amp" level="group" position="0"  parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="1"  translationOutputMax="0" />
+        <binding type="amp" level="group" position="1"  parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="1"  translationOutputMax="0" />
+        <!-- Snare -->
+        <binding type="amp" level="group" position="2"  parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="1"  translationOutputMax="0.1" />
+        <binding type="amp" level="group" position="3"  parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="1"  translationOutputMax="0.1" />
+        <binding type="amp" level="group" position="4"  parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="1"  translationOutputMax="0.1" />
+        <binding type="amp" level="group" position="5"  parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="1"  translationOutputMax="0.1" />
+        <binding type="amp" level="group" position="6"  parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="1"  translationOutputMax="0.1" />
+        <binding type="amp" level="group" position="7"  parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="1"  translationOutputMax="0.1" />
+        <binding type="amp" level="group" position="8"  parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="1"  translationOutputMax="0.1" />
+        <binding type="amp" level="group" position="9"  parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="1"  translationOutputMax="0.1" />
+        <binding type="amp" level="group" position="10" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="1"  translationOutputMax="0.1" />
+        <binding type="amp" level="group" position="11" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="1"  translationOutputMax="0.1" />
+        <binding type="amp" level="group" position="12" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="1"  translationOutputMax="0.1" />
+        <binding type="amp" level="group" position="13" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="1"  translationOutputMax="0.1" />
+        <binding type="amp" level="group" position="14" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="1"  translationOutputMax="0.1" />
+        <binding type="amp" level="group" position="15" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="1"  translationOutputMax="0.1" />
+        <binding type="amp" level="group" position="16" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="1"  translationOutputMax="0.1" />
+        <!-- Hi-Hat -->
+        <binding type="amp" level="group" position="17" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="1"  translationOutputMax="0.05" />
+        <binding type="amp" level="group" position="18" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="1"  translationOutputMax="0.05" />
+        <binding type="amp" level="group" position="19" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="1"  translationOutputMax="0.05" />
+        <binding type="amp" level="group" position="20" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="1"  translationOutputMax="0.05" />
+        <binding type="amp" level="group" position="21" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="1"  translationOutputMax="0.05" />
+        <binding type="amp" level="group" position="22" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="1"  translationOutputMax="0.05" />
+        <binding type="amp" level="group" position="23" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="1"  translationOutputMax="0.05" />
+        <binding type="amp" level="group" position="24" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="1"  translationOutputMax="0.05" />
+        <binding type="amp" level="group" position="25" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="1"  translationOutputMax="0.05" />
+        <binding type="amp" level="group" position="26" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="1"  translationOutputMax="0.05" />
+        <binding type="amp" level="group" position="27" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="1"  translationOutputMax="0.05" />
+        <binding type="amp" level="group" position="28" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="1"  translationOutputMax="0.05" />
+        <binding type="amp" level="group" position="29" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="1"  translationOutputMax="0.05" />
+        <binding type="amp" level="group" position="30" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="1"  translationOutputMax="0.05" />
+        <binding type="amp" level="group" position="31" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="1"  translationOutputMax="0.05" />
+        <binding type="amp" level="group" position="32" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="1"  translationOutputMax="0.05" />
+        <binding type="amp" level="group" position="33" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="1"  translationOutputMax="0.05" />
+        <binding type="amp" level="group" position="34" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="1"  translationOutputMax="0.05" />
+        <!-- Cymbal -->
+        <binding type="amp" level="group" position="35" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="1"  translationOutputMax="0.05" />
+        <binding type="amp" level="group" position="36" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="1"  translationOutputMax="0.05" />
+        <binding type="amp" level="group" position="37" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="1"  translationOutputMax="0.05" />
+        <binding type="amp" level="group" position="38" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="1"  translationOutputMax="0.05" />
+        <binding type="amp" level="group" position="39" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="1"  translationOutputMax="0.05" />
+        <binding type="amp" level="group" position="40" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="1"  translationOutputMax="0.05" />
+        <!-- Tom -->
+        <binding type="amp" level="group" position="41" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="1"  translationOutputMax="0.05" />
+        <binding type="amp" level="group" position="42" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="1"  translationOutputMax="0.05" />
+        <binding type="amp" level="group" position="43" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="1"  translationOutputMax="0.05" />
+        <binding type="amp" level="group" position="44" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="1"  translationOutputMax="0.05" />
+        <binding type="amp" level="group" position="45" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="1"  translationOutputMax="0.05" />
+        <binding type="amp" level="group" position="46" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="1"  translationOutputMax="0.05" />
+        <binding type="amp" level="group" position="47" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="1"  translationOutputMax="0.05" />
+        <binding type="amp" level="group" position="48" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="1"  translationOutputMax="0.05" />
+        <binding type="amp" level="group" position="49" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="1"  translationOutputMax="0.05" />
+        <binding type="amp" level="group" position="50" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="1"  translationOutputMax="0.05" />
+        <binding type="amp" level="group" position="51" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="1"  translationOutputMax="0.05" />
+        <binding type="amp" level="group" position="52" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="1"  translationOutputMax="0.05" />
+        <binding type="amp" level="group" position="53" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="1"  translationOutputMax="0.05" />
+
+        <!-- Kick -->
+        <binding type="amp" level="group" position="0"  parameter="ENV_RELEASE" translation="linear" translationOutputMin="10" translationOutputMax="0.35" />
+        <binding type="amp" level="group" position="1"  parameter="ENV_RELEASE" translation="linear" translationOutputMin="10" translationOutputMax="0.35" />
+        <!-- Snare -->
+        <binding type="amp" level="group" position="2"  parameter="ENV_RELEASE" translation="linear" translationOutputMin="10" translationOutputMax="0.65" />
+        <binding type="amp" level="group" position="3"  parameter="ENV_RELEASE" translation="linear" translationOutputMin="10" translationOutputMax="0.65" />
+        <binding type="amp" level="group" position="4"  parameter="ENV_RELEASE" translation="linear" translationOutputMin="10" translationOutputMax="0.65" />
+        <binding type="amp" level="group" position="5"  parameter="ENV_RELEASE" translation="linear" translationOutputMin="10" translationOutputMax="0.65" />
+        <binding type="amp" level="group" position="6"  parameter="ENV_RELEASE" translation="linear" translationOutputMin="10" translationOutputMax="0.65" />
+        <binding type="amp" level="group" position="7"  parameter="ENV_RELEASE" translation="linear" translationOutputMin="10" translationOutputMax="0.65" />
+        <binding type="amp" level="group" position="8"  parameter="ENV_RELEASE" translation="linear" translationOutputMin="10" translationOutputMax="0.65" />
+        <binding type="amp" level="group" position="9"  parameter="ENV_RELEASE" translation="linear" translationOutputMin="10" translationOutputMax="0.65" />
+        <binding type="amp" level="group" position="10" parameter="ENV_RELEASE" translation="linear" translationOutputMin="10" translationOutputMax="0.65" />
+        <binding type="amp" level="group" position="11" parameter="ENV_RELEASE" translation="linear" translationOutputMin="10" translationOutputMax="0.65" />
+        <binding type="amp" level="group" position="12" parameter="ENV_RELEASE" translation="linear" translationOutputMin="10" translationOutputMax="0.65" />
+        <binding type="amp" level="group" position="13" parameter="ENV_RELEASE" translation="linear" translationOutputMin="10" translationOutputMax="0.65" />
+        <binding type="amp" level="group" position="14" parameter="ENV_RELEASE" translation="linear" translationOutputMin="10" translationOutputMax="0.65" />
+        <binding type="amp" level="group" position="15" parameter="ENV_RELEASE" translation="linear" translationOutputMin="10" translationOutputMax="0.65" />
+        <binding type="amp" level="group" position="16" parameter="ENV_RELEASE" translation="linear" translationOutputMin="10" translationOutputMax="0.65" />
+        <!-- Hi-Hat -->
+        <binding type="amp" level="group" position="17" parameter="ENV_RELEASE" translation="linear" translationOutputMin="10" translationOutputMax="0.35" />
+        <binding type="amp" level="group" position="18" parameter="ENV_RELEASE" translation="linear" translationOutputMin="10" translationOutputMax="0.35" />
+        <binding type="amp" level="group" position="19" parameter="ENV_RELEASE" translation="linear" translationOutputMin="10" translationOutputMax="0.35" />
+        <binding type="amp" level="group" position="20" parameter="ENV_RELEASE" translation="linear" translationOutputMin="10" translationOutputMax="0.35" />
+        <binding type="amp" level="group" position="21" parameter="ENV_RELEASE" translation="linear" translationOutputMin="10" translationOutputMax="0.35" />
+        <binding type="amp" level="group" position="22" parameter="ENV_RELEASE" translation="linear" translationOutputMin="10" translationOutputMax="0.35" />
+        <binding type="amp" level="group" position="23" parameter="ENV_RELEASE" translation="linear" translationOutputMin="10" translationOutputMax="0.35" />
+        <binding type="amp" level="group" position="24" parameter="ENV_RELEASE" translation="linear" translationOutputMin="10" translationOutputMax="0.35" />
+        <binding type="amp" level="group" position="25" parameter="ENV_RELEASE" translation="linear" translationOutputMin="10" translationOutputMax="0.35" />
+        <binding type="amp" level="group" position="26" parameter="ENV_RELEASE" translation="linear" translationOutputMin="10" translationOutputMax="0.35" />
+        <binding type="amp" level="group" position="27" parameter="ENV_RELEASE" translation="linear" translationOutputMin="10" translationOutputMax="0.35" />
+        <binding type="amp" level="group" position="28" parameter="ENV_RELEASE" translation="linear" translationOutputMin="10" translationOutputMax="0.35" />
+        <binding type="amp" level="group" position="29" parameter="ENV_RELEASE" translation="linear" translationOutputMin="10" translationOutputMax="0.35" />
+        <binding type="amp" level="group" position="30" parameter="ENV_RELEASE" translation="linear" translationOutputMin="10" translationOutputMax="0.35" />
+        <binding type="amp" level="group" position="31" parameter="ENV_RELEASE" translation="linear" translationOutputMin="10" translationOutputMax="0.35" />
+        <binding type="amp" level="group" position="32" parameter="ENV_RELEASE" translation="linear" translationOutputMin="10" translationOutputMax="0.35" />
+        <binding type="amp" level="group" position="33" parameter="ENV_RELEASE" translation="linear" translationOutputMin="10" translationOutputMax="0.35" />
+        <binding type="amp" level="group" position="34" parameter="ENV_RELEASE" translation="linear" translationOutputMin="10" translationOutputMax="0.35" />
+        <!-- Cymbal -->
+        <binding type="amp" level="group" position="35" parameter="ENV_RELEASE" translation="linear" translationOutputMin="10" translationOutputMax="0.35" />
+        <binding type="amp" level="group" position="36" parameter="ENV_RELEASE" translation="linear" translationOutputMin="10" translationOutputMax="0.35" />
+        <binding type="amp" level="group" position="37" parameter="ENV_RELEASE" translation="linear" translationOutputMin="10" translationOutputMax="0.35" />
+        <binding type="amp" level="group" position="38" parameter="ENV_RELEASE" translation="linear" translationOutputMin="10" translationOutputMax="0.35" />
+        <binding type="amp" level="group" position="39" parameter="ENV_RELEASE" translation="linear" translationOutputMin="10" translationOutputMax="0.35" />
+        <binding type="amp" level="group" position="40" parameter="ENV_RELEASE" translation="linear" translationOutputMin="10" translationOutputMax="0.35" />
+        <!-- Tom -->
+        <binding type="amp" level="group" position="41" parameter="ENV_RELEASE" translation="linear" translationOutputMin="10" translationOutputMax="0.35" />
+        <binding type="amp" level="group" position="42" parameter="ENV_RELEASE" translation="linear" translationOutputMin="10" translationOutputMax="0.35" />
+        <binding type="amp" level="group" position="43" parameter="ENV_RELEASE" translation="linear" translationOutputMin="10" translationOutputMax="0.35" />
+        <binding type="amp" level="group" position="44" parameter="ENV_RELEASE" translation="linear" translationOutputMin="10" translationOutputMax="0.35" />
+        <binding type="amp" level="group" position="45" parameter="ENV_RELEASE" translation="linear" translationOutputMin="10" translationOutputMax="0.35" />
+        <binding type="amp" level="group" position="46" parameter="ENV_RELEASE" translation="linear" translationOutputMin="10" translationOutputMax="0.35" />
+        <binding type="amp" level="group" position="47" parameter="ENV_RELEASE" translation="linear" translationOutputMin="10" translationOutputMax="0.35" />
+        <binding type="amp" level="group" position="48" parameter="ENV_RELEASE" translation="linear" translationOutputMin="10" translationOutputMax="0.35" />
+        <binding type="amp" level="group" position="49" parameter="ENV_RELEASE" translation="linear" translationOutputMin="10" translationOutputMax="0.35" />
+        <binding type="amp" level="group" position="50" parameter="ENV_RELEASE" translation="linear" translationOutputMin="10" translationOutputMax="0.35" />
+        <binding type="amp" level="group" position="51" parameter="ENV_RELEASE" translation="linear" translationOutputMin="10" translationOutputMax="0.35" />
+        <binding type="amp" level="group" position="52" parameter="ENV_RELEASE" translation="linear" translationOutputMin="10" translationOutputMax="0.35" />
+        <binding type="amp" level="group" position="53" parameter="ENV_RELEASE" translation="linear" translationOutputMin="10" translationOutputMax="0.35" />
+        
+        <binding type="effect" level="instrument" position="0" parameter="LEVEL" modBehavior="set" translation="linear" translationOutputMin=".75" translationOutputMax="9" />
+      </control>
+
+
+      <!-- Saturation -->
+      <control x="660" y="243" width="39" height="39" parameterName="Effects: Global - Saturation" type="float" minValue="0" maxValue="10" textColor="FF000000" value="1.50" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_ssl.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+        <binding type="effect" level="instrument" effectIndex="1" parameter="FX_DRIVE" translation="table" translationTable="0,1;8,25;10.0001,50;"/>
+        <binding type="effect" level="instrument" effectIndex="1" parameter="FX_OUTPUT_LEVEL" translation="table" translationReversed="true" translationTable="0,0.1;5,0.16;9,0.20;9.9,0.5;10.0001,1.0;"/>
+      </control>
+    </tab>
+  </ui>
+  <groups volume="1">
+
+    <!-- Kick-->
+    <group tags="kick-darkenergy" seqMode="random" seqLength="18" silencingMode="normal" decay="0.15" ampEnvEnabled="true" >
+      <sample seqPosition="1"  loNote="36" hiNote="36" rootNote="36" path="Samples/Kick_DarkEnergy_01_01.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample seqPosition="2"  loNote="36" hiNote="36" rootNote="36" path="Samples/Kick_DarkEnergy_01_02.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample seqPosition="3"  loNote="36" hiNote="36" rootNote="36" path="Samples/Kick_DarkEnergy_01_03.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample seqPosition="4"  loNote="36" hiNote="36" rootNote="36" path="Samples/Kick_DarkEnergy_01_04.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample seqPosition="5"  loNote="36" hiNote="36" rootNote="36" path="Samples/Kick_DarkEnergy_01_05.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample seqPosition="6"  loNote="36" hiNote="36" rootNote="36" path="Samples/Kick_DarkEnergy_01_06.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample seqPosition="7"  loNote="36" hiNote="36" rootNote="36" path="Samples/Kick_DarkEnergy_01_07.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample seqPosition="8"  loNote="36" hiNote="36" rootNote="36" path="Samples/Kick_DarkEnergy_01_08.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample seqPosition="9"  loNote="36" hiNote="36" rootNote="36" path="Samples/Kick_DarkEnergy_01_09.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample seqPosition="10" loNote="36" hiNote="36" rootNote="36" path="Samples/Kick_DarkEnergy_01_10.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample seqPosition="11" loNote="36" hiNote="36" rootNote="36" path="Samples/Kick_DarkEnergy_01_11.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample seqPosition="12" loNote="36" hiNote="36" rootNote="36" path="Samples/Kick_DarkEnergy_01_12.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample seqPosition="13" loNote="36" hiNote="36" rootNote="36" path="Samples/Kick_DarkEnergy_01_13.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample seqPosition="14" loNote="36" hiNote="36" rootNote="36" path="Samples/Kick_DarkEnergy_01_14.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample seqPosition="15" loNote="36" hiNote="36" rootNote="36" path="Samples/Kick_DarkEnergy_01_15.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample seqPosition="16" loNote="36" hiNote="36" rootNote="36" path="Samples/Kick_DarkEnergy_01_16.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample seqPosition="17" loNote="36" hiNote="36" rootNote="36" path="Samples/Kick_DarkEnergy_01_17.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample seqPosition="18" loNote="36" hiNote="36" rootNote="36" path="Samples/Kick_DarkEnergy_01_18.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+    </group>
+    <group tags="kick,kick-ms20" seqMode="random" seqLength="14" silencingMode="normal" decay="0.15" ampEnvEnabled="true" >
+      <sample seqPosition="1"  loNote="36" hiNote="36" rootNote="36" path="Samples/Kick_MS-20_01_01.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample seqPosition="2"  loNote="36" hiNote="36" rootNote="36" path="Samples/Kick_MS-20_01_02.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample seqPosition="3"  loNote="36" hiNote="36" rootNote="36" path="Samples/Kick_MS-20_01_03.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample seqPosition="4"  loNote="36" hiNote="36" rootNote="36" path="Samples/Kick_MS-20_01_04.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample seqPosition="5"  loNote="36" hiNote="36" rootNote="36" path="Samples/Kick_MS-20_01_05.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample seqPosition="6"  loNote="36" hiNote="36" rootNote="36" path="Samples/Kick_MS-20_01_06.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample seqPosition="7"  loNote="36" hiNote="36" rootNote="36" path="Samples/Kick_MS-20_01_07.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample seqPosition="8"  loNote="36" hiNote="36" rootNote="36" path="Samples/Kick_MS-20_01_08.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample seqPosition="9"  loNote="36" hiNote="36" rootNote="36" path="Samples/Kick_MS-20_01_09.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample seqPosition="10" loNote="36" hiNote="36" rootNote="36" path="Samples/Kick_MS-20_01_10.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample seqPosition="11" loNote="36" hiNote="36" rootNote="36" path="Samples/Kick_MS-20_01_11.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample seqPosition="12" loNote="36" hiNote="36" rootNote="36" path="Samples/Kick_MS-20_01_12.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample seqPosition="13" loNote="36" hiNote="36" rootNote="36" path="Samples/Kick_MS-20_01_13.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample seqPosition="14" loNote="36" hiNote="36" rootNote="36" path="Samples/Kick_MS-20_01_14.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+    </group>
+
+
+    <!-- Snare -->
+    <group tags="snare-ms20-top" seqMode="random" seqLength="8" silencingMode="normal" decay="0.15" ampEnvEnabled="true" >
+      <sample seqPosition="1" loNote="38" hiNote="38" rootNote="38" path="Samples/SnareTop_MS-20_01_01.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample seqPosition="2" loNote="38" hiNote="38" rootNote="38" path="Samples/SnareTop_MS-20_01_02.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample seqPosition="3" loNote="38" hiNote="38" rootNote="38" path="Samples/SnareTop_MS-20_01_03.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample seqPosition="4" loNote="38" hiNote="38" rootNote="38" path="Samples/SnareTop_MS-20_01_04.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample seqPosition="5" loNote="38" hiNote="38" rootNote="38" path="Samples/SnareTop_MS-20_01_05.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample seqPosition="6" loNote="38" hiNote="38" rootNote="38" path="Samples/SnareTop_MS-20_01_06.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample seqPosition="7" loNote="38" hiNote="38" rootNote="38" path="Samples/SnareTop_MS-20_01_07.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample seqPosition="8" loNote="38" hiNote="38" rootNote="38" path="Samples/SnareTop_MS-20_01_08.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+    </group>
+    <group tags="snare-ms20-bottom" seqMode="random" seqLength="8" silencingMode="normal" decay="0.15" ampEnvEnabled="true" >
+      <sample seqPosition="1" loNote="38" hiNote="38" rootNote="38" path="Samples/SnareBottom_MS-20_01_01.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="2" loNote="38" hiNote="38" rootNote="38" path="Samples/SnareBottom_MS-20_01_02.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="3" loNote="38" hiNote="38" rootNote="38" path="Samples/SnareBottom_MS-20_01_03.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="4" loNote="38" hiNote="38" rootNote="38" path="Samples/SnareBottom_MS-20_01_04.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="5" loNote="38" hiNote="38" rootNote="38" path="Samples/SnareBottom_MS-20_01_05.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="6" loNote="38" hiNote="38" rootNote="38" path="Samples/SnareBottom_MS-20_01_06.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="7" loNote="38" hiNote="38" rootNote="38" path="Samples/SnareBottom_MS-20_01_07.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="8" loNote="38" hiNote="38" rootNote="38" path="Samples/SnareBottom_MS-20_01_08.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+    </group>
+    <group tags="snare-darkenergy" seqMode="random" seqLength="8" silencingMode="normal" decay="0.15" ampEnvEnabled="true" >
+      <sample seqPosition="1" loNote="38" hiNote="38" rootNote="38" path="Samples/Snare_DarkEnergy_01_01.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="2" loNote="38" hiNote="38" rootNote="38" path="Samples/Snare_DarkEnergy_01_02.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="3" loNote="38" hiNote="38" rootNote="38" path="Samples/Snare_DarkEnergy_01_03.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="4" loNote="38" hiNote="38" rootNote="38" path="Samples/Snare_DarkEnergy_01_04.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="5" loNote="38" hiNote="38" rootNote="38" path="Samples/Snare_DarkEnergy_01_05.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="6" loNote="38" hiNote="38" rootNote="38" path="Samples/Snare_DarkEnergy_01_06.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="7" loNote="38" hiNote="38" rootNote="38" path="Samples/Snare_DarkEnergy_01_07.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="8" loNote="38" hiNote="38" rootNote="38" path="Samples/Snare_DarkEnergy_01_08.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+    </group>
+
+    <group tags="snare-sh09-velocity" loVel="0"   hiVel="42"  seqMode="random" seqLength="8" silencingMode="normal" decay="0.15" ampEnvEnabled="true">
+      <sample seqPosition="1" loNote="38" hiNote="38" rootNote="38" path="Samples/Snare_SH-09_01_01.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="2" loNote="38" hiNote="38" rootNote="38" path="Samples/Snare_SH-09_01_02.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="3" loNote="38" hiNote="38" rootNote="38" path="Samples/Snare_SH-09_01_03.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="4" loNote="38" hiNote="38" rootNote="38" path="Samples/Snare_SH-09_01_04.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="5" loNote="38" hiNote="38" rootNote="38" path="Samples/Snare_SH-09_01_05.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="6" loNote="38" hiNote="38" rootNote="38" path="Samples/Snare_SH-09_01_06.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="7" loNote="38" hiNote="38" rootNote="38" path="Samples/Snare_SH-09_01_07.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="8" loNote="38" hiNote="38" rootNote="38" path="Samples/Snare_SH-09_01_08.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+    </group>
+    <group tags="snare-sh09-velocity" loVel="43"  hiVel="80"  seqMode="random" seqLength="8" silencingMode="normal" decay="0.15" ampEnvEnabled="true">
+      <sample seqPosition="1" loNote="38" hiNote="38" rootNote="38" path="Samples/Snare_SH-09_02_01.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="2" loNote="38" hiNote="38" rootNote="38" path="Samples/Snare_SH-09_02_02.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="3" loNote="38" hiNote="38" rootNote="38" path="Samples/Snare_SH-09_02_03.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="4" loNote="38" hiNote="38" rootNote="38" path="Samples/Snare_SH-09_02_04.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="5" loNote="38" hiNote="38" rootNote="38" path="Samples/Snare_SH-09_02_05.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="6" loNote="38" hiNote="38" rootNote="38" path="Samples/Snare_SH-09_02_06.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="7" loNote="38" hiNote="38" rootNote="38" path="Samples/Snare_SH-09_02_07.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="8" loNote="38" hiNote="38" rootNote="38" path="Samples/Snare_SH-09_02_08.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+    </group>
+    <group tags="snare-sh09-velocity" loVel="81"  hiVel="110"  seqMode="random" seqLength="8" silencingMode="normal" decay="0.15" ampEnvEnabled="true">
+      <sample seqPosition="1" loNote="38" hiNote="38" rootNote="38" path="Samples/Snare_SH-09_03_01.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="2" loNote="38" hiNote="38" rootNote="38" path="Samples/Snare_SH-09_03_02.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="3" loNote="38" hiNote="38" rootNote="38" path="Samples/Snare_SH-09_03_03.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="4" loNote="38" hiNote="38" rootNote="38" path="Samples/Snare_SH-09_03_04.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="5" loNote="38" hiNote="38" rootNote="38" path="Samples/Snare_SH-09_03_05.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="6" loNote="38" hiNote="38" rootNote="38" path="Samples/Snare_SH-09_03_06.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="7" loNote="38" hiNote="38" rootNote="38" path="Samples/Snare_SH-09_03_07.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="8" loNote="38" hiNote="38" rootNote="38" path="Samples/Snare_SH-09_03_08.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+    </group>
+    <group tags="snare-sh09-velocity" loVel="111"  hiVel="117" seqMode="random" seqLength="8" silencingMode="normal" decay="0.15" ampEnvEnabled="true">
+      <sample seqPosition="1" loNote="38" hiNote="38" rootNote="38" path="Samples/Snare_SH-09_04_01.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="2" loNote="38" hiNote="38" rootNote="38" path="Samples/Snare_SH-09_04_02.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="3" loNote="38" hiNote="38" rootNote="38" path="Samples/Snare_SH-09_04_03.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="4" loNote="38" hiNote="38" rootNote="38" path="Samples/Snare_SH-09_04_04.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="5" loNote="38" hiNote="38" rootNote="38" path="Samples/Snare_SH-09_04_05.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="6" loNote="38" hiNote="38" rootNote="38" path="Samples/Snare_SH-09_04_06.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="7" loNote="38" hiNote="38" rootNote="38" path="Samples/Snare_SH-09_04_07.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="8" loNote="38" hiNote="38" rootNote="38" path="Samples/Snare_SH-09_04_08.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+    </group>
+    <group tags="snare-sh09-velocity" loVel="118" hiVel="123" seqMode="random" seqLength="8" silencingMode="normal" decay="0.15" ampEnvEnabled="true">
+      <sample seqPosition="1" loNote="38" hiNote="38" rootNote="38" path="Samples/Snare_SH-09_05_01.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="2" loNote="38" hiNote="38" rootNote="38" path="Samples/Snare_SH-09_05_02.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="3" loNote="38" hiNote="38" rootNote="38" path="Samples/Snare_SH-09_05_03.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="4" loNote="38" hiNote="38" rootNote="38" path="Samples/Snare_SH-09_05_04.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="5" loNote="38" hiNote="38" rootNote="38" path="Samples/Snare_SH-09_05_05.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="6" loNote="38" hiNote="38" rootNote="38" path="Samples/Snare_SH-09_05_06.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="7" loNote="38" hiNote="38" rootNote="38" path="Samples/Snare_SH-09_05_07.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="8" loNote="38" hiNote="38" rootNote="38" path="Samples/Snare_SH-09_05_08.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+    </group>
+    <group tags="snare-sh09-velocity" loVel="124" hiVel="127" seqMode="random" seqLength="8" silencingMode="normal" decay="0.15" ampEnvEnabled="true">
+      <sample seqPosition="1" loNote="38" hiNote="38" rootNote="38" path="Samples/Snare_SH-09_06_01.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="2" loNote="38" hiNote="38" rootNote="38" path="Samples/Snare_SH-09_06_02.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="3" loNote="38" hiNote="38" rootNote="38" path="Samples/Snare_SH-09_06_03.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="4" loNote="38" hiNote="38" rootNote="38" path="Samples/Snare_SH-09_06_04.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="5" loNote="38" hiNote="38" rootNote="38" path="Samples/Snare_SH-09_06_05.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="6" loNote="38" hiNote="38" rootNote="38" path="Samples/Snare_SH-09_06_06.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="7" loNote="38" hiNote="38" rootNote="38" path="Samples/Snare_SH-09_06_07.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="8" loNote="38" hiNote="38" rootNote="38" path="Samples/Snare_SH-09_06_08.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+    </group>
+
+    <group tags="snare-sh09-01" seqMode="random" seqLength="8" silencingMode="normal" decay="0.15" ampEnvEnabled="true">
+      <sample seqPosition="1" loNote="38" hiNote="38" rootNote="38" path="Samples/Snare_SH-09_01_01.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="2" loNote="38" hiNote="38" rootNote="38" path="Samples/Snare_SH-09_01_02.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="3" loNote="38" hiNote="38" rootNote="38" path="Samples/Snare_SH-09_01_03.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="4" loNote="38" hiNote="38" rootNote="38" path="Samples/Snare_SH-09_01_04.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="5" loNote="38" hiNote="38" rootNote="38" path="Samples/Snare_SH-09_01_05.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="6" loNote="38" hiNote="38" rootNote="38" path="Samples/Snare_SH-09_01_06.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="7" loNote="38" hiNote="38" rootNote="38" path="Samples/Snare_SH-09_01_07.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="8" loNote="38" hiNote="38" rootNote="38" path="Samples/Snare_SH-09_01_08.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+    </group>
+    <group tags="snare-sh09-02" seqMode="random" seqLength="8" silencingMode="normal" decay="0.15" ampEnvEnabled="true">
+      <sample seqPosition="1" loNote="38" hiNote="38" rootNote="38" path="Samples/Snare_SH-09_02_01.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="2" loNote="38" hiNote="38" rootNote="38" path="Samples/Snare_SH-09_02_02.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="3" loNote="38" hiNote="38" rootNote="38" path="Samples/Snare_SH-09_02_03.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="4" loNote="38" hiNote="38" rootNote="38" path="Samples/Snare_SH-09_02_04.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="5" loNote="38" hiNote="38" rootNote="38" path="Samples/Snare_SH-09_02_05.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="6" loNote="38" hiNote="38" rootNote="38" path="Samples/Snare_SH-09_02_06.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="7" loNote="38" hiNote="38" rootNote="38" path="Samples/Snare_SH-09_02_07.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="8" loNote="38" hiNote="38" rootNote="38" path="Samples/Snare_SH-09_02_08.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+    </group>
+    <group tags="snare-sh09-03" seqMode="random" seqLength="8" silencingMode="normal" decay="0.15" ampEnvEnabled="true">
+      <sample seqPosition="1" loNote="38" hiNote="38" rootNote="38" path="Samples/Snare_SH-09_03_01.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="2" loNote="38" hiNote="38" rootNote="38" path="Samples/Snare_SH-09_03_02.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="3" loNote="38" hiNote="38" rootNote="38" path="Samples/Snare_SH-09_03_03.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="4" loNote="38" hiNote="38" rootNote="38" path="Samples/Snare_SH-09_03_04.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="5" loNote="38" hiNote="38" rootNote="38" path="Samples/Snare_SH-09_03_05.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="6" loNote="38" hiNote="38" rootNote="38" path="Samples/Snare_SH-09_03_06.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="7" loNote="38" hiNote="38" rootNote="38" path="Samples/Snare_SH-09_03_07.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="8" loNote="38" hiNote="38" rootNote="38" path="Samples/Snare_SH-09_03_08.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+    </group>
+    <group tags="snare-sh09-04" seqMode="random" seqLength="8" silencingMode="normal" decay="0.15" ampEnvEnabled="true">
+      <sample seqPosition="1" loNote="38" hiNote="38" rootNote="38" path="Samples/Snare_SH-09_04_01.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="2" loNote="38" hiNote="38" rootNote="38" path="Samples/Snare_SH-09_04_02.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="3" loNote="38" hiNote="38" rootNote="38" path="Samples/Snare_SH-09_04_03.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="4" loNote="38" hiNote="38" rootNote="38" path="Samples/Snare_SH-09_04_04.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="5" loNote="38" hiNote="38" rootNote="38" path="Samples/Snare_SH-09_04_05.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="6" loNote="38" hiNote="38" rootNote="38" path="Samples/Snare_SH-09_04_06.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="7" loNote="38" hiNote="38" rootNote="38" path="Samples/Snare_SH-09_04_07.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="8" loNote="38" hiNote="38" rootNote="38" path="Samples/Snare_SH-09_04_08.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+    </group>
+    <group tags="snare-sh09-05" seqMode="random" seqLength="8" silencingMode="normal" decay="0.15" ampEnvEnabled="true">
+      <sample seqPosition="1" loNote="38" hiNote="38" rootNote="38" path="Samples/Snare_SH-09_05_01.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="2" loNote="38" hiNote="38" rootNote="38" path="Samples/Snare_SH-09_05_02.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="3" loNote="38" hiNote="38" rootNote="38" path="Samples/Snare_SH-09_05_03.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="4" loNote="38" hiNote="38" rootNote="38" path="Samples/Snare_SH-09_05_04.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="5" loNote="38" hiNote="38" rootNote="38" path="Samples/Snare_SH-09_05_05.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="6" loNote="38" hiNote="38" rootNote="38" path="Samples/Snare_SH-09_05_06.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="7" loNote="38" hiNote="38" rootNote="38" path="Samples/Snare_SH-09_05_07.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="8" loNote="38" hiNote="38" rootNote="38" path="Samples/Snare_SH-09_05_08.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+    </group>
+    <group tags="snare-sh09-06" seqMode="random" seqLength="8" silencingMode="normal" decay="0.15" ampEnvEnabled="true">
+      <sample seqPosition="1" loNote="38" hiNote="38" rootNote="38" path="Samples/Snare_SH-09_06_01.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="2" loNote="38" hiNote="38" rootNote="38" path="Samples/Snare_SH-09_06_02.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="3" loNote="38" hiNote="38" rootNote="38" path="Samples/Snare_SH-09_06_03.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="4" loNote="38" hiNote="38" rootNote="38" path="Samples/Snare_SH-09_06_04.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="5" loNote="38" hiNote="38" rootNote="38" path="Samples/Snare_SH-09_06_05.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="6" loNote="38" hiNote="38" rootNote="38" path="Samples/Snare_SH-09_06_06.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="7" loNote="38" hiNote="38" rootNote="38" path="Samples/Snare_SH-09_06_07.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="8" loNote="38" hiNote="38" rootNote="38" path="Samples/Snare_SH-09_06_08.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+    </group>
+
+
+    <!-- Hi-Hat closed -->
+    <group tags="hihat-ms20-velocity,hihat-closed" loVel="0"   hiVel="58"  seqMode="random" seqLength="8" silencingMode="normal" decay="0.15" ampEnvEnabled="true">
+      <sample seqPosition="1" loNote="40" hiNote="40" rootNote="40" path="Samples/HiHat_MS-20_01_01.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="2" loNote="40" hiNote="40" rootNote="40" path="Samples/HiHat_MS-20_01_02.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="3" loNote="40" hiNote="40" rootNote="40" path="Samples/HiHat_MS-20_01_03.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="4" loNote="40" hiNote="40" rootNote="40" path="Samples/HiHat_MS-20_01_04.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="5" loNote="40" hiNote="40" rootNote="40" path="Samples/HiHat_MS-20_01_05.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="6" loNote="40" hiNote="40" rootNote="40" path="Samples/HiHat_MS-20_01_06.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="7" loNote="40" hiNote="40" rootNote="40" path="Samples/HiHat_MS-20_01_07.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="8" loNote="40" hiNote="40" rootNote="40" path="Samples/HiHat_MS-20_01_08.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+    </group>
+    <group tags="hihat-ms20-velocity,hihat-closed" loVel="59"  hiVel="100" seqMode="random" seqLength="8" silencingMode="normal" decay="0.15" ampEnvEnabled="true">
+      <sample seqPosition="1" loNote="40" hiNote="40" rootNote="40" path="Samples/HiHat_MS-20_02_01.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="2" loNote="40" hiNote="40" rootNote="40" path="Samples/HiHat_MS-20_02_02.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="3" loNote="40" hiNote="40" rootNote="40" path="Samples/HiHat_MS-20_02_03.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="4" loNote="40" hiNote="40" rootNote="40" path="Samples/HiHat_MS-20_02_04.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="5" loNote="40" hiNote="40" rootNote="40" path="Samples/HiHat_MS-20_02_05.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="6" loNote="40" hiNote="40" rootNote="40" path="Samples/HiHat_MS-20_02_06.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="7" loNote="40" hiNote="40" rootNote="40" path="Samples/HiHat_MS-20_02_07.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="8" loNote="40" hiNote="40" rootNote="40" path="Samples/HiHat_MS-20_02_08.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+    </group>
+    <group tags="hihat-ms20-velocity,hihat-closed" loVel="101" hiVel="127" seqMode="random" seqLength="8" silencingMode="normal" decay="0.15" ampEnvEnabled="true">
+      <sample seqPosition="1" loNote="40" hiNote="40" rootNote="40" path="Samples/HiHat_MS-20_03_01.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="2" loNote="40" hiNote="40" rootNote="40" path="Samples/HiHat_MS-20_03_02.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="3" loNote="40" hiNote="40" rootNote="40" path="Samples/HiHat_MS-20_03_03.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="4" loNote="40" hiNote="40" rootNote="40" path="Samples/HiHat_MS-20_03_04.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="5" loNote="40" hiNote="40" rootNote="40" path="Samples/HiHat_MS-20_03_05.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="6" loNote="40" hiNote="40" rootNote="40" path="Samples/HiHat_MS-20_03_06.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="7" loNote="40" hiNote="40" rootNote="40" path="Samples/HiHat_MS-20_03_07.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="8" loNote="40" hiNote="40" rootNote="40" path="Samples/HiHat_MS-20_03_08.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+    </group>
+    
+
+    <!-- Hi-Hat open -->
+    <group tags="hihat-ms20-velocity" loVel="0"   hiVel="32"  seqMode="random" seqLength="8" silencingMode="fast" decay="0.15" ampEnvEnabled="true" silencedByTags="hihat-closed">
+      <sample seqPosition="1" loNote="41" hiNote="41" rootNote="41" path="Samples/HiHat_MS-20_04_01.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="2" loNote="41" hiNote="41" rootNote="41" path="Samples/HiHat_MS-20_04_02.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="3" loNote="41" hiNote="41" rootNote="41" path="Samples/HiHat_MS-20_04_03.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="4" loNote="41" hiNote="41" rootNote="41" path="Samples/HiHat_MS-20_04_04.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="5" loNote="41" hiNote="41" rootNote="41" path="Samples/HiHat_MS-20_04_05.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="6" loNote="41" hiNote="41" rootNote="41" path="Samples/HiHat_MS-20_04_06.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="7" loNote="41" hiNote="41" rootNote="41" path="Samples/HiHat_MS-20_04_07.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="8" loNote="41" hiNote="41" rootNote="41" path="Samples/HiHat_MS-20_04_08.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+    </group>
+    <group tags="hihat-ms20-velocity" loVel="33"  hiVel="60"  seqMode="random" seqLength="8" silencingMode="fast" decay="0.15" ampEnvEnabled="true" silencedByTags="hihat-closed">
+      <sample seqPosition="1" loNote="41" hiNote="41" rootNote="41" path="Samples/HiHat_MS-20_05_01.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="2" loNote="41" hiNote="41" rootNote="41" path="Samples/HiHat_MS-20_05_02.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="3" loNote="41" hiNote="41" rootNote="41" path="Samples/HiHat_MS-20_05_03.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="4" loNote="41" hiNote="41" rootNote="41" path="Samples/HiHat_MS-20_05_04.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="5" loNote="41" hiNote="41" rootNote="41" path="Samples/HiHat_MS-20_05_05.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="6" loNote="41" hiNote="41" rootNote="41" path="Samples/HiHat_MS-20_05_06.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="7" loNote="41" hiNote="41" rootNote="41" path="Samples/HiHat_MS-20_05_07.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="8" loNote="41" hiNote="41" rootNote="41" path="Samples/HiHat_MS-20_05_08.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+    </group>
+    <group tags="hihat-ms20-velocity" loVel="61"  hiVel="85"  seqMode="random" seqLength="8" silencingMode="fast" decay="0.15" ampEnvEnabled="true" silencedByTags="hihat-closed">
+      <sample seqPosition="1" loNote="41" hiNote="41" rootNote="41" path="Samples/HiHat_MS-20_06_01.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="2" loNote="41" hiNote="41" rootNote="41" path="Samples/HiHat_MS-20_06_02.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="3" loNote="41" hiNote="41" rootNote="41" path="Samples/HiHat_MS-20_06_03.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="4" loNote="41" hiNote="41" rootNote="41" path="Samples/HiHat_MS-20_06_04.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="5" loNote="41" hiNote="41" rootNote="41" path="Samples/HiHat_MS-20_06_05.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="6" loNote="41" hiNote="41" rootNote="41" path="Samples/HiHat_MS-20_06_06.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="7" loNote="41" hiNote="41" rootNote="41" path="Samples/HiHat_MS-20_06_07.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="8" loNote="41" hiNote="41" rootNote="41" path="Samples/HiHat_MS-20_06_08.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+    </group>
+    <group tags="hihat-ms20-velocity" loVel="86"  hiVel="102" seqMode="random" seqLength="8" silencingMode="fast" decay="0.15" ampEnvEnabled="true" silencedByTags="hihat-closed">
+      <sample seqPosition="1" loNote="41" hiNote="41" rootNote="41" path="Samples/HiHat_MS-20_07_01.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="2" loNote="41" hiNote="41" rootNote="41" path="Samples/HiHat_MS-20_07_02.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="3" loNote="41" hiNote="41" rootNote="41" path="Samples/HiHat_MS-20_07_03.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="4" loNote="41" hiNote="41" rootNote="41" path="Samples/HiHat_MS-20_07_04.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="5" loNote="41" hiNote="41" rootNote="41" path="Samples/HiHat_MS-20_07_05.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="6" loNote="41" hiNote="41" rootNote="41" path="Samples/HiHat_MS-20_07_06.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="7" loNote="41" hiNote="41" rootNote="41" path="Samples/HiHat_MS-20_07_07.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="8" loNote="41" hiNote="41" rootNote="41" path="Samples/HiHat_MS-20_07_08.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+    </group>
+    <group tags="hihat-ms20-velocity" loVel="103" hiVel="116" seqMode="random" seqLength="8" silencingMode="fast" decay="0.15" ampEnvEnabled="true" silencedByTags="hihat-closed">
+      <sample seqPosition="1" loNote="41" hiNote="41" rootNote="41" path="Samples/HiHat_MS-20_08_01.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="2" loNote="41" hiNote="41" rootNote="41" path="Samples/HiHat_MS-20_08_02.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="3" loNote="41" hiNote="41" rootNote="41" path="Samples/HiHat_MS-20_08_03.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="4" loNote="41" hiNote="41" rootNote="41" path="Samples/HiHat_MS-20_08_04.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="5" loNote="41" hiNote="41" rootNote="41" path="Samples/HiHat_MS-20_08_05.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="6" loNote="41" hiNote="41" rootNote="41" path="Samples/HiHat_MS-20_08_06.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="7" loNote="41" hiNote="41" rootNote="41" path="Samples/HiHat_MS-20_08_07.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="8" loNote="41" hiNote="41" rootNote="41" path="Samples/HiHat_MS-20_08_08.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+    </group>
+    <group tags="hihat-ms20-velocity" loVel="117" hiVel="127" seqMode="random" seqLength="8" silencingMode="fast" decay="0.15" ampEnvEnabled="true" silencedByTags="hihat-closed">
+      <sample seqPosition="1" loNote="41" hiNote="41" rootNote="41" path="Samples/HiHat_MS-20_09_01.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="2" loNote="41" hiNote="41" rootNote="41" path="Samples/HiHat_MS-20_09_02.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="3" loNote="41" hiNote="41" rootNote="41" path="Samples/HiHat_MS-20_09_03.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="4" loNote="41" hiNote="41" rootNote="41" path="Samples/HiHat_MS-20_09_04.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="5" loNote="41" hiNote="41" rootNote="41" path="Samples/HiHat_MS-20_09_05.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="6" loNote="41" hiNote="41" rootNote="41" path="Samples/HiHat_MS-20_09_06.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="7" loNote="41" hiNote="41" rootNote="41" path="Samples/HiHat_MS-20_09_07.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="8" loNote="41" hiNote="41" rootNote="41" path="Samples/HiHat_MS-20_09_08.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+    </group>
+
+
+    <!-- Hi-Hat closed -->
+    <group tags="hihat-ms20-01,hihat-closed" seqMode="random"  seqLength="8" silencingMode="normal" decay="0.15" ampEnvEnabled="true">
+      <sample seqPosition="1" loNote="40" hiNote="40" rootNote="40" path="Samples/HiHat_MS-20_01_01.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="2" loNote="40" hiNote="40" rootNote="40" path="Samples/HiHat_MS-20_01_02.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="3" loNote="40" hiNote="40" rootNote="40" path="Samples/HiHat_MS-20_01_03.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="4" loNote="40" hiNote="40" rootNote="40" path="Samples/HiHat_MS-20_01_04.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="5" loNote="40" hiNote="40" rootNote="40" path="Samples/HiHat_MS-20_01_05.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="6" loNote="40" hiNote="40" rootNote="40" path="Samples/HiHat_MS-20_01_06.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="7" loNote="40" hiNote="40" rootNote="40" path="Samples/HiHat_MS-20_01_07.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="8" loNote="40" hiNote="40" rootNote="40" path="Samples/HiHat_MS-20_01_08.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+    </group>
+    <group tags="hihat-ms20-02,hihat-closed" seqMode="random"  seqLength="8" silencingMode="normal" decay="0.15" ampEnvEnabled="true">
+      <sample seqPosition="1" loNote="40" hiNote="40" rootNote="40" path="Samples/HiHat_MS-20_02_01.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="2" loNote="40" hiNote="40" rootNote="40" path="Samples/HiHat_MS-20_02_02.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="3" loNote="40" hiNote="40" rootNote="40" path="Samples/HiHat_MS-20_02_03.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="4" loNote="40" hiNote="40" rootNote="40" path="Samples/HiHat_MS-20_02_04.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="5" loNote="40" hiNote="40" rootNote="40" path="Samples/HiHat_MS-20_02_05.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="6" loNote="40" hiNote="40" rootNote="40" path="Samples/HiHat_MS-20_02_06.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="7" loNote="40" hiNote="40" rootNote="40" path="Samples/HiHat_MS-20_02_07.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="8" loNote="40" hiNote="40" rootNote="40" path="Samples/HiHat_MS-20_02_08.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+    </group>
+    <group tags="hihat-ms20-03,hihat-closed" seqMode="random"  seqLength="8" silencingMode="normal" decay="0.15" ampEnvEnabled="true">
+      <sample seqPosition="1" loNote="40" hiNote="40" rootNote="40" path="Samples/HiHat_MS-20_03_01.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="2" loNote="40" hiNote="40" rootNote="40" path="Samples/HiHat_MS-20_03_02.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="3" loNote="40" hiNote="40" rootNote="40" path="Samples/HiHat_MS-20_03_03.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="4" loNote="40" hiNote="40" rootNote="40" path="Samples/HiHat_MS-20_03_04.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="5" loNote="40" hiNote="40" rootNote="40" path="Samples/HiHat_MS-20_03_05.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="6" loNote="40" hiNote="40" rootNote="40" path="Samples/HiHat_MS-20_03_06.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="7" loNote="40" hiNote="40" rootNote="40" path="Samples/HiHat_MS-20_03_07.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="8" loNote="40" hiNote="40" rootNote="40" path="Samples/HiHat_MS-20_03_08.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+    </group>
+
+
+    <!-- Hi-Hat open -->
+    <group tags="hihat-ms20-04" seqMode="random" seqLength="8" silencingMode="fast" decay="0.15" ampEnvEnabled="true" silencedByTags="hihat-closed">
+      <sample seqPosition="1" loNote="41" hiNote="41" rootNote="41" path="Samples/HiHat_MS-20_04_01.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="2" loNote="41" hiNote="41" rootNote="41" path="Samples/HiHat_MS-20_04_02.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="3" loNote="41" hiNote="41" rootNote="41" path="Samples/HiHat_MS-20_04_03.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="4" loNote="41" hiNote="41" rootNote="41" path="Samples/HiHat_MS-20_04_04.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="5" loNote="41" hiNote="41" rootNote="41" path="Samples/HiHat_MS-20_04_05.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="6" loNote="41" hiNote="41" rootNote="41" path="Samples/HiHat_MS-20_04_06.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="7" loNote="41" hiNote="41" rootNote="41" path="Samples/HiHat_MS-20_04_07.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="8" loNote="41" hiNote="41" rootNote="41" path="Samples/HiHat_MS-20_04_08.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+    </group>
+    <group tags="hihat-ms20-05" seqMode="random" seqLength="8" silencingMode="fast" decay="0.15" ampEnvEnabled="true" silencedByTags="hihat-closed">
+      <sample seqPosition="1" loNote="41" hiNote="41" rootNote="41" path="Samples/HiHat_MS-20_05_01.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="2" loNote="41" hiNote="41" rootNote="41" path="Samples/HiHat_MS-20_05_02.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="3" loNote="41" hiNote="41" rootNote="41" path="Samples/HiHat_MS-20_05_03.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="4" loNote="41" hiNote="41" rootNote="41" path="Samples/HiHat_MS-20_05_04.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="5" loNote="41" hiNote="41" rootNote="41" path="Samples/HiHat_MS-20_05_05.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="6" loNote="41" hiNote="41" rootNote="41" path="Samples/HiHat_MS-20_05_06.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="7" loNote="41" hiNote="41" rootNote="41" path="Samples/HiHat_MS-20_05_07.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="8" loNote="41" hiNote="41" rootNote="41" path="Samples/HiHat_MS-20_05_08.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+    </group>
+    <group tags="hihat-ms20-06" seqMode="random" seqLength="8" silencingMode="fast" decay="0.15" ampEnvEnabled="true" silencedByTags="hihat-closed">
+      <sample seqPosition="1" loNote="41" hiNote="41" rootNote="41" path="Samples/HiHat_MS-20_06_01.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="2" loNote="41" hiNote="41" rootNote="41" path="Samples/HiHat_MS-20_06_02.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="3" loNote="41" hiNote="41" rootNote="41" path="Samples/HiHat_MS-20_06_03.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="4" loNote="41" hiNote="41" rootNote="41" path="Samples/HiHat_MS-20_06_04.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="5" loNote="41" hiNote="41" rootNote="41" path="Samples/HiHat_MS-20_06_05.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="6" loNote="41" hiNote="41" rootNote="41" path="Samples/HiHat_MS-20_06_06.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="7" loNote="41" hiNote="41" rootNote="41" path="Samples/HiHat_MS-20_06_07.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="8" loNote="41" hiNote="41" rootNote="41" path="Samples/HiHat_MS-20_06_08.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+    </group>
+    <group tags="hihat-ms20-07" seqMode="random" seqLength="8" silencingMode="fast" decay="0.15" ampEnvEnabled="true" silencedByTags="hihat-closed">
+      <sample seqPosition="1" loNote="41" hiNote="41" rootNote="41" path="Samples/HiHat_MS-20_07_01.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="2" loNote="41" hiNote="41" rootNote="41" path="Samples/HiHat_MS-20_07_02.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="3" loNote="41" hiNote="41" rootNote="41" path="Samples/HiHat_MS-20_07_03.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="4" loNote="41" hiNote="41" rootNote="41" path="Samples/HiHat_MS-20_07_04.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="5" loNote="41" hiNote="41" rootNote="41" path="Samples/HiHat_MS-20_07_05.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="6" loNote="41" hiNote="41" rootNote="41" path="Samples/HiHat_MS-20_07_06.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="7" loNote="41" hiNote="41" rootNote="41" path="Samples/HiHat_MS-20_07_07.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="8" loNote="41" hiNote="41" rootNote="41" path="Samples/HiHat_MS-20_07_08.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+    </group>
+    <group tags="hihat-ms20-08" seqMode="random" seqLength="8" silencingMode="fast" decay="0.15" ampEnvEnabled="true" silencedByTags="hihat-closed">
+      <sample seqPosition="1" loNote="41" hiNote="41" rootNote="41" path="Samples/HiHat_MS-20_08_01.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="2" loNote="41" hiNote="41" rootNote="41" path="Samples/HiHat_MS-20_08_02.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="3" loNote="41" hiNote="41" rootNote="41" path="Samples/HiHat_MS-20_08_03.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="4" loNote="41" hiNote="41" rootNote="41" path="Samples/HiHat_MS-20_08_04.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="5" loNote="41" hiNote="41" rootNote="41" path="Samples/HiHat_MS-20_08_05.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="6" loNote="41" hiNote="41" rootNote="41" path="Samples/HiHat_MS-20_08_06.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="7" loNote="41" hiNote="41" rootNote="41" path="Samples/HiHat_MS-20_08_07.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="8" loNote="41" hiNote="41" rootNote="41" path="Samples/HiHat_MS-20_08_08.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+    </group>
+    <group tags="hihat-ms20-09" seqMode="random" seqLength="8" silencingMode="fast" decay="0.15" ampEnvEnabled="true" silencedByTags="hihat-closed">
+      <sample seqPosition="1" loNote="41" hiNote="41" rootNote="41" path="Samples/HiHat_MS-20_09_01.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="2" loNote="41" hiNote="41" rootNote="41" path="Samples/HiHat_MS-20_09_02.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="3" loNote="41" hiNote="41" rootNote="41" path="Samples/HiHat_MS-20_09_03.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="4" loNote="41" hiNote="41" rootNote="41" path="Samples/HiHat_MS-20_09_04.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="5" loNote="41" hiNote="41" rootNote="41" path="Samples/HiHat_MS-20_09_05.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="6" loNote="41" hiNote="41" rootNote="41" path="Samples/HiHat_MS-20_09_06.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="7" loNote="41" hiNote="41" rootNote="41" path="Samples/HiHat_MS-20_09_07.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="8" loNote="41" hiNote="41" rootNote="41" path="Samples/HiHat_MS-20_09_08.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+    </group>
+
+    <!-- Cymbal -->
+    <group tags="cymbal-proone-velocity" loVel="0" hiVel="58" seqMode="random" seqLength="8" silencingMode="normal" decay="0.15" ampEnvEnabled="true">
+      <sample seqPosition="2" loNote="43" hiNote="43" rootNote="43" path="Samples/Cymbal_Pro-One_01_02.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="1" loNote="43" hiNote="43" rootNote="43" path="Samples/Cymbal_Pro-One_01_01.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="3" loNote="43" hiNote="43" rootNote="43" path="Samples/Cymbal_Pro-One_01_03.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="4" loNote="43" hiNote="43" rootNote="43" path="Samples/Cymbal_Pro-One_01_04.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="5" loNote="43" hiNote="43" rootNote="43" path="Samples/Cymbal_Pro-One_01_05.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="6" loNote="43" hiNote="43" rootNote="43" path="Samples/Cymbal_Pro-One_01_06.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="7" loNote="43" hiNote="43" rootNote="43" path="Samples/Cymbal_Pro-One_01_07.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="8" loNote="43" hiNote="43" rootNote="43" path="Samples/Cymbal_Pro-One_01_08.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+    </group>
+    <group tags="cymbal-proone-velocity" loVel="59" hiVel="100" seqMode="random" seqLength="8" silencingMode="normal" decay="0.15" ampEnvEnabled="true">
+      <sample seqPosition="1" loNote="43" hiNote="43" rootNote="43" path="Samples/Cymbal_Pro-One_02_01.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="2" loNote="43" hiNote="43" rootNote="43" path="Samples/Cymbal_Pro-One_02_02.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="3" loNote="43" hiNote="43" rootNote="43" path="Samples/Cymbal_Pro-One_02_03.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="4" loNote="43" hiNote="43" rootNote="43" path="Samples/Cymbal_Pro-One_02_04.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="5" loNote="43" hiNote="43" rootNote="43" path="Samples/Cymbal_Pro-One_02_05.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="6" loNote="43" hiNote="43" rootNote="43" path="Samples/Cymbal_Pro-One_02_06.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="7" loNote="43" hiNote="43" rootNote="43" path="Samples/Cymbal_Pro-One_02_07.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="8" loNote="43" hiNote="43" rootNote="43" path="Samples/Cymbal_Pro-One_02_08.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+    </group>
+    <group tags="cymbal-proone-velocity" loVel="101" hiVel="127" seqMode="random" seqLength="8" silencingMode="normal" decay="0.15" ampEnvEnabled="true">
+      <sample seqPosition="1" loNote="43" hiNote="43" rootNote="43" path="Samples/Cymbal_Pro-One_03_01.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="2" loNote="43" hiNote="43" rootNote="43" path="Samples/Cymbal_Pro-One_03_02.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="3" loNote="43" hiNote="43" rootNote="43" path="Samples/Cymbal_Pro-One_03_03.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="4" loNote="43" hiNote="43" rootNote="43" path="Samples/Cymbal_Pro-One_03_04.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="5" loNote="43" hiNote="43" rootNote="43" path="Samples/Cymbal_Pro-One_03_05.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="6" loNote="43" hiNote="43" rootNote="43" path="Samples/Cymbal_Pro-One_03_06.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="7" loNote="43" hiNote="43" rootNote="43" path="Samples/Cymbal_Pro-One_03_07.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="8" loNote="43" hiNote="43" rootNote="43" path="Samples/Cymbal_Pro-One_03_08.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+    </group>
+
+    <group tags="cymbal-proone-01" seqMode="random" seqLength="8" silencingMode="normal" decay="0.15" ampEnvEnabled="true">
+      <sample seqPosition="1" loNote="43" hiNote="43" rootNote="43" path="Samples/Cymbal_Pro-One_01_01.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="2" loNote="43" hiNote="43" rootNote="43" path="Samples/Cymbal_Pro-One_01_02.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="3" loNote="43" hiNote="43" rootNote="43" path="Samples/Cymbal_Pro-One_01_03.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="4" loNote="43" hiNote="43" rootNote="43" path="Samples/Cymbal_Pro-One_01_04.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="5" loNote="43" hiNote="43" rootNote="43" path="Samples/Cymbal_Pro-One_01_05.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="6" loNote="43" hiNote="43" rootNote="43" path="Samples/Cymbal_Pro-One_01_06.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="7" loNote="43" hiNote="43" rootNote="43" path="Samples/Cymbal_Pro-One_01_07.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="8" loNote="43" hiNote="43" rootNote="43" path="Samples/Cymbal_Pro-One_01_08.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+    </group>
+    <group tags="cymbal-proone-02" seqMode="random" seqLength="8" silencingMode="normal" decay="0.15" ampEnvEnabled="true">
+      <sample seqPosition="1" loNote="43" hiNote="43" rootNote="43" path="Samples/Cymbal_Pro-One_02_01.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="2" loNote="43" hiNote="43" rootNote="43" path="Samples/Cymbal_Pro-One_02_02.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="3" loNote="43" hiNote="43" rootNote="43" path="Samples/Cymbal_Pro-One_02_03.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="4" loNote="43" hiNote="43" rootNote="43" path="Samples/Cymbal_Pro-One_02_04.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="5" loNote="43" hiNote="43" rootNote="43" path="Samples/Cymbal_Pro-One_02_05.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="6" loNote="43" hiNote="43" rootNote="43" path="Samples/Cymbal_Pro-One_02_06.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="7" loNote="43" hiNote="43" rootNote="43" path="Samples/Cymbal_Pro-One_02_07.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="8" loNote="43" hiNote="43" rootNote="43" path="Samples/Cymbal_Pro-One_02_08.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+    </group>
+    <group tags="cymbal-proone-03" seqMode="random" seqLength="8" silencingMode="normal" decay="0.15" ampEnvEnabled="true">
+      <sample seqPosition="1" loNote="43" hiNote="43" rootNote="43" path="Samples/Cymbal_Pro-One_03_01.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="2" loNote="43" hiNote="43" rootNote="43" path="Samples/Cymbal_Pro-One_03_02.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="3" loNote="43" hiNote="43" rootNote="43" path="Samples/Cymbal_Pro-One_03_03.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="4" loNote="43" hiNote="43" rootNote="43" path="Samples/Cymbal_Pro-One_03_04.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="5" loNote="43" hiNote="43" rootNote="43" path="Samples/Cymbal_Pro-One_03_05.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="6" loNote="43" hiNote="43" rootNote="43" path="Samples/Cymbal_Pro-One_03_06.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="7" loNote="43" hiNote="43" rootNote="43" path="Samples/Cymbal_Pro-One_03_07.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="8" loNote="43" hiNote="43" rootNote="43" path="Samples/Cymbal_Pro-One_03_08.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+    </group>
+
+    <!-- Tom -->
+    <group tags="tom-ms20" seqMode="random" seqLength="8" silencingMode="normal" decay="0.15" ampEnvEnabled="true">
+      <sample seqPosition="1" loNote="45" hiNote="45" rootNote="45" path="Samples/Tom_MS-20_01_01.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="2" loNote="45" hiNote="45" rootNote="45" path="Samples/Tom_MS-20_01_02.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="3" loNote="45" hiNote="45" rootNote="45" path="Samples/Tom_MS-20_01_03.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="4" loNote="45" hiNote="45" rootNote="45" path="Samples/Tom_MS-20_01_04.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="5" loNote="45" hiNote="45" rootNote="45" path="Samples/Tom_MS-20_01_05.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="6" loNote="45" hiNote="45" rootNote="45" path="Samples/Tom_MS-20_01_06.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="7" loNote="45" hiNote="45" rootNote="45" path="Samples/Tom_MS-20_01_07.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="8" loNote="45" hiNote="45" rootNote="45" path="Samples/Tom_MS-20_01_08.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="1" loNote="46" hiNote="46" rootNote="46" path="Samples/Tom_MS-20_02_01.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="2" loNote="46" hiNote="46" rootNote="46" path="Samples/Tom_MS-20_02_02.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="3" loNote="46" hiNote="46" rootNote="46" path="Samples/Tom_MS-20_02_03.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="4" loNote="46" hiNote="46" rootNote="46" path="Samples/Tom_MS-20_02_04.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="5" loNote="46" hiNote="46" rootNote="46" path="Samples/Tom_MS-20_02_05.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="6" loNote="46" hiNote="46" rootNote="46" path="Samples/Tom_MS-20_02_06.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="7" loNote="46" hiNote="46" rootNote="46" path="Samples/Tom_MS-20_02_07.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="8" loNote="46" hiNote="46" rootNote="46" path="Samples/Tom_MS-20_02_08.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="1" loNote="47" hiNote="47" rootNote="47" path="Samples/Tom_MS-20_03_01.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="2" loNote="47" hiNote="47" rootNote="47" path="Samples/Tom_MS-20_03_02.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="3" loNote="47" hiNote="47" rootNote="47" path="Samples/Tom_MS-20_03_03.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="4" loNote="47" hiNote="47" rootNote="47" path="Samples/Tom_MS-20_03_04.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="5" loNote="47" hiNote="47" rootNote="47" path="Samples/Tom_MS-20_03_05.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="6" loNote="47" hiNote="47" rootNote="47" path="Samples/Tom_MS-20_03_06.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="7" loNote="47" hiNote="47" rootNote="47" path="Samples/Tom_MS-20_03_07.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="8" loNote="47" hiNote="47" rootNote="47" path="Samples/Tom_MS-20_03_08.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="1" loNote="48" hiNote="48" rootNote="48" path="Samples/Tom_MS-20_04_01.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="2" loNote="48" hiNote="48" rootNote="48" path="Samples/Tom_MS-20_04_02.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="3" loNote="48" hiNote="48" rootNote="48" path="Samples/Tom_MS-20_04_03.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="4" loNote="48" hiNote="48" rootNote="48" path="Samples/Tom_MS-20_04_04.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="5" loNote="48" hiNote="48" rootNote="48" path="Samples/Tom_MS-20_04_05.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="6" loNote="48" hiNote="48" rootNote="48" path="Samples/Tom_MS-20_04_06.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="7" loNote="48" hiNote="48" rootNote="48" path="Samples/Tom_MS-20_04_07.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="8" loNote="48" hiNote="48" rootNote="48" path="Samples/Tom_MS-20_04_08.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="1" loNote="49" hiNote="49" rootNote="49" path="Samples/Tom_MS-20_05_01.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="2" loNote="49" hiNote="49" rootNote="49" path="Samples/Tom_MS-20_05_02.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="3" loNote="49" hiNote="49" rootNote="49" path="Samples/Tom_MS-20_05_03.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="4" loNote="49" hiNote="49" rootNote="49" path="Samples/Tom_MS-20_05_04.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="5" loNote="49" hiNote="49" rootNote="49" path="Samples/Tom_MS-20_05_05.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="6" loNote="49" hiNote="49" rootNote="49" path="Samples/Tom_MS-20_05_06.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="7" loNote="49" hiNote="49" rootNote="49" path="Samples/Tom_MS-20_05_07.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="8" loNote="49" hiNote="49" rootNote="49" path="Samples/Tom_MS-20_05_08.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="1" loNote="50" hiNote="50" rootNote="50" path="Samples/Tom_MS-20_06_01.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="2" loNote="50" hiNote="50" rootNote="50" path="Samples/Tom_MS-20_06_02.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="3" loNote="50" hiNote="50" rootNote="50" path="Samples/Tom_MS-20_06_03.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="4" loNote="50" hiNote="50" rootNote="50" path="Samples/Tom_MS-20_06_04.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="5" loNote="50" hiNote="50" rootNote="50" path="Samples/Tom_MS-20_06_05.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="6" loNote="50" hiNote="50" rootNote="50" path="Samples/Tom_MS-20_06_06.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="7" loNote="50" hiNote="50" rootNote="50" path="Samples/Tom_MS-20_06_07.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="8" loNote="50" hiNote="50" rootNote="50" path="Samples/Tom_MS-20_06_08.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="1" loNote="51" hiNote="51" rootNote="51" path="Samples/Tom_MS-20_07_01.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="2" loNote="51" hiNote="51" rootNote="51" path="Samples/Tom_MS-20_07_02.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="3" loNote="51" hiNote="51" rootNote="51" path="Samples/Tom_MS-20_07_03.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="4" loNote="51" hiNote="51" rootNote="51" path="Samples/Tom_MS-20_07_04.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="5" loNote="51" hiNote="51" rootNote="51" path="Samples/Tom_MS-20_07_05.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="6" loNote="51" hiNote="51" rootNote="51" path="Samples/Tom_MS-20_07_06.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="7" loNote="51" hiNote="51" rootNote="51" path="Samples/Tom_MS-20_07_07.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="8" loNote="51" hiNote="51" rootNote="51" path="Samples/Tom_MS-20_07_08.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="1" loNote="52" hiNote="52" rootNote="52" path="Samples/Tom_MS-20_08_01.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="2" loNote="52" hiNote="52" rootNote="52" path="Samples/Tom_MS-20_08_02.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="3" loNote="52" hiNote="52" rootNote="52" path="Samples/Tom_MS-20_08_03.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="4" loNote="52" hiNote="52" rootNote="52" path="Samples/Tom_MS-20_08_04.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="5" loNote="52" hiNote="52" rootNote="52" path="Samples/Tom_MS-20_08_05.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="6" loNote="52" hiNote="52" rootNote="52" path="Samples/Tom_MS-20_08_06.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="7" loNote="52" hiNote="52" rootNote="52" path="Samples/Tom_MS-20_08_07.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="8" loNote="52" hiNote="52" rootNote="52" path="Samples/Tom_MS-20_08_08.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="1" loNote="53" hiNote="53" rootNote="53" path="Samples/Tom_MS-20_09_01.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="2" loNote="53" hiNote="53" rootNote="53" path="Samples/Tom_MS-20_09_02.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="3" loNote="53" hiNote="53" rootNote="53" path="Samples/Tom_MS-20_09_03.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="4" loNote="53" hiNote="53" rootNote="53" path="Samples/Tom_MS-20_09_04.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="5" loNote="53" hiNote="53" rootNote="53" path="Samples/Tom_MS-20_09_05.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="6" loNote="53" hiNote="53" rootNote="53" path="Samples/Tom_MS-20_09_06.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="7" loNote="53" hiNote="53" rootNote="53" path="Samples/Tom_MS-20_09_07.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="8" loNote="53" hiNote="53" rootNote="53" path="Samples/Tom_MS-20_09_08.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="1" loNote="54" hiNote="54" rootNote="54" path="Samples/Tom_MS-20_10_01.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="2" loNote="54" hiNote="54" rootNote="54" path="Samples/Tom_MS-20_10_02.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="3" loNote="54" hiNote="54" rootNote="54" path="Samples/Tom_MS-20_10_03.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="4" loNote="54" hiNote="54" rootNote="54" path="Samples/Tom_MS-20_10_04.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="5" loNote="54" hiNote="54" rootNote="54" path="Samples/Tom_MS-20_10_05.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="6" loNote="54" hiNote="54" rootNote="54" path="Samples/Tom_MS-20_10_06.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="7" loNote="54" hiNote="54" rootNote="54" path="Samples/Tom_MS-20_10_07.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="8" loNote="54" hiNote="54" rootNote="54" path="Samples/Tom_MS-20_10_08.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="1" loNote="55" hiNote="55" rootNote="55" path="Samples/Tom_MS-20_11_01.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="2" loNote="55" hiNote="55" rootNote="55" path="Samples/Tom_MS-20_11_02.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="3" loNote="55" hiNote="55" rootNote="55" path="Samples/Tom_MS-20_11_03.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="4" loNote="55" hiNote="55" rootNote="55" path="Samples/Tom_MS-20_11_04.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="5" loNote="55" hiNote="55" rootNote="55" path="Samples/Tom_MS-20_11_05.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="6" loNote="55" hiNote="55" rootNote="55" path="Samples/Tom_MS-20_11_06.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="7" loNote="55" hiNote="55" rootNote="55" path="Samples/Tom_MS-20_11_07.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="8" loNote="55" hiNote="55" rootNote="55" path="Samples/Tom_MS-20_11_08.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+    </group>
+
+    <group tags="tom-sh09-velocity" loVel="0"   hiVel="32"  seqMode="random" seqLength="8" silencingMode="normal" decay="0.15" ampEnvEnabled="true">
+      <sample seqPosition="1" loNote="45" hiNote="55" rootNote="45" path="Samples/Tom_SH-09_01_01.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="2" loNote="45" hiNote="55" rootNote="45" path="Samples/Tom_SH-09_01_02.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="3" loNote="45" hiNote="55" rootNote="45" path="Samples/Tom_SH-09_01_03.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="4" loNote="45" hiNote="55" rootNote="45" path="Samples/Tom_SH-09_01_04.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="5" loNote="45" hiNote="55" rootNote="45" path="Samples/Tom_SH-09_01_05.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="6" loNote="45" hiNote="55" rootNote="45" path="Samples/Tom_SH-09_01_06.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="7" loNote="45" hiNote="55" rootNote="45" path="Samples/Tom_SH-09_01_07.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="8" loNote="45" hiNote="55" rootNote="45" path="Samples/Tom_SH-09_01_08.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+    </group>
+    <group tags="tom-sh09-velocity" loVel="33"  hiVel="60"  seqMode="random" seqLength="8" silencingMode="normal" decay="0.15" ampEnvEnabled="true">
+      <sample seqPosition="1" loNote="45" hiNote="55" rootNote="45" path="Samples/Tom_SH-09_02_01.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="2" loNote="45" hiNote="55" rootNote="45" path="Samples/Tom_SH-09_02_02.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="3" loNote="45" hiNote="55" rootNote="45" path="Samples/Tom_SH-09_02_03.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="4" loNote="45" hiNote="55" rootNote="45" path="Samples/Tom_SH-09_02_04.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="5" loNote="45" hiNote="55" rootNote="45" path="Samples/Tom_SH-09_02_05.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="6" loNote="45" hiNote="55" rootNote="45" path="Samples/Tom_SH-09_02_06.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="7" loNote="45" hiNote="55" rootNote="45" path="Samples/Tom_SH-09_02_07.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="8" loNote="45" hiNote="55" rootNote="45" path="Samples/Tom_SH-09_02_08.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+    </group>
+    <group tags="tom-sh09-velocity" loVel="61"  hiVel="85"  seqMode="random" seqLength="8" silencingMode="normal" decay="0.15" ampEnvEnabled="true">
+      <sample seqPosition="1" loNote="45" hiNote="55" rootNote="45" path="Samples/Tom_SH-09_03_01.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="2" loNote="45" hiNote="55" rootNote="45" path="Samples/Tom_SH-09_03_02.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="3" loNote="45" hiNote="55" rootNote="45" path="Samples/Tom_SH-09_03_03.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="4" loNote="45" hiNote="55" rootNote="45" path="Samples/Tom_SH-09_03_04.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="5" loNote="45" hiNote="55" rootNote="45" path="Samples/Tom_SH-09_03_05.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="6" loNote="45" hiNote="55" rootNote="45" path="Samples/Tom_SH-09_03_06.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="7" loNote="45" hiNote="55" rootNote="45" path="Samples/Tom_SH-09_03_07.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="8" loNote="45" hiNote="55" rootNote="45" path="Samples/Tom_SH-09_03_08.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+    </group>
+    <group tags="tom-sh09-velocity" loVel="86"  hiVel="102" seqMode="random" seqLength="8" silencingMode="normal" decay="0.15" ampEnvEnabled="true">
+      <sample seqPosition="1" loNote="45" hiNote="55" rootNote="45" path="Samples/Tom_SH-09_04_01.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="2" loNote="45" hiNote="55" rootNote="45" path="Samples/Tom_SH-09_04_02.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="3" loNote="45" hiNote="55" rootNote="45" path="Samples/Tom_SH-09_04_03.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="4" loNote="45" hiNote="55" rootNote="45" path="Samples/Tom_SH-09_04_04.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="5" loNote="45" hiNote="55" rootNote="45" path="Samples/Tom_SH-09_04_05.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="6" loNote="45" hiNote="55" rootNote="45" path="Samples/Tom_SH-09_04_06.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="7" loNote="45" hiNote="55" rootNote="45" path="Samples/Tom_SH-09_04_07.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="8" loNote="45" hiNote="55" rootNote="45" path="Samples/Tom_SH-09_04_08.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+    </group>
+    <group tags="tom-sh09-velocity" loVel="103" hiVel="116" seqMode="random" seqLength="8" silencingMode="normal" decay="0.15" ampEnvEnabled="true">
+      <sample seqPosition="1" loNote="45" hiNote="55" rootNote="45" path="Samples/Tom_SH-09_05_01.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="2" loNote="45" hiNote="55" rootNote="45" path="Samples/Tom_SH-09_05_02.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="3" loNote="45" hiNote="55" rootNote="45" path="Samples/Tom_SH-09_05_03.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="4" loNote="45" hiNote="55" rootNote="45" path="Samples/Tom_SH-09_05_04.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="5" loNote="45" hiNote="55" rootNote="45" path="Samples/Tom_SH-09_05_05.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="6" loNote="45" hiNote="55" rootNote="45" path="Samples/Tom_SH-09_05_06.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="7" loNote="45" hiNote="55" rootNote="45" path="Samples/Tom_SH-09_05_07.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="8" loNote="45" hiNote="55" rootNote="45" path="Samples/Tom_SH-09_05_08.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+    </group>
+    <group tags="tom-sh09-velocity" loVel="117" hiVel="127" seqMode="random" seqLength="8" silencingMode="normal" decay="0.15" ampEnvEnabled="true">
+      <sample seqPosition="1" loNote="45" hiNote="55" rootNote="45" path="Samples/Tom_SH-09_06_01.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="2" loNote="45" hiNote="55" rootNote="45" path="Samples/Tom_SH-09_06_02.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="3" loNote="45" hiNote="55" rootNote="45" path="Samples/Tom_SH-09_06_03.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="4" loNote="45" hiNote="55" rootNote="45" path="Samples/Tom_SH-09_06_04.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="5" loNote="45" hiNote="55" rootNote="45" path="Samples/Tom_SH-09_06_05.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="6" loNote="45" hiNote="55" rootNote="45" path="Samples/Tom_SH-09_06_06.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="7" loNote="45" hiNote="55" rootNote="45" path="Samples/Tom_SH-09_06_07.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="8" loNote="45" hiNote="55" rootNote="45" path="Samples/Tom_SH-09_06_08.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+    </group>
+
+    <group tags="tom-sh09-01" seqMode="random" seqLength="8" silencingMode="normal" decay="0.15" ampEnvEnabled="true">
+      <sample seqPosition="1" loNote="45" hiNote="55" rootNote="45" path="Samples/Tom_SH-09_01_01.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="2" loNote="45" hiNote="55" rootNote="45" path="Samples/Tom_SH-09_01_02.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="3" loNote="45" hiNote="55" rootNote="45" path="Samples/Tom_SH-09_01_03.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="4" loNote="45" hiNote="55" rootNote="45" path="Samples/Tom_SH-09_01_04.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="5" loNote="45" hiNote="55" rootNote="45" path="Samples/Tom_SH-09_01_05.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="6" loNote="45" hiNote="55" rootNote="45" path="Samples/Tom_SH-09_01_06.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="7" loNote="45" hiNote="55" rootNote="45" path="Samples/Tom_SH-09_01_07.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="8" loNote="45" hiNote="55" rootNote="45" path="Samples/Tom_SH-09_01_08.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+    </group>
+    <group tags="tom-sh09-02" seqMode="random" seqLength="8" silencingMode="normal" decay="0.15" ampEnvEnabled="true">
+      <sample seqPosition="1" loNote="45" hiNote="55" rootNote="45" path="Samples/Tom_SH-09_02_01.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="2" loNote="45" hiNote="55" rootNote="45" path="Samples/Tom_SH-09_02_02.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="3" loNote="45" hiNote="55" rootNote="45" path="Samples/Tom_SH-09_02_03.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="4" loNote="45" hiNote="55" rootNote="45" path="Samples/Tom_SH-09_02_04.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="5" loNote="45" hiNote="55" rootNote="45" path="Samples/Tom_SH-09_02_05.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="6" loNote="45" hiNote="55" rootNote="45" path="Samples/Tom_SH-09_02_06.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="7" loNote="45" hiNote="55" rootNote="45" path="Samples/Tom_SH-09_02_07.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="8" loNote="45" hiNote="55" rootNote="45" path="Samples/Tom_SH-09_02_08.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+    </group>
+    <group tags="tom-sh09-03" seqMode="random" seqLength="8" silencingMode="normal" decay="0.15" ampEnvEnabled="true">
+      <sample seqPosition="1" loNote="45" hiNote="55" rootNote="45" path="Samples/Tom_SH-09_03_01.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="2" loNote="45" hiNote="55" rootNote="45" path="Samples/Tom_SH-09_03_02.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="3" loNote="45" hiNote="55" rootNote="45" path="Samples/Tom_SH-09_03_03.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="4" loNote="45" hiNote="55" rootNote="45" path="Samples/Tom_SH-09_03_04.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="5" loNote="45" hiNote="55" rootNote="45" path="Samples/Tom_SH-09_03_05.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="6" loNote="45" hiNote="55" rootNote="45" path="Samples/Tom_SH-09_03_06.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="7" loNote="45" hiNote="55" rootNote="45" path="Samples/Tom_SH-09_03_07.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="8" loNote="45" hiNote="55" rootNote="45" path="Samples/Tom_SH-09_03_08.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+    </group>
+    <group tags="tom-sh09-04" seqMode="random" seqLength="8" silencingMode="normal" decay="0.15" ampEnvEnabled="true">
+      <sample seqPosition="1" loNote="45" hiNote="55" rootNote="45" path="Samples/Tom_SH-09_04_01.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="2" loNote="45" hiNote="55" rootNote="45" path="Samples/Tom_SH-09_04_02.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="3" loNote="45" hiNote="55" rootNote="45" path="Samples/Tom_SH-09_04_03.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="4" loNote="45" hiNote="55" rootNote="45" path="Samples/Tom_SH-09_04_04.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="5" loNote="45" hiNote="55" rootNote="45" path="Samples/Tom_SH-09_04_05.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="6" loNote="45" hiNote="55" rootNote="45" path="Samples/Tom_SH-09_04_06.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="7" loNote="45" hiNote="55" rootNote="45" path="Samples/Tom_SH-09_04_07.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="8" loNote="45" hiNote="55" rootNote="45" path="Samples/Tom_SH-09_04_08.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+    </group>
+    <group tags="tom-sh09-05" seqMode="random" seqLength="8" silencingMode="normal" decay="0.15" ampEnvEnabled="true">
+      <sample seqPosition="1" loNote="45" hiNote="55" rootNote="45" path="Samples/Tom_SH-09_05_01.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="2" loNote="45" hiNote="55" rootNote="45" path="Samples/Tom_SH-09_05_02.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="3" loNote="45" hiNote="55" rootNote="45" path="Samples/Tom_SH-09_05_03.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="4" loNote="45" hiNote="55" rootNote="45" path="Samples/Tom_SH-09_05_04.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="5" loNote="45" hiNote="55" rootNote="45" path="Samples/Tom_SH-09_05_05.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="6" loNote="45" hiNote="55" rootNote="45" path="Samples/Tom_SH-09_05_06.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="7" loNote="45" hiNote="55" rootNote="45" path="Samples/Tom_SH-09_05_07.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="8" loNote="45" hiNote="55" rootNote="45" path="Samples/Tom_SH-09_05_08.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+    </group>
+    <group tags="tom-sh09-06" seqMode="random" seqLength="8" silencingMode="normal" decay="0.15" ampEnvEnabled="true">
+      <sample seqPosition="1" loNote="45" hiNote="55" rootNote="45" path="Samples/Tom_SH-09_06_01.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="2" loNote="45" hiNote="55" rootNote="45" path="Samples/Tom_SH-09_06_02.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="3" loNote="45" hiNote="55" rootNote="45" path="Samples/Tom_SH-09_06_03.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="4" loNote="45" hiNote="55" rootNote="45" path="Samples/Tom_SH-09_06_04.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="5" loNote="45" hiNote="55" rootNote="45" path="Samples/Tom_SH-09_06_05.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="6" loNote="45" hiNote="55" rootNote="45" path="Samples/Tom_SH-09_06_06.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="7" loNote="45" hiNote="55" rootNote="45" path="Samples/Tom_SH-09_06_07.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="8" loNote="45" hiNote="55" rootNote="45" path="Samples/Tom_SH-09_06_08.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+    </group>
+  </groups>
+  <effects>
+    <effect type="gain" level="1" />
+    <effect type="wave_shaper" drive="1.0" outputLevel="1.0" enabled="true" /> <!-- Saturation -->
+  </effects>
+  <modulators>
+  </modulators>
+  <midi>
+    <cc number="1">
+    </cc>
+  </midi>
+  <tags>
+  </tags>
+</DecentSampler>
