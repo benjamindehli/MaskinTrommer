@@ -743,8 +743,8 @@
 
     <!-- Cymbal -->
     <group tags="cymbal-proone-velocity" loVel="0" hiVel="58" seqMode="random" seqLength="8" silencingMode="normal" decay="0.15" ampEnvEnabled="true">
-      <sample seqPosition="2" loNote="43" hiNote="43" rootNote="43" path="Samples/Cymbal_Pro-One_01_02.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
       <sample seqPosition="1" loNote="43" hiNote="43" rootNote="43" path="Samples/Cymbal_Pro-One_01_01.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="2" loNote="43" hiNote="43" rootNote="43" path="Samples/Cymbal_Pro-One_01_02.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
       <sample seqPosition="3" loNote="43" hiNote="43" rootNote="43" path="Samples/Cymbal_Pro-One_01_03.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
       <sample seqPosition="4" loNote="43" hiNote="43" rootNote="43" path="Samples/Cymbal_Pro-One_01_04.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
       <sample seqPosition="5" loNote="43" hiNote="43" rootNote="43" path="Samples/Cymbal_Pro-One_01_05.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
