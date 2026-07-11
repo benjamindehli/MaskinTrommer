@@ -337,7 +337,7 @@
         <binding type="amp" level="group" position="52" parameter="ENV_RELEASE" translation="linear" translationOutputMin="10" translationOutputMax="0.35" />
         <binding type="amp" level="group" position="53" parameter="ENV_RELEASE" translation="linear" translationOutputMin="10" translationOutputMax="0.35" />
         
-        <binding type="effect" level="instrument" position="0" parameter="LEVEL" modBehavior="set" translation="linear" translationOutputMin=".75" translationOutputMax="9" />
+        <binding type="effect" level="instrument" effectIndex="0" parameter="LEVEL" modBehavior="set" translation="linear" translationOutputMin=".75" translationOutputMax="9" />
       </control>
 
 
