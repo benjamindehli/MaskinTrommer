@@ -390,7 +390,7 @@
 
 
     <!-- Snare -->
-    <group tags="snare-ms20-top" seqMode="random" seqLength="8" silencingMode="normal" decay="0.15" ampEnvEnabled="true" >
+    <group tags="snare-ms20-top" seqMode="random" seqLength="10" silencingMode="normal" decay="0.15" ampEnvEnabled="true" >
       <sample seqPosition="1" loNote="38" hiNote="38" rootNote="38" path="Samples/SnareTop_MS-20_01_01.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
       <sample seqPosition="2" loNote="38" hiNote="38" rootNote="38" path="Samples/SnareTop_MS-20_01_02.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
       <sample seqPosition="3" loNote="38" hiNote="38" rootNote="38" path="Samples/SnareTop_MS-20_01_03.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
@@ -399,8 +399,10 @@
       <sample seqPosition="6" loNote="38" hiNote="38" rootNote="38" path="Samples/SnareTop_MS-20_01_06.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
       <sample seqPosition="7" loNote="38" hiNote="38" rootNote="38" path="Samples/SnareTop_MS-20_01_07.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
       <sample seqPosition="8" loNote="38" hiNote="38" rootNote="38" path="Samples/SnareTop_MS-20_01_08.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample seqPosition="9" loNote="38" hiNote="38" rootNote="38" path="Samples/SnareTop_MS-20_01_09.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
+      <sample seqPosition="10" loNote="38" hiNote="38" rootNote="38" path="Samples/SnareTop_MS-20_01_10.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
     </group>
-    <group tags="snare-ms20-bottom" seqMode="random" seqLength="8" silencingMode="normal" decay="0.15" ampEnvEnabled="true" >
+    <group tags="snare-ms20-bottom" seqMode="random" seqLength="10" silencingMode="normal" decay="0.15" ampEnvEnabled="true" >
       <sample seqPosition="1" loNote="38" hiNote="38" rootNote="38" path="Samples/SnareBottom_MS-20_01_01.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
       <sample seqPosition="2" loNote="38" hiNote="38" rootNote="38" path="Samples/SnareBottom_MS-20_01_02.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
       <sample seqPosition="3" loNote="38" hiNote="38" rootNote="38" path="Samples/SnareBottom_MS-20_01_03.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
@@ -409,8 +411,10 @@
       <sample seqPosition="6" loNote="38" hiNote="38" rootNote="38" path="Samples/SnareBottom_MS-20_01_06.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
       <sample seqPosition="7" loNote="38" hiNote="38" rootNote="38" path="Samples/SnareBottom_MS-20_01_07.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
       <sample seqPosition="8" loNote="38" hiNote="38" rootNote="38" path="Samples/SnareBottom_MS-20_01_08.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="9" loNote="38" hiNote="38" rootNote="38" path="Samples/SnareBottom_MS-20_01_09.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="10" loNote="38" hiNote="38" rootNote="38" path="Samples/SnareBottom_MS-20_01_10.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
     </group>
-    <group tags="snare-darkenergy" seqMode="random" seqLength="8" silencingMode="normal" decay="0.15" ampEnvEnabled="true" >
+    <group tags="snare-darkenergy" seqMode="random" seqLength="10" silencingMode="normal" decay="0.15" ampEnvEnabled="true" >
       <sample seqPosition="1" loNote="38" hiNote="38" rootNote="38" path="Samples/Snare_DarkEnergy_01_01.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
       <sample seqPosition="2" loNote="38" hiNote="38" rootNote="38" path="Samples/Snare_DarkEnergy_01_02.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
       <sample seqPosition="3" loNote="38" hiNote="38" rootNote="38" path="Samples/Snare_DarkEnergy_01_03.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
@@ -419,6 +423,8 @@
       <sample seqPosition="6" loNote="38" hiNote="38" rootNote="38" path="Samples/Snare_DarkEnergy_01_06.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
       <sample seqPosition="7" loNote="38" hiNote="38" rootNote="38" path="Samples/Snare_DarkEnergy_01_07.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
       <sample seqPosition="8" loNote="38" hiNote="38" rootNote="38" path="Samples/Snare_DarkEnergy_01_08.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="9" loNote="38" hiNote="38" rootNote="38" path="Samples/Snare_DarkEnergy_01_09.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
+      <sample seqPosition="10" loNote="38" hiNote="38" rootNote="38" path="Samples/Snare_DarkEnergy_01_10.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0" start="0"/>
     </group>
 
     <group tags="snare-sh09-velocity" loVel="0"   hiVel="42"  seqMode="random" seqLength="8" silencingMode="normal" decay="0.15" ampEnvEnabled="true">
