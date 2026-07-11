@@ -371,7 +371,7 @@
       <sample seqPosition="17" loNote="36" hiNote="36" rootNote="36" path="Samples/Kick_DarkEnergy_01_17.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
       <sample seqPosition="18" loNote="36" hiNote="36" rootNote="36" path="Samples/Kick_DarkEnergy_01_18.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
     </group>
-    <group tags="kick,kick-ms20" seqMode="random" seqLength="14" silencingMode="normal" decay="0.15" ampEnvEnabled="true" >
+    <group tags="kick-ms20" seqMode="random" seqLength="14" silencingMode="normal" decay="0.15" ampEnvEnabled="true" >
       <sample seqPosition="1"  loNote="36" hiNote="36" rootNote="36" path="Samples/Kick_MS-20_01_01.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
       <sample seqPosition="2"  loNote="36" hiNote="36" rootNote="36" path="Samples/Kick_MS-20_01_02.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
       <sample seqPosition="3"  loNote="36" hiNote="36" rootNote="36" path="Samples/Kick_MS-20_01_03.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0" start="0"/>
