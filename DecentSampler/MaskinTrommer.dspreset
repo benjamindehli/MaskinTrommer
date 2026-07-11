@@ -1022,12 +1022,4 @@
     <effect type="gain" level="1" />
     <effect type="wave_shaper" drive="1.0" outputLevel="1.0" enabled="true" /> <!-- Saturation -->
   </effects>
-  <modulators>
-  </modulators>
-  <midi>
-    <cc number="1">
-    </cc>
-  </midi>
-  <tags>
-  </tags>
 </DecentSampler>
