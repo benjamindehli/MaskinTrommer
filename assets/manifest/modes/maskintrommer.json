@@ -228,7 +228,6 @@
     {
       "uid": "grp_1",
       "tags": [
-        "kick",
         "kick-ms20"
       ],
       "roundRobin": {
@@ -404,7 +403,7 @@
       ],
       "roundRobin": {
         "mode": "random",
-        "length": 8
+        "length": 10
       },
       "silencing": {
         "mode": "normal"
@@ -499,6 +498,28 @@
           "pitchKeyTrack": true,
           "start": 0,
           "seqPosition": 8
+        },
+        {
+          "source": "flac:SnareTop_MS-20_01_09",
+          "loNote": 38,
+          "hiNote": 38,
+          "rootNote": 38,
+          "lengthFrames": 11484,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0,
+          "seqPosition": 9
+        },
+        {
+          "source": "flac:SnareTop_MS-20_01_10",
+          "loNote": 38,
+          "hiNote": 38,
+          "rootNote": 38,
+          "lengthFrames": 11504,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true,
+          "start": 0,
+          "seqPosition": 10
         }
       ]
     },
@@ -509,7 +530,7 @@
       ],
       "roundRobin": {
         "mode": "random",
-        "length": 8
+        "length": 10
       },
       "silencing": {
         "mode": "normal"
@@ -604,6 +625,28 @@
           "pitchKeyTrack": false,
           "start": 0,
           "seqPosition": 8
+        },
+        {
+          "source": "flac:SnareBottom_MS-20_01_09",
+          "loNote": 38,
+          "hiNote": 38,
+          "rootNote": 38,
+          "lengthFrames": 36645,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": false,
+          "start": 0,
+          "seqPosition": 9
+        },
+        {
+          "source": "flac:SnareBottom_MS-20_01_10",
+          "loNote": 38,
+          "hiNote": 38,
+          "rootNote": 38,
+          "lengthFrames": 36644,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": false,
+          "start": 0,
+          "seqPosition": 10
         }
       ]
     },
@@ -614,7 +657,7 @@
       ],
       "roundRobin": {
         "mode": "random",
-        "length": 8
+        "length": 10
       },
       "silencing": {
         "mode": "normal"
@@ -709,6 +752,28 @@
           "pitchKeyTrack": false,
           "start": 0,
           "seqPosition": 8
+        },
+        {
+          "source": "flac:Snare_DarkEnergy_01_09",
+          "loNote": 38,
+          "hiNote": 38,
+          "rootNote": 38,
+          "lengthFrames": 7799,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": false,
+          "start": 0,
+          "seqPosition": 9
+        },
+        {
+          "source": "flac:Snare_DarkEnergy_01_10",
+          "loNote": 38,
+          "hiNote": 38,
+          "rootNote": 38,
+          "lengthFrames": 7811,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": false,
+          "start": 0,
+          "seqPosition": 10
         }
       ]
     },
@@ -3984,17 +4049,6 @@
       "ampEnvEnabled": true,
       "samples": [
         {
-          "source": "flac:Cymbal_Pro-One_01_02",
-          "loNote": 43,
-          "hiNote": 43,
-          "rootNote": 43,
-          "lengthFrames": 44472,
-          "sampleRate": 48000.0,
-          "pitchKeyTrack": false,
-          "start": 0,
-          "seqPosition": 2
-        },
-        {
           "source": "flac:Cymbal_Pro-One_01_01",
           "loNote": 43,
           "hiNote": 43,
@@ -4004,6 +4058,17 @@
           "pitchKeyTrack": false,
           "start": 0,
           "seqPosition": 1
+        },
+        {
+          "source": "flac:Cymbal_Pro-One_01_02",
+          "loNote": 43,
+          "hiNote": 43,
+          "rootNote": 43,
+          "lengthFrames": 44472,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": false,
+          "start": 0,
+          "seqPosition": 2
         },
         {
           "source": "flac:Cymbal_Pro-One_01_03",
@@ -9393,8 +9458,7 @@
                 "modBehavior": "set",
                 "translationOutputMin": 0.75,
                 "translationOutputMax": 9.0,
-                "effectIndex": 0,
-                "position": 0
+                "effectIndex": 0
               }
             ]
           },

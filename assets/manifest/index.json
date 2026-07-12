@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "format": "dmse-manifest",
-  "library": "MaskinTrommer",
+  "library": "DecentSampler",
   "gainDb": -6.0,
   "modes": [
     "maskintrommer"
