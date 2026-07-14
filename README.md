@@ -1,16 +1,4 @@
-# Maskintrommer - Version: [1.0]
-
-Date: 2026-03-01
-
-Name: Benjamin Dehli
-
-Profile: [store.dehlimusikk.no][Gumroad profile]
-
-## Included formats
-
-- Decent Sampler
-
-## Description
+# Maskintrommer
 
 MaskinTrommer is a drum sample library for Decent Sampler, featuring electronic drum sounds created from analog synthesizers. Each drum type contains multiple samples per sound to eliminate the typical "machine gun" effect associated with digital sample based drum machines.
 
@@ -22,6 +10,38 @@ The drum sounds were created using:
 - Sequential Circuits Pro-One
 
 The result is a versatile collection of synthetic kicks, snares, hi-hats, cymbals, and toms with a broad tonal range, from tight and percussive to big and sustaining.
+
+## Release notes
+
+### Version 2.0.0 (upcoming)
+
+- Added a plugin version. See the section "The plugin version".
+- Added the missing round robins (takes 09 and 10) to the three snare sets.
+- Restored the round robin order for the cymbal samples.
+- The Impact control now targets its effect by index, fixing the gain binding.
+- Removed the unused generic kick tag and some empty leftover blocks.
+
+### Version 1.0.0 (2026-03-01)
+
+- First version released.
+
+## Included formats
+
+- VST3 (macOS, Windows and Linux)
+- AU (macOS)
+- Standalone application (macOS, Windows and Linux)
+- Decent Sampler
+
+## The plugin version
+
+The plugin is a self-contained instrument for macOS, Windows and Linux, available as VST3, AU and Standalone.
+Samples, graphics and impulse responses are all embedded in the plugin itself, losslessly compressed, so there are no external files to install or locate.
+
+The plugin has all the controls and features from the Decent Sampler version, including MIDI learn, the master volume fader with output meter, value readouts for the knobs and full DAW automation.
+On top of that, the plugin version adds:
+
+- Drift wheels next to the pitch and modulation wheels, adding a subtle random pitch and volume drift to each voice.
+- A velocity curve setting in the settings menu.
 
 ## Technical specification
 
@@ -162,6 +182,13 @@ This makes it easy to identify which keys trigger which drums, especially during
 |                  [Korg MS-20][Korg MS-20]                  |                  ![Korg MS-20](/Equipment/korg-ms-20.jpg)                  |
 |                [Roland SH-09][Roland SH-09]                |                ![Roland SH-09](/Equipment/roland-sh-09.jpg)                |
 | [Sequential Circuits Pro-One][Sequential Circuits Pro-One] | ![Sequential Circuits Pro-One](/Equipment/sequential-circuits-pro-one.jpg) |
+
+## About this repository
+
+This repository contains the source for both the Decent Sampler library (the DecentSampler folder) and the plugin version.
+The plugin is a thin wrapper around the shared Dehli Musikk sampler engine, and a converter translates the Decent Sampler library into the engine's native preset format at build time.
+The audio files are not part of this repository, since the samples are a paid product.
+The full version is available from [store.dehlimusikk.no][Gumroad profile].
 
 [Gumroad profile]: https://store.dehlimusikk.no/
 [Doepfer Dark Energy]: https://www.dehlimusikk.no/equipment/instruments/korg-ms-20/
