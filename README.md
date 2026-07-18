@@ -13,7 +13,7 @@ The result is a versatile collection of synthetic kicks, snares, hi-hats, cymbal
 
 ## Release notes
 
-### Version 2.0.0 (2026-07-18)
+### Version 2.0.0 (2026-07-19)
 
 - Added a plugin version. See the section "The plugin version".
 - Added the missing round robins (takes 09 and 10) to the three snare sets.
