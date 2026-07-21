@@ -6997,9 +6997,7 @@
                 "parameter": "GROUP_TUNING",
                 "translation": "linear",
                 "translationOutputMin": -6.0,
-                "translationOutputMax": 6.0,
-                "groupIndex": 0,
-                "position": 0
+                "translationOutputMax": 6.0
               },
               {
                 "type": "amp",
@@ -7008,9 +7006,7 @@
                 "parameter": "GROUP_TUNING",
                 "translation": "linear",
                 "translationOutputMin": -6.0,
-                "translationOutputMax": 6.0,
-                "groupIndex": 1,
-                "position": 1
+                "translationOutputMax": 6.0
               },
               {
                 "type": "control",
@@ -7018,8 +7014,7 @@
                 "targetId": "img_1",
                 "translationTable": "-50,0;0,0;50,1;",
                 "parameter": "OPACITY",
-                "translation": "table",
-                "controlIndex": 1
+                "translation": "table"
               },
               {
                 "type": "control",
@@ -7027,8 +7022,7 @@
                 "targetId": "img_2",
                 "translationTable": "-50,1;0,0;50.1,0;",
                 "parameter": "OPACITY",
-                "translation": "table",
-                "controlIndex": 2
+                "translation": "table"
               },
               {
                 "type": "control",
@@ -7036,8 +7030,7 @@
                 "targetId": "img_4",
                 "translationTable": "-50,0;0,0;50,1;",
                 "parameter": "OPACITY",
-                "translation": "table",
-                "controlIndex": 4
+                "translation": "table"
               },
               {
                 "type": "control",
@@ -7045,8 +7038,7 @@
                 "targetId": "img_5",
                 "translationTable": "-50,1;0,0;50.1,0;",
                 "parameter": "OPACITY",
-                "translation": "table",
-                "controlIndex": 5
+                "translation": "table"
               }
             ]
           },
@@ -7148,9 +7140,7 @@
                 "parameter": "GROUP_TUNING",
                 "translation": "linear",
                 "translationOutputMin": -6.0,
-                "translationOutputMax": 6.0,
-                "groupIndex": 2,
-                "position": 2
+                "translationOutputMax": 6.0
               },
               {
                 "type": "control",
@@ -7158,8 +7148,7 @@
                 "targetId": "img_7",
                 "translationTable": "-50,0;0,0;50,1;",
                 "parameter": "OPACITY",
-                "translation": "table",
-                "controlIndex": 7
+                "translation": "table"
               },
               {
                 "type": "control",
@@ -7167,8 +7156,7 @@
                 "targetId": "img_8",
                 "translationTable": "-50,1;0,0;50.1,0;",
                 "parameter": "OPACITY",
-                "translation": "table",
-                "controlIndex": 8
+                "translation": "table"
               }
             ]
           },
@@ -7256,8 +7244,7 @@
                 "targetId": "img_9",
                 "translationTable": "0,1;1,0;2,0;3,0;4,0;5,0;6,0;",
                 "parameter": "VISIBLE",
-                "translation": "table",
-                "controlIndex": 9
+                "translation": "table"
               },
               {
                 "type": "control",
@@ -7265,8 +7252,7 @@
                 "targetId": "img_10",
                 "translationTable": "0,0;1,1;2,0;3,0;4,0;5,0;6,0;",
                 "parameter": "VISIBLE",
-                "translation": "table",
-                "controlIndex": 10
+                "translation": "table"
               },
               {
                 "type": "control",
@@ -7274,8 +7260,7 @@
                 "targetId": "img_11",
                 "translationTable": "0,0;1,0;2,1;3,0;4,0;5,0;6,0;",
                 "parameter": "VISIBLE",
-                "translation": "table",
-                "controlIndex": 11
+                "translation": "table"
               },
               {
                 "type": "control",
@@ -7283,8 +7268,7 @@
                 "targetId": "img_12",
                 "translationTable": "0,0;1,0;2,0;3,1;4,0;5,0;6,0;",
                 "parameter": "VISIBLE",
-                "translation": "table",
-                "controlIndex": 12
+                "translation": "table"
               },
               {
                 "type": "control",
@@ -7292,8 +7276,7 @@
                 "targetId": "img_13",
                 "translationTable": "0,0;1,0;2,0;3,0;4,1;5,0;6,0;",
                 "parameter": "VISIBLE",
-                "translation": "table",
-                "controlIndex": 13
+                "translation": "table"
               },
               {
                 "type": "control",
@@ -7301,8 +7284,7 @@
                 "targetId": "img_14",
                 "translationTable": "0,0;1,0;2,0;3,0;4,0;5,1;6,0;",
                 "parameter": "VISIBLE",
-                "translation": "table",
-                "controlIndex": 14
+                "translation": "table"
               },
               {
                 "type": "control",
@@ -7310,8 +7292,7 @@
                 "targetId": "img_15",
                 "translationTable": "0,0;1,0;2,0;3,0;4,0;5,0;6,1;",
                 "parameter": "VISIBLE",
-                "translation": "table",
-                "controlIndex": 15
+                "translation": "table"
               }
             ]
           },
@@ -7613,8 +7594,7 @@
                 "targetId": "img_16",
                 "translationTable": "0,1;1,0;2,0;3,0;4,0;5,0;6,0;",
                 "parameter": "VISIBLE",
-                "translation": "table",
-                "controlIndex": 16
+                "translation": "table"
               },
               {
                 "type": "control",
@@ -7622,8 +7602,7 @@
                 "targetId": "img_17",
                 "translationTable": "0,0;1,1;2,0;3,0;4,0;5,0;6,0;",
                 "parameter": "VISIBLE",
-                "translation": "table",
-                "controlIndex": 17
+                "translation": "table"
               },
               {
                 "type": "control",
@@ -7631,8 +7610,7 @@
                 "targetId": "img_18",
                 "translationTable": "0,0;1,0;2,1;3,0;4,0;5,0;6,0;",
                 "parameter": "VISIBLE",
-                "translation": "table",
-                "controlIndex": 18
+                "translation": "table"
               },
               {
                 "type": "control",
@@ -7640,8 +7618,7 @@
                 "targetId": "img_19",
                 "translationTable": "0,0;1,0;2,0;3,1;4,0;5,0;6,0;",
                 "parameter": "VISIBLE",
-                "translation": "table",
-                "controlIndex": 19
+                "translation": "table"
               },
               {
                 "type": "control",
@@ -7649,8 +7626,7 @@
                 "targetId": "img_20",
                 "translationTable": "0,0;1,0;2,0;3,0;4,1;5,0;6,0;",
                 "parameter": "VISIBLE",
-                "translation": "table",
-                "controlIndex": 20
+                "translation": "table"
               },
               {
                 "type": "control",
@@ -7658,8 +7634,7 @@
                 "targetId": "img_21",
                 "translationTable": "0,0;1,0;2,0;3,0;4,0;5,1;6,0;",
                 "parameter": "VISIBLE",
-                "translation": "table",
-                "controlIndex": 21
+                "translation": "table"
               },
               {
                 "type": "control",
@@ -7667,8 +7642,7 @@
                 "targetId": "img_22",
                 "translationTable": "0,0;1,0;2,0;3,0;4,0;5,0;6,1;",
                 "parameter": "VISIBLE",
-                "translation": "table",
-                "controlIndex": 22
+                "translation": "table"
               }
             ]
           },
@@ -7847,8 +7821,7 @@
                 "targetId": "img_23",
                 "translationTable": "0,1;1,0;2,0;3,0;",
                 "parameter": "VISIBLE",
-                "translation": "table",
-                "controlIndex": 23
+                "translation": "table"
               },
               {
                 "type": "control",
@@ -7856,8 +7829,7 @@
                 "targetId": "img_24",
                 "translationTable": "0,0;1,1;2,0;3,0;",
                 "parameter": "VISIBLE",
-                "translation": "table",
-                "controlIndex": 24
+                "translation": "table"
               },
               {
                 "type": "control",
@@ -7865,8 +7837,7 @@
                 "targetId": "img_25",
                 "translationTable": "0,0;1,0;2,1;3,0;",
                 "parameter": "VISIBLE",
-                "translation": "table",
-                "controlIndex": 25
+                "translation": "table"
               },
               {
                 "type": "control",
@@ -7874,8 +7845,7 @@
                 "targetId": "img_26",
                 "translationTable": "0,0;1,0;2,0;3,1;",
                 "parameter": "VISIBLE",
-                "translation": "table",
-                "controlIndex": 26
+                "translation": "table"
               }
             ]
           },
@@ -8024,8 +7994,7 @@
                 "targetId": "img_27",
                 "translationTable": "0,1;1,0;2,0;3,0;4,0;5,0;6,0;",
                 "parameter": "VISIBLE",
-                "translation": "table",
-                "controlIndex": 27
+                "translation": "table"
               },
               {
                 "type": "control",
@@ -8033,8 +8002,7 @@
                 "targetId": "img_28",
                 "translationTable": "0,0;1,1;2,0;3,0;4,0;5,0;6,0;",
                 "parameter": "VISIBLE",
-                "translation": "table",
-                "controlIndex": 28
+                "translation": "table"
               },
               {
                 "type": "control",
@@ -8042,8 +8010,7 @@
                 "targetId": "img_29",
                 "translationTable": "0,0;1,0;2,1;3,0;4,0;5,0;6,0;",
                 "parameter": "VISIBLE",
-                "translation": "table",
-                "controlIndex": 29
+                "translation": "table"
               },
               {
                 "type": "control",
@@ -8051,8 +8018,7 @@
                 "targetId": "img_30",
                 "translationTable": "0,0;1,0;2,0;3,1;4,0;5,0;6,0;",
                 "parameter": "VISIBLE",
-                "translation": "table",
-                "controlIndex": 30
+                "translation": "table"
               },
               {
                 "type": "control",
@@ -8060,8 +8026,7 @@
                 "targetId": "img_31",
                 "translationTable": "0,0;1,0;2,0;3,0;4,1;5,0;6,0;",
                 "parameter": "VISIBLE",
-                "translation": "table",
-                "controlIndex": 31
+                "translation": "table"
               },
               {
                 "type": "control",
@@ -8069,8 +8034,7 @@
                 "targetId": "img_32",
                 "translationTable": "0,0;1,0;2,0;3,0;4,0;5,1;6,0;",
                 "parameter": "VISIBLE",
-                "translation": "table",
-                "controlIndex": 32
+                "translation": "table"
               },
               {
                 "type": "control",
@@ -8078,8 +8042,7 @@
                 "targetId": "img_33",
                 "translationTable": "0,0;1,0;2,0;3,0;4,0;5,0;6,1;",
                 "parameter": "VISIBLE",
-                "translation": "table",
-                "controlIndex": 33
+                "translation": "table"
               }
             ]
           },
@@ -8268,9 +8231,7 @@
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 1.0,
-                "translationOutputMax": 0.0,
-                "groupIndex": 0,
-                "position": 0
+                "translationOutputMax": 0.0
               },
               {
                 "type": "amp",
@@ -8279,9 +8240,7 @@
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 1.0,
-                "translationOutputMax": 0.0,
-                "groupIndex": 1,
-                "position": 1
+                "translationOutputMax": 0.0
               },
               {
                 "type": "amp",
@@ -8290,9 +8249,7 @@
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 1.0,
-                "translationOutputMax": 0.1,
-                "groupIndex": 2,
-                "position": 2
+                "translationOutputMax": 0.1
               },
               {
                 "type": "amp",
@@ -8301,9 +8258,7 @@
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 1.0,
-                "translationOutputMax": 0.1,
-                "groupIndex": 3,
-                "position": 3
+                "translationOutputMax": 0.1
               },
               {
                 "type": "amp",
@@ -8312,9 +8267,7 @@
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 1.0,
-                "translationOutputMax": 0.1,
-                "groupIndex": 4,
-                "position": 4
+                "translationOutputMax": 0.1
               },
               {
                 "type": "amp",
@@ -8323,9 +8276,7 @@
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 1.0,
-                "translationOutputMax": 0.1,
-                "groupIndex": 5,
-                "position": 5
+                "translationOutputMax": 0.1
               },
               {
                 "type": "amp",
@@ -8334,9 +8285,7 @@
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 1.0,
-                "translationOutputMax": 0.1,
-                "groupIndex": 6,
-                "position": 6
+                "translationOutputMax": 0.1
               },
               {
                 "type": "amp",
@@ -8345,9 +8294,7 @@
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 1.0,
-                "translationOutputMax": 0.1,
-                "groupIndex": 7,
-                "position": 7
+                "translationOutputMax": 0.1
               },
               {
                 "type": "amp",
@@ -8356,9 +8303,7 @@
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 1.0,
-                "translationOutputMax": 0.1,
-                "groupIndex": 8,
-                "position": 8
+                "translationOutputMax": 0.1
               },
               {
                 "type": "amp",
@@ -8367,9 +8312,7 @@
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 1.0,
-                "translationOutputMax": 0.1,
-                "groupIndex": 9,
-                "position": 9
+                "translationOutputMax": 0.1
               },
               {
                 "type": "amp",
@@ -8378,9 +8321,7 @@
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 1.0,
-                "translationOutputMax": 0.1,
-                "groupIndex": 10,
-                "position": 10
+                "translationOutputMax": 0.1
               },
               {
                 "type": "amp",
@@ -8389,9 +8330,7 @@
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 1.0,
-                "translationOutputMax": 0.1,
-                "groupIndex": 11,
-                "position": 11
+                "translationOutputMax": 0.1
               },
               {
                 "type": "amp",
@@ -8400,9 +8339,7 @@
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 1.0,
-                "translationOutputMax": 0.1,
-                "groupIndex": 12,
-                "position": 12
+                "translationOutputMax": 0.1
               },
               {
                 "type": "amp",
@@ -8411,9 +8348,7 @@
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 1.0,
-                "translationOutputMax": 0.1,
-                "groupIndex": 13,
-                "position": 13
+                "translationOutputMax": 0.1
               },
               {
                 "type": "amp",
@@ -8422,9 +8357,7 @@
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 1.0,
-                "translationOutputMax": 0.1,
-                "groupIndex": 14,
-                "position": 14
+                "translationOutputMax": 0.1
               },
               {
                 "type": "amp",
@@ -8433,9 +8366,7 @@
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 1.0,
-                "translationOutputMax": 0.1,
-                "groupIndex": 15,
-                "position": 15
+                "translationOutputMax": 0.1
               },
               {
                 "type": "amp",
@@ -8444,9 +8375,7 @@
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 1.0,
-                "translationOutputMax": 0.1,
-                "groupIndex": 16,
-                "position": 16
+                "translationOutputMax": 0.1
               },
               {
                 "type": "amp",
@@ -8455,9 +8384,7 @@
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 1.0,
-                "translationOutputMax": 0.05,
-                "groupIndex": 17,
-                "position": 17
+                "translationOutputMax": 0.05
               },
               {
                 "type": "amp",
@@ -8466,9 +8393,7 @@
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 1.0,
-                "translationOutputMax": 0.05,
-                "groupIndex": 18,
-                "position": 18
+                "translationOutputMax": 0.05
               },
               {
                 "type": "amp",
@@ -8477,9 +8402,7 @@
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 1.0,
-                "translationOutputMax": 0.05,
-                "groupIndex": 19,
-                "position": 19
+                "translationOutputMax": 0.05
               },
               {
                 "type": "amp",
@@ -8488,9 +8411,7 @@
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 1.0,
-                "translationOutputMax": 0.05,
-                "groupIndex": 20,
-                "position": 20
+                "translationOutputMax": 0.05
               },
               {
                 "type": "amp",
@@ -8499,9 +8420,7 @@
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 1.0,
-                "translationOutputMax": 0.05,
-                "groupIndex": 21,
-                "position": 21
+                "translationOutputMax": 0.05
               },
               {
                 "type": "amp",
@@ -8510,9 +8429,7 @@
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 1.0,
-                "translationOutputMax": 0.05,
-                "groupIndex": 22,
-                "position": 22
+                "translationOutputMax": 0.05
               },
               {
                 "type": "amp",
@@ -8521,9 +8438,7 @@
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 1.0,
-                "translationOutputMax": 0.05,
-                "groupIndex": 23,
-                "position": 23
+                "translationOutputMax": 0.05
               },
               {
                 "type": "amp",
@@ -8532,9 +8447,7 @@
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 1.0,
-                "translationOutputMax": 0.05,
-                "groupIndex": 24,
-                "position": 24
+                "translationOutputMax": 0.05
               },
               {
                 "type": "amp",
@@ -8543,9 +8456,7 @@
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 1.0,
-                "translationOutputMax": 0.05,
-                "groupIndex": 25,
-                "position": 25
+                "translationOutputMax": 0.05
               },
               {
                 "type": "amp",
@@ -8554,9 +8465,7 @@
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 1.0,
-                "translationOutputMax": 0.05,
-                "groupIndex": 26,
-                "position": 26
+                "translationOutputMax": 0.05
               },
               {
                 "type": "amp",
@@ -8565,9 +8474,7 @@
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 1.0,
-                "translationOutputMax": 0.05,
-                "groupIndex": 27,
-                "position": 27
+                "translationOutputMax": 0.05
               },
               {
                 "type": "amp",
@@ -8576,9 +8483,7 @@
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 1.0,
-                "translationOutputMax": 0.05,
-                "groupIndex": 28,
-                "position": 28
+                "translationOutputMax": 0.05
               },
               {
                 "type": "amp",
@@ -8587,9 +8492,7 @@
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 1.0,
-                "translationOutputMax": 0.05,
-                "groupIndex": 29,
-                "position": 29
+                "translationOutputMax": 0.05
               },
               {
                 "type": "amp",
@@ -8598,9 +8501,7 @@
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 1.0,
-                "translationOutputMax": 0.05,
-                "groupIndex": 30,
-                "position": 30
+                "translationOutputMax": 0.05
               },
               {
                 "type": "amp",
@@ -8609,9 +8510,7 @@
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 1.0,
-                "translationOutputMax": 0.05,
-                "groupIndex": 31,
-                "position": 31
+                "translationOutputMax": 0.05
               },
               {
                 "type": "amp",
@@ -8620,9 +8519,7 @@
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 1.0,
-                "translationOutputMax": 0.05,
-                "groupIndex": 32,
-                "position": 32
+                "translationOutputMax": 0.05
               },
               {
                 "type": "amp",
@@ -8631,9 +8528,7 @@
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 1.0,
-                "translationOutputMax": 0.05,
-                "groupIndex": 33,
-                "position": 33
+                "translationOutputMax": 0.05
               },
               {
                 "type": "amp",
@@ -8642,9 +8537,7 @@
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 1.0,
-                "translationOutputMax": 0.05,
-                "groupIndex": 34,
-                "position": 34
+                "translationOutputMax": 0.05
               },
               {
                 "type": "amp",
@@ -8653,9 +8546,7 @@
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 1.0,
-                "translationOutputMax": 0.05,
-                "groupIndex": 35,
-                "position": 35
+                "translationOutputMax": 0.05
               },
               {
                 "type": "amp",
@@ -8664,9 +8555,7 @@
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 1.0,
-                "translationOutputMax": 0.05,
-                "groupIndex": 36,
-                "position": 36
+                "translationOutputMax": 0.05
               },
               {
                 "type": "amp",
@@ -8675,9 +8564,7 @@
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 1.0,
-                "translationOutputMax": 0.05,
-                "groupIndex": 37,
-                "position": 37
+                "translationOutputMax": 0.05
               },
               {
                 "type": "amp",
@@ -8686,9 +8573,7 @@
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 1.0,
-                "translationOutputMax": 0.05,
-                "groupIndex": 38,
-                "position": 38
+                "translationOutputMax": 0.05
               },
               {
                 "type": "amp",
@@ -8697,9 +8582,7 @@
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 1.0,
-                "translationOutputMax": 0.05,
-                "groupIndex": 39,
-                "position": 39
+                "translationOutputMax": 0.05
               },
               {
                 "type": "amp",
@@ -8708,9 +8591,7 @@
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 1.0,
-                "translationOutputMax": 0.05,
-                "groupIndex": 40,
-                "position": 40
+                "translationOutputMax": 0.05
               },
               {
                 "type": "amp",
@@ -8719,9 +8600,7 @@
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 1.0,
-                "translationOutputMax": 0.05,
-                "groupIndex": 41,
-                "position": 41
+                "translationOutputMax": 0.05
               },
               {
                 "type": "amp",
@@ -8730,9 +8609,7 @@
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 1.0,
-                "translationOutputMax": 0.05,
-                "groupIndex": 42,
-                "position": 42
+                "translationOutputMax": 0.05
               },
               {
                 "type": "amp",
@@ -8741,9 +8618,7 @@
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 1.0,
-                "translationOutputMax": 0.05,
-                "groupIndex": 43,
-                "position": 43
+                "translationOutputMax": 0.05
               },
               {
                 "type": "amp",
@@ -8752,9 +8627,7 @@
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 1.0,
-                "translationOutputMax": 0.05,
-                "groupIndex": 44,
-                "position": 44
+                "translationOutputMax": 0.05
               },
               {
                 "type": "amp",
@@ -8763,9 +8636,7 @@
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 1.0,
-                "translationOutputMax": 0.05,
-                "groupIndex": 45,
-                "position": 45
+                "translationOutputMax": 0.05
               },
               {
                 "type": "amp",
@@ -8774,9 +8645,7 @@
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 1.0,
-                "translationOutputMax": 0.05,
-                "groupIndex": 46,
-                "position": 46
+                "translationOutputMax": 0.05
               },
               {
                 "type": "amp",
@@ -8785,9 +8654,7 @@
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 1.0,
-                "translationOutputMax": 0.05,
-                "groupIndex": 47,
-                "position": 47
+                "translationOutputMax": 0.05
               },
               {
                 "type": "amp",
@@ -8796,9 +8663,7 @@
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 1.0,
-                "translationOutputMax": 0.05,
-                "groupIndex": 48,
-                "position": 48
+                "translationOutputMax": 0.05
               },
               {
                 "type": "amp",
@@ -8807,9 +8672,7 @@
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 1.0,
-                "translationOutputMax": 0.05,
-                "groupIndex": 49,
-                "position": 49
+                "translationOutputMax": 0.05
               },
               {
                 "type": "amp",
@@ -8818,9 +8681,7 @@
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 1.0,
-                "translationOutputMax": 0.05,
-                "groupIndex": 50,
-                "position": 50
+                "translationOutputMax": 0.05
               },
               {
                 "type": "amp",
@@ -8829,9 +8690,7 @@
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 1.0,
-                "translationOutputMax": 0.05,
-                "groupIndex": 51,
-                "position": 51
+                "translationOutputMax": 0.05
               },
               {
                 "type": "amp",
@@ -8840,9 +8699,7 @@
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 1.0,
-                "translationOutputMax": 0.05,
-                "groupIndex": 52,
-                "position": 52
+                "translationOutputMax": 0.05
               },
               {
                 "type": "amp",
@@ -8851,9 +8708,7 @@
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 1.0,
-                "translationOutputMax": 0.05,
-                "groupIndex": 53,
-                "position": 53
+                "translationOutputMax": 0.05
               },
               {
                 "type": "amp",
@@ -8862,9 +8717,7 @@
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 10.0,
-                "translationOutputMax": 0.35,
-                "groupIndex": 0,
-                "position": 0
+                "translationOutputMax": 0.35
               },
               {
                 "type": "amp",
@@ -8873,9 +8726,7 @@
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 10.0,
-                "translationOutputMax": 0.35,
-                "groupIndex": 1,
-                "position": 1
+                "translationOutputMax": 0.35
               },
               {
                 "type": "amp",
@@ -8884,9 +8735,7 @@
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 10.0,
-                "translationOutputMax": 0.65,
-                "groupIndex": 2,
-                "position": 2
+                "translationOutputMax": 0.65
               },
               {
                 "type": "amp",
@@ -8895,9 +8744,7 @@
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 10.0,
-                "translationOutputMax": 0.65,
-                "groupIndex": 3,
-                "position": 3
+                "translationOutputMax": 0.65
               },
               {
                 "type": "amp",
@@ -8906,9 +8753,7 @@
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 10.0,
-                "translationOutputMax": 0.65,
-                "groupIndex": 4,
-                "position": 4
+                "translationOutputMax": 0.65
               },
               {
                 "type": "amp",
@@ -8917,9 +8762,7 @@
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 10.0,
-                "translationOutputMax": 0.65,
-                "groupIndex": 5,
-                "position": 5
+                "translationOutputMax": 0.65
               },
               {
                 "type": "amp",
@@ -8928,9 +8771,7 @@
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 10.0,
-                "translationOutputMax": 0.65,
-                "groupIndex": 6,
-                "position": 6
+                "translationOutputMax": 0.65
               },
               {
                 "type": "amp",
@@ -8939,9 +8780,7 @@
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 10.0,
-                "translationOutputMax": 0.65,
-                "groupIndex": 7,
-                "position": 7
+                "translationOutputMax": 0.65
               },
               {
                 "type": "amp",
@@ -8950,9 +8789,7 @@
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 10.0,
-                "translationOutputMax": 0.65,
-                "groupIndex": 8,
-                "position": 8
+                "translationOutputMax": 0.65
               },
               {
                 "type": "amp",
@@ -8961,9 +8798,7 @@
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 10.0,
-                "translationOutputMax": 0.65,
-                "groupIndex": 9,
-                "position": 9
+                "translationOutputMax": 0.65
               },
               {
                 "type": "amp",
@@ -8972,9 +8807,7 @@
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 10.0,
-                "translationOutputMax": 0.65,
-                "groupIndex": 10,
-                "position": 10
+                "translationOutputMax": 0.65
               },
               {
                 "type": "amp",
@@ -8983,9 +8816,7 @@
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 10.0,
-                "translationOutputMax": 0.65,
-                "groupIndex": 11,
-                "position": 11
+                "translationOutputMax": 0.65
               },
               {
                 "type": "amp",
@@ -8994,9 +8825,7 @@
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 10.0,
-                "translationOutputMax": 0.65,
-                "groupIndex": 12,
-                "position": 12
+                "translationOutputMax": 0.65
               },
               {
                 "type": "amp",
@@ -9005,9 +8834,7 @@
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 10.0,
-                "translationOutputMax": 0.65,
-                "groupIndex": 13,
-                "position": 13
+                "translationOutputMax": 0.65
               },
               {
                 "type": "amp",
@@ -9016,9 +8843,7 @@
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 10.0,
-                "translationOutputMax": 0.65,
-                "groupIndex": 14,
-                "position": 14
+                "translationOutputMax": 0.65
               },
               {
                 "type": "amp",
@@ -9027,9 +8852,7 @@
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 10.0,
-                "translationOutputMax": 0.65,
-                "groupIndex": 15,
-                "position": 15
+                "translationOutputMax": 0.65
               },
               {
                 "type": "amp",
@@ -9038,9 +8861,7 @@
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 10.0,
-                "translationOutputMax": 0.65,
-                "groupIndex": 16,
-                "position": 16
+                "translationOutputMax": 0.65
               },
               {
                 "type": "amp",
@@ -9049,9 +8870,7 @@
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 10.0,
-                "translationOutputMax": 0.35,
-                "groupIndex": 17,
-                "position": 17
+                "translationOutputMax": 0.35
               },
               {
                 "type": "amp",
@@ -9060,9 +8879,7 @@
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 10.0,
-                "translationOutputMax": 0.35,
-                "groupIndex": 18,
-                "position": 18
+                "translationOutputMax": 0.35
               },
               {
                 "type": "amp",
@@ -9071,9 +8888,7 @@
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 10.0,
-                "translationOutputMax": 0.35,
-                "groupIndex": 19,
-                "position": 19
+                "translationOutputMax": 0.35
               },
               {
                 "type": "amp",
@@ -9082,9 +8897,7 @@
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 10.0,
-                "translationOutputMax": 0.35,
-                "groupIndex": 20,
-                "position": 20
+                "translationOutputMax": 0.35
               },
               {
                 "type": "amp",
@@ -9093,9 +8906,7 @@
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 10.0,
-                "translationOutputMax": 0.35,
-                "groupIndex": 21,
-                "position": 21
+                "translationOutputMax": 0.35
               },
               {
                 "type": "amp",
@@ -9104,9 +8915,7 @@
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 10.0,
-                "translationOutputMax": 0.35,
-                "groupIndex": 22,
-                "position": 22
+                "translationOutputMax": 0.35
               },
               {
                 "type": "amp",
@@ -9115,9 +8924,7 @@
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 10.0,
-                "translationOutputMax": 0.35,
-                "groupIndex": 23,
-                "position": 23
+                "translationOutputMax": 0.35
               },
               {
                 "type": "amp",
@@ -9126,9 +8933,7 @@
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 10.0,
-                "translationOutputMax": 0.35,
-                "groupIndex": 24,
-                "position": 24
+                "translationOutputMax": 0.35
               },
               {
                 "type": "amp",
@@ -9137,9 +8942,7 @@
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 10.0,
-                "translationOutputMax": 0.35,
-                "groupIndex": 25,
-                "position": 25
+                "translationOutputMax": 0.35
               },
               {
                 "type": "amp",
@@ -9148,9 +8951,7 @@
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 10.0,
-                "translationOutputMax": 0.35,
-                "groupIndex": 26,
-                "position": 26
+                "translationOutputMax": 0.35
               },
               {
                 "type": "amp",
@@ -9159,9 +8960,7 @@
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 10.0,
-                "translationOutputMax": 0.35,
-                "groupIndex": 27,
-                "position": 27
+                "translationOutputMax": 0.35
               },
               {
                 "type": "amp",
@@ -9170,9 +8969,7 @@
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 10.0,
-                "translationOutputMax": 0.35,
-                "groupIndex": 28,
-                "position": 28
+                "translationOutputMax": 0.35
               },
               {
                 "type": "amp",
@@ -9181,9 +8978,7 @@
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 10.0,
-                "translationOutputMax": 0.35,
-                "groupIndex": 29,
-                "position": 29
+                "translationOutputMax": 0.35
               },
               {
                 "type": "amp",
@@ -9192,9 +8987,7 @@
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 10.0,
-                "translationOutputMax": 0.35,
-                "groupIndex": 30,
-                "position": 30
+                "translationOutputMax": 0.35
               },
               {
                 "type": "amp",
@@ -9203,9 +8996,7 @@
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 10.0,
-                "translationOutputMax": 0.35,
-                "groupIndex": 31,
-                "position": 31
+                "translationOutputMax": 0.35
               },
               {
                 "type": "amp",
@@ -9214,9 +9005,7 @@
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 10.0,
-                "translationOutputMax": 0.35,
-                "groupIndex": 32,
-                "position": 32
+                "translationOutputMax": 0.35
               },
               {
                 "type": "amp",
@@ -9225,9 +9014,7 @@
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 10.0,
-                "translationOutputMax": 0.35,
-                "groupIndex": 33,
-                "position": 33
+                "translationOutputMax": 0.35
               },
               {
                 "type": "amp",
@@ -9236,9 +9023,7 @@
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 10.0,
-                "translationOutputMax": 0.35,
-                "groupIndex": 34,
-                "position": 34
+                "translationOutputMax": 0.35
               },
               {
                 "type": "amp",
@@ -9247,9 +9032,7 @@
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 10.0,
-                "translationOutputMax": 0.35,
-                "groupIndex": 35,
-                "position": 35
+                "translationOutputMax": 0.35
               },
               {
                 "type": "amp",
@@ -9258,9 +9041,7 @@
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 10.0,
-                "translationOutputMax": 0.35,
-                "groupIndex": 36,
-                "position": 36
+                "translationOutputMax": 0.35
               },
               {
                 "type": "amp",
@@ -9269,9 +9050,7 @@
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 10.0,
-                "translationOutputMax": 0.35,
-                "groupIndex": 37,
-                "position": 37
+                "translationOutputMax": 0.35
               },
               {
                 "type": "amp",
@@ -9280,9 +9059,7 @@
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 10.0,
-                "translationOutputMax": 0.35,
-                "groupIndex": 38,
-                "position": 38
+                "translationOutputMax": 0.35
               },
               {
                 "type": "amp",
@@ -9291,9 +9068,7 @@
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 10.0,
-                "translationOutputMax": 0.35,
-                "groupIndex": 39,
-                "position": 39
+                "translationOutputMax": 0.35
               },
               {
                 "type": "amp",
@@ -9302,9 +9077,7 @@
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 10.0,
-                "translationOutputMax": 0.35,
-                "groupIndex": 40,
-                "position": 40
+                "translationOutputMax": 0.35
               },
               {
                 "type": "amp",
@@ -9313,9 +9086,7 @@
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 10.0,
-                "translationOutputMax": 0.35,
-                "groupIndex": 41,
-                "position": 41
+                "translationOutputMax": 0.35
               },
               {
                 "type": "amp",
@@ -9324,9 +9095,7 @@
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 10.0,
-                "translationOutputMax": 0.35,
-                "groupIndex": 42,
-                "position": 42
+                "translationOutputMax": 0.35
               },
               {
                 "type": "amp",
@@ -9335,9 +9104,7 @@
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 10.0,
-                "translationOutputMax": 0.35,
-                "groupIndex": 43,
-                "position": 43
+                "translationOutputMax": 0.35
               },
               {
                 "type": "amp",
@@ -9346,9 +9113,7 @@
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 10.0,
-                "translationOutputMax": 0.35,
-                "groupIndex": 44,
-                "position": 44
+                "translationOutputMax": 0.35
               },
               {
                 "type": "amp",
@@ -9357,9 +9122,7 @@
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 10.0,
-                "translationOutputMax": 0.35,
-                "groupIndex": 45,
-                "position": 45
+                "translationOutputMax": 0.35
               },
               {
                 "type": "amp",
@@ -9368,9 +9131,7 @@
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 10.0,
-                "translationOutputMax": 0.35,
-                "groupIndex": 46,
-                "position": 46
+                "translationOutputMax": 0.35
               },
               {
                 "type": "amp",
@@ -9379,9 +9140,7 @@
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 10.0,
-                "translationOutputMax": 0.35,
-                "groupIndex": 47,
-                "position": 47
+                "translationOutputMax": 0.35
               },
               {
                 "type": "amp",
@@ -9390,9 +9149,7 @@
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 10.0,
-                "translationOutputMax": 0.35,
-                "groupIndex": 48,
-                "position": 48
+                "translationOutputMax": 0.35
               },
               {
                 "type": "amp",
@@ -9401,9 +9158,7 @@
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 10.0,
-                "translationOutputMax": 0.35,
-                "groupIndex": 49,
-                "position": 49
+                "translationOutputMax": 0.35
               },
               {
                 "type": "amp",
@@ -9412,9 +9167,7 @@
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 10.0,
-                "translationOutputMax": 0.35,
-                "groupIndex": 50,
-                "position": 50
+                "translationOutputMax": 0.35
               },
               {
                 "type": "amp",
@@ -9423,9 +9176,7 @@
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 10.0,
-                "translationOutputMax": 0.35,
-                "groupIndex": 51,
-                "position": 51
+                "translationOutputMax": 0.35
               },
               {
                 "type": "amp",
@@ -9434,9 +9185,7 @@
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 10.0,
-                "translationOutputMax": 0.35,
-                "groupIndex": 52,
-                "position": 52
+                "translationOutputMax": 0.35
               },
               {
                 "type": "amp",
@@ -9445,9 +9194,7 @@
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 10.0,
-                "translationOutputMax": 0.35,
-                "groupIndex": 53,
-                "position": 53
+                "translationOutputMax": 0.35
               },
               {
                 "type": "effect",
@@ -9457,8 +9204,7 @@
                 "translation": "linear",
                 "modBehavior": "set",
                 "translationOutputMin": 0.75,
-                "translationOutputMax": 9.0,
-                "effectIndex": 0
+                "translationOutputMax": 9.0
               }
             ]
           },
@@ -9491,8 +9237,7 @@
                 "targetId": "fx_wave_shaper",
                 "translationTable": "0,1;8,25;10.0001,50;",
                 "parameter": "FX_DRIVE",
-                "translation": "table",
-                "effectIndex": 1
+                "translation": "table"
               },
               {
                 "type": "effect",
@@ -9501,8 +9246,7 @@
                 "translationTable": "0,0.1;5,0.16;9,0.20;9.9,0.5;10.0001,1.0;",
                 "translationReversed": true,
                 "parameter": "FX_OUTPUT_LEVEL",
-                "translation": "table",
-                "effectIndex": 1
+                "translation": "table"
               }
             ]
           }
