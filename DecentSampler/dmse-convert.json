@@ -1,4 +1,8 @@
 {
     "gain": -6,
-    "cropTop": { "default": 48 }
+    "cropTop": { "default": 48 },
+    "overlay": {
+        "default": "Resources/overlay_default.png"
+    },
+    "overlayScope": "instrument"
 }

@@ -6958,6 +6958,8 @@
   ],
   "ui": {
     "background": "img:background",
+    "overlay": "img:overlay_default",
+    "overlayScope": "instrument",
     "width": 812,
     "height": 500,
     "cropTop": 48,
