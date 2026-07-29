@@ -7183,6 +7183,10 @@
             },
             "mouseDragSensitivity": 100.0,
             "controlIndex": 38,
+            "stepped": true,
+            "valueLabels": {
+              "0": "dynamic"
+            },
             "bindings": [
               {
                 "type": "amp",
@@ -7509,6 +7513,10 @@
             },
             "mouseDragSensitivity": 100.0,
             "controlIndex": 43,
+            "stepped": true,
+            "valueLabels": {
+              "0": "dynamic"
+            },
             "bindings": [
               {
                 "type": "amp",
@@ -7784,6 +7792,10 @@
             },
             "mouseDragSensitivity": 100.0,
             "controlIndex": 45,
+            "stepped": true,
+            "valueLabels": {
+              "0": "dynamic"
+            },
             "bindings": [
               {
                 "type": "amp",
@@ -7933,6 +7945,10 @@
             },
             "mouseDragSensitivity": 100.0,
             "controlIndex": 47,
+            "stepped": true,
+            "valueLabels": {
+              "0": "dynamic"
+            },
             "bindings": [
               {
                 "type": "amp",

@@ -4,5 +4,11 @@
     "overlay": {
         "default": "Resources/overlay_default.png"
     },
-    "overlayScope": "instrument"
+    "overlayScope": "instrument",
+    "valueLabels": {
+        "Settings: Snare - Sustain": { "0": "dynamic" },
+        "Settings: Hi-Hat - Sustain": { "0": "dynamic" },
+        "Settings: Cymbal - Sustain": { "0": "dynamic" },
+        "Settings: Tom - Sustain": { "0": "dynamic" }
+    }
 }
