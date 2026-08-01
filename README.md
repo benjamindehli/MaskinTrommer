@@ -13,6 +13,17 @@ The result is a versatile collection of synthetic kicks, snares, hi-hats, cymbal
 
 ## Release notes
 
+### Version 2.1.0 (2026-08-01)
+
+The changes in this release apply to the plugin version only. The DecentSampler version is unchanged.
+
+- Added a translucent overlay graphic on top of the interface.
+- Keys that are hovered or held on the keyboard are now shaded in a neutral way instead of turning yellow:
+  - White keys turn darker.
+  - Black keys turn brighter.
+- The computer keyboard keeps playing notes even while you adjust a control with the mouse.
+- Whole number controls now snap to each step. Chosen steps can also show a name instead of a number, for example step 0 shows as dynamic, both in the value readout and as automation values in your DAW.
+
 ### Version 2.0.0 (2026-07-19)
 
 - Added a plugin version. See the section "The plugin version".
