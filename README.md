@@ -211,7 +211,7 @@ The full version is available from [store.dehlimusikk.no][Gumroad profile].
 
 [Gumroad profile]: https://store.dehlimusikk.no/
 [Decent Sampler guide]: https://www.decentsamples.com/how-to-use-decent-sampler/
-[Doepfer Dark Energy]: https://www.dehlimusikk.no/equipment/instruments/korg-ms-20/
+[Doepfer Dark Energy]: https://www.dehlimusikk.no/equipment/instruments/doepfer-dark-energy/
 [Korg MS-20]: https://www.dehlimusikk.no/equipment/instruments/korg-ms-20/
 [Roland SH-09]: https://www.dehlimusikk.no/equipment/instruments/roland-sh-09/
 [Sequential Circuits Pro-One]: https://www.dehlimusikk.no/equipment/instruments/sequential-circuits-pro-one/
