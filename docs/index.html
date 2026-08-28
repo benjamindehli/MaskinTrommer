@@ -33,22 +33,37 @@
   "@context": "https://schema.org",
   "@graph": [
     {
+      "@type": "WebSite",
+      "@id": "https://benjamindehli.github.io/MaskinTrommer/#website",
+      "name": "Maskintrommer",
+      "url": "https://benjamindehli.github.io/MaskinTrommer/",
+      "description": "Product page and documentation for Maskintrommer, a sample instrument by Dehli Musikk.",
+      "inLanguage": "en",
+      "author": {
+        "@id": "https://musicbrainz.org/artist/56639e59-2bb5-40bd-9d5a-97d964298b6f"
+      },
+      "publisher": {
+        "@id": "https://www.dehlimusikk.no/"
+      },
+      "license": "https://www.gnu.org/licenses/gpl-3.0.html",
+      "about": {
+        "@id": "https://www.dehlimusikk.no/products/maskintrommer/#product"
+      },
+      "sameAs": "https://github.com/benjamindehli/MaskinTrommer"
+    },
+    {
       "@type": "SoftwareApplication",
-      "@id": "https://store.dehlimusikk.no/l/maskintrommer",
+      "@id": "https://www.dehlimusikk.no/products/maskintrommer/#product",
       "name": "Maskintrommer",
       "description": "MaskinTrommer is a drum instrument featuring electronic drum sounds created from analog synthesizers.",
       "url": "https://benjamindehli.github.io/MaskinTrommer/",
       "applicationCategory": "MultimediaApplication",
       "applicationSubCategory": "Sample library / virtual instrument",
       "author": {
-        "@type": "Organization",
-        "name": "Dehli Musikk",
-        "url": "https://www.dehlimusikk.no/"
+        "@id": "https://musicbrainz.org/artist/56639e59-2bb5-40bd-9d5a-97d964298b6f"
       },
       "publisher": {
-        "@type": "Organization",
-        "name": "Dehli Musikk",
-        "url": "https://www.dehlimusikk.no/"
+        "@id": "https://www.dehlimusikk.no/"
       },
       "operatingSystem": "macOS, Windows, Linux",
       "softwareVersion": "2.1.0",
@@ -56,19 +71,15 @@
       "image": "https://benjamindehli.github.io/MaskinTrommer/img/screenshots-maskintrommer.webp",
       "screenshot": [
         "https://benjamindehli.github.io/MaskinTrommer/img/screenshots-maskintrommer.webp",
-        "https://benjamindehli.github.io/MaskinTrommer/img/screenshots-maskintrommer.webp",
-        "https://benjamindehli.github.io/MaskinTrommer/img/screenshots-drum-settings.webp",
         "https://benjamindehli.github.io/MaskinTrommer/img/screenshots-drum-settings.webp",
         "https://benjamindehli.github.io/MaskinTrommer/img/screenshots-drum-mixer.webp",
-        "https://benjamindehli.github.io/MaskinTrommer/img/screenshots-drum-mixer.webp",
-        "https://benjamindehli.github.io/MaskinTrommer/img/screenshots-global-settings.webp",
         "https://benjamindehli.github.io/MaskinTrommer/img/screenshots-global-settings.webp",
         "https://benjamindehli.github.io/MaskinTrommer/img/screenshots-global-effects.webp",
-        "https://benjamindehli.github.io/MaskinTrommer/img/screenshots-global-effects.webp",
-        "https://benjamindehli.github.io/MaskinTrommer/img/screenshots-keyboard.webp",
         "https://benjamindehli.github.io/MaskinTrommer/img/screenshots-keyboard.webp"
       ],
       "sameAs": [
+        "https://www.dehlimusikk.no/products/maskintrommer/",
+        "https://www.dehlimusikk.no/en/products/maskintrommer/",
         "https://store.dehlimusikk.no/l/maskintrommer",
         "https://dehlimusikk.gumroad.com/l/maskintrommer",
         "https://www.cylex.no/bedrift-produkt/maskintrommer_266081.html",
@@ -88,6 +99,18 @@
           "description": "Pay what you want, from $9.99"
         }
       }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://musicbrainz.org/artist/56639e59-2bb5-40bd-9d5a-97d964298b6f",
+      "name": "Benjamin Dehli",
+      "url": "https://www.dehlimusikk.no/"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://www.dehlimusikk.no/",
+      "name": "Dehli Musikk",
+      "url": "https://www.dehlimusikk.no/"
     }
   ]
 }
