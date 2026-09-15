@@ -1,4 +1,4 @@
-# Maskintrommer
+# MaskinTrommer
 
 **[Product page and documentation](https://benjamindehli.github.io/MaskinTrommer/)**
 
@@ -62,7 +62,7 @@ On top of that, the plugin version adds:
 
 ## The Decent Sampler version
 
-This version of Maskintrommer is an instrument preset / sample library for Decent Sampler. If you're new to Decent Sampler, I recommend checking out [this guide][Decent Sampler guide] first.
+This version of MaskinTrommer is an instrument preset / sample library for Decent Sampler. If you're new to Decent Sampler, I recommend checking out [this guide][Decent Sampler guide] first.
 
 ## Technical specification
 
