@@ -1,9 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
         xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
   <url>
     <loc>https://benjamindehli.github.io/MaskinTrommer/</loc>
     <lastmod>2026-09-17</lastmod>
+    <image:image>
+      <image:loc>https://benjamindehli.github.io/MaskinTrommer/img/screenshots-maskintrommer.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://benjamindehli.github.io/MaskinTrommer/img/screenshots-drum-settings.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://benjamindehli.github.io/MaskinTrommer/img/screenshots-drum-mixer.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://benjamindehli.github.io/MaskinTrommer/img/screenshots-global-settings.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://benjamindehli.github.io/MaskinTrommer/img/screenshots-global-effects.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://benjamindehli.github.io/MaskinTrommer/img/screenshots-keyboard.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://benjamindehli.github.io/MaskinTrommer/img/equipment-doepfer-dark-energy.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://benjamindehli.github.io/MaskinTrommer/img/equipment-korg-ms-20.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://benjamindehli.github.io/MaskinTrommer/img/equipment-roland-sh-09.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://benjamindehli.github.io/MaskinTrommer/img/equipment-sequential-circuits-pro-one.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://benjamindehli.github.io/MaskinTrommer/video/</loc>
