@@ -1,0 +1,105 @@
+{
+    "scale": 2,
+    "shots": [
+        {
+            "file": "drum-mixer.png",
+            "mode": "MaskinTrommer",
+            "crop": {
+                "x": 88,
+                "y": 137,
+                "width": 529,
+                "height": 180
+            },
+            "set": {
+                "Settings: Kick - Pitch": -38.3333,
+                "Settings: Snare - Pitch": 25.0,
+                "Settings: Snare - Sustain": 1.5,
+                "Settings: Hi-Hat - Sustain": 3.6,
+                "Settings: Tom - Sustain": 0.5,
+                "Audio: Kick - Body": 5.0,
+                "Audio: Snare - Head": 5.5,
+                "Audio: Snare - Rattle": 5.0,
+                "Audio: Snare - Wires": 3.5,
+                "Audio: Cymbal - Volume": 5.8333,
+                "Audio: Tom - Body": 6.0,
+                "Audio: Tom - Head": 4.0
+            }
+        },
+        {
+            "file": "drum-settings.png",
+            "mode": "MaskinTrommer",
+            "crop": {
+                "x": 88,
+                "y": 28,
+                "width": 529,
+                "height": 115
+            },
+            "set": {
+                "Settings: Kick - Pitch": -38.3333,
+                "Settings: Snare - Pitch": 25.0,
+                "Settings: Snare - Sustain": 1.5,
+                "Settings: Hi-Hat - Sustain": 3.6,
+                "Settings: Tom - Sustain": 0.5
+            }
+        },
+        {
+            "file": "global-effects.png",
+            "mode": "MaskinTrommer",
+            "crop": {
+                "x": 610,
+                "y": 137,
+                "width": 140,
+                "height": 180
+            },
+            "set": {
+                "Effects: Global - Impact": 4.6667,
+                "Effects: Global - Saturation": 1.3333
+            }
+        },
+        {
+            "file": "global-settings.png",
+            "mode": "MaskinTrommer",
+            "crop": {
+                "x": 610,
+                "y": 28,
+                "width": 140,
+                "height": 115
+            },
+            "set": {
+                "Settings: Global - Sensitivity": 3.3333
+            }
+        },
+        {
+            "file": "keyboard.png",
+            "mode": "MaskinTrommer",
+            "crop": {
+                "x": 70,
+                "y": 352,
+                "width": 672,
+                "height": 90
+            }
+        },
+        {
+            "file": "maskintrommer.png",
+            "mode": "MaskinTrommer",
+            "window": true,
+            "set": {
+                "Settings: Kick - Pitch": -33.3333,
+                "Audio: Kick - Body": 5.0,
+                "Settings: Snare - Pitch": 31.6667,
+                "Settings: Snare - Sustain": 1.5,
+                "Audio: Snare - Head": 5.8333,
+                "Audio: Snare - Rattle": 5.1667,
+                "Audio: Snare - Wires": 3.1667,
+                "Settings: Hi-Hat - Sustain": 3.6,
+                "Audio: Hi-Hat - Volume": 5.6667,
+                "Audio: Cymbal - Volume": 4.1667,
+                "Settings: Tom - Sustain": 0.5,
+                "Audio: Tom - Body": 6.5,
+                "Audio: Tom - Head": 3.8333,
+                "Settings: Global - Sensitivity": 3.8333,
+                "volumeDrift": 0.33
+            }
+        }
+    ]
+}
