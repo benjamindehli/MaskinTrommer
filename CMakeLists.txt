@@ -8,5 +8,5 @@
 dmse_add_plugin(MaskinTrommer
     PRODUCT_NAME "MaskinTrommer"
     PLUGIN_CODE  Mskt
-    VERSION      2.1.0
+    VERSION      2.2.0
 )
