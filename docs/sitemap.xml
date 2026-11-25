@@ -4,7 +4,7 @@
         xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
   <url>
     <loc>https://benjamindehli.github.io/MaskinTrommer/</loc>
-    <lastmod>2026-11-20</lastmod>
+    <lastmod>2026-11-25</lastmod>
     <image:image>
       <image:loc>https://benjamindehli.github.io/MaskinTrommer/img/screenshots-maskintrommer.webp</image:loc>
     </image:image>
@@ -38,7 +38,7 @@
   </url>
   <url>
     <loc>https://benjamindehli.github.io/MaskinTrommer/video/</loc>
-    <lastmod>2026-11-20</lastmod>
+    <lastmod>2026-11-25</lastmod>
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/XWSHCTEfhZE/hqdefault.jpg</video:thumbnail_loc>
       <video:title>Drum Machine plugin preset for Decent Sampler (MaskinTrommer)</video:title>
