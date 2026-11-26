@@ -4,7 +4,7 @@ Hver trommeseksjon har sin egen mikser med én knott per synthesizer, så én ba
 
 Globalt finnes en sensitivity-kontroll for hvor sterkt anslaget styrer nivået, en Impact-kontroll som balanserer transienten mot kroppen i hvert slag, og en metning med volumkompensasjon. Tangentbrettet på skjermen er fargekodet etter trommeseksjonene.
 
-342 sampler i 48 kHz / 24 bit, bygd inn i pluginen som tapsfri FLAC.
+342 sampler i 48 kHz / 24 bit, lagret som tapsfri FLAC i én samplefil som installasjonsprogrammet legger på plass.
 
 ## Funksjoner
 
@@ -18,4 +18,4 @@ Globalt finnes en sensitivity-kontroll for hvor sterkt anslaget styrer nivået, 
 - Metning med volumkompensasjon.
 - Sensitivity-kontroll for hvor mye anslaget flytter volumet.
 - Fargekodet tangentbrett på skjermen som følger trommeseksjonene.
-- 342 sampler i 48 kHz / 24 bit, bygd inn tapsfritt (68 MB kildebibliotek).
+- 342 sampler i 48 kHz / 24 bit, lagret tapsfritt (68 MB kildebibliotek).

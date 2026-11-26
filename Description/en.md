@@ -4,7 +4,7 @@ Each drum section has its own mixer with one knob per synthesizer source, so a s
 
 Globally there is a sensitivity control for how strongly velocity maps to level, an Impact control that balances the transient against the body of each hit, and a volume-compensated saturation stage. The on-screen keyboard is colour-coded to match the drum sections.
 
-342 samples at 48 kHz / 24-bit, embedded in the plugin as lossless FLAC.
+342 samples at 48 kHz / 24-bit, stored as lossless FLAC in one sample file that the installer puts in place.
 
 ## Features
 
@@ -18,4 +18,4 @@ Globally there is a sensitivity control for how strongly velocity maps to level,
 - Volume-compensated saturation.
 - Sensitivity control for how far velocity moves the volume.
 - Colour-coded on-screen keyboard matching the drum sections.
-- 342 samples at 48 kHz / 24-bit, embedded losslessly (68 MB source library).
+- 342 samples at 48 kHz / 24-bit, stored losslessly (68 MB source library).
